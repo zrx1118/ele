@@ -3,11 +3,37 @@
 import Vue from 'vue'
 import App from './App'
 
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+
+// 分别导入4个组件
+import Takeout from '../components/Home'
+import Found from '../components/Market'
+import Order from '../components/Cart'
+import Mine from '../components/Mine'
+
+
+// 配置路由规则
+const routes = [
+  { path: '', component: Takeout },
+  { path: '/takeout', component: Takeout },
+  { path: '/found', component: Found },
+  { path: '/order', component: Order },
+  { path: '/mine', component: Mine }
+]
+
+// 创建路由实例
+const router = new VueRouter({
+  // 路由规则
+  routes
+})
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App }
+  components: { App },
+  router
 })
