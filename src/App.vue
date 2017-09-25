@@ -12,9 +12,18 @@
 
 <script>
 
+import Takeout from './components/Takeout'
+import Found from './components/Found'
+import Order from './components/Order'
+import Mine from './components/Mine'
+
 export default {
   name: 'app',
   components: {
+      Takeout,
+      Found,
+      Order,
+      Mine
   }
 }
 </script>
