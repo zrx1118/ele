@@ -1,37 +1,21 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- <hello></hello> -->
     <order></order>
     <sell></sell>
-=======
     <foot></foot>
->>>>>>> 8110b6ff89fffc203f389fb251e2f867777695fc
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
-// import Hello from './components/Hello.vue'
-import order from './components/order.vue'
-//导入两个组件
-import sell from './components/sell.vue'
-import sell from './components/break.vue'
-=======
-
 import Foot from './components/Foot'
->>>>>>> 8110b6ff89fffc203f389fb251e2f867777695fc
+// import Hello from './components/Hello'
+//导入两个组件
 
 export default {
   name: 'app',
   components: {
-<<<<<<< HEAD
     // order
-    sell
-=======
-      Foot
->>>>>>> 8110b6ff89fffc203f389fb251e2f867777695fc
+    Foot
   }
 }
 </script>
@@ -42,10 +26,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-<<<<<<< HEAD
-html{
-  font-size: 100px;
-=======
 *{
     margin:0;
     padding:0;
@@ -110,6 +90,5 @@ footer p{
     height: 0;
     clear: both;
     visibility: hidden; 
->>>>>>> 8110b6ff89fffc203f389fb251e2f867777695fc
 }
 </style>

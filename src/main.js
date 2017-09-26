@@ -14,13 +14,17 @@ import Takeout from './pages/Takeout'
 import Found from './pages/Found'
 import Order from './pages/Order'
 import Mine from './pages/Mine'
+import Sell from './pages/Sell'
 
 // 配置路由规则
 const routes=[
   {path:'',component:Takeout},
   {path:'/takeout',component:Takeout },
   {path:'/found',component:Found },
-  {path:'/order',component:Order },
+  {path:'/order',component:Order,children:[
+    { path: '', component: Sell },
+    {path:'sell',component:Sell}
+  ]}, 
   {path:'/mine',component:Mine }
 ]
 
