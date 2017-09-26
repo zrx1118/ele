@@ -1,29 +1,17 @@
 <template>
   <div id="app">
-    <footer>
-        <router-link to="/takeout"><div class="outer"><span></span><p>外卖</p></div></router-link>
-        <router-link to="/found"><div class="found"><span></span><p>发现</p></div></router-link>
-        <router-link to="/order"><div class="list"><span></span><p>订单</p></div></router-link>
-        <router-link to="/mine"><div class="mine"><span></span><p>我的</p></div></router-link>
-    </footer>
-    <router-view></router-view>
+    <foot></foot>
   </div>
 </template>
 
 <script>
 
-import Takeout from './components/Takeout'
-import Found from './components/Found'
-import Order from './components/Order'
-import Mine from './components/Mine'
+import Foot from './components/Foot'
 
 export default {
   name: 'app',
   components: {
-      Takeout,
-      Found,
-      Order,
-      Mine
+      Foot
   }
 }
 </script>
@@ -53,13 +41,13 @@ input{
     outline: none;
     resize: none;
 }
-footer{
+/* footer{
     width:100%;
     height: 48px;
     font-size:0;
     position:fixed;
-    bottom:0px;
-    left:0px;
+    bottom:0;
+    left:0;
     z-index:3;
     padding-top:5px;
     background-color: #fff;
@@ -91,7 +79,7 @@ footer div{
 footer p{
     font-size:0.12rem;
     color:#666;
-}
+} */
 .clear:after{
     content:"";
     display: block;
