@@ -8,17 +8,16 @@
 </template>
 
 <script>
-// import Hello from './components/Hello.vue'
-import order from './components/order.vue'
+// import Hello from './components/Hello'
+import Order from './components/Order'
 //导入两个组件
-import sell from './components/sell.vue'
-import sell from './components/break.vue'
+import Sell from './components/Sell'
 
 export default {
   name: 'app',
   components: {
-    // order
-    sell
+    Order,
+    Sell
   }
 }
 </script>

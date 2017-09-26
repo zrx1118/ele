@@ -167,40 +167,6 @@
                     </div>
                 </div>
             </div>
-            <div class="order-food">
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
-                        </div>
-                        <div class="order-food-qiang">抢</div>
-                    </div>
-                </div>
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
-                        </div>
-                        <div class="order-food-qiang">抢</div>
-                    </div>
-                </div>
-            </div>
 
         </div>
         
