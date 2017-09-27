@@ -29,7 +29,7 @@ new Vue({
   router,
   mounted(){
     var mySwiper1 = new Swiper ('nav .swiper-container', {
-      slidesPerView:6.5,
+      slidesPerView:6,
       freeMode:true
     });
   }

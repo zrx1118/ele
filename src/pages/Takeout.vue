@@ -89,14 +89,6 @@
                     <img :src="item.imghash | dataFilter" alt="">
                 </div>
             </a>
-            <!-- <div class="sales hot">
-                <h3>热卖套餐</h3>
-                <label>销量最高，好评最多</label>
-                <p>top100 <i></i></p>
-                <div>
-                    <img src="http:////fuss10.elemecdn.com/b/e1/0fa0ed514c093a7138b0b9a50d61fpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/" alt="">
-                </div>
-            </div> -->
         </div>
     </section>
     <section class="foo_menu clear">
@@ -106,16 +98,6 @@
                 <span>{{item.content}}</span>
                 <img :src="item.imghash | dataFilter" alt="">
             </div>
-            <!-- <div class="special">
-                <h3>乐享鲜果</h3>
-                <span>鲜果乐享7折</span>
-                <img src="http:////fuss10.elemecdn.com/5/06/ddb537220b8c56d4ef6ae22718984png.png?imageMogr/format/webp/thumbnail/!232x154r/gravity/Center/crop/232x154/" alt="">
-            </div>
-            <div class="special">
-                <h3>品质优选</h3>
-                <span>尖货来袭</span>
-                <img src="http:////fuss10.elemecdn.com/5/06/ddb537220b8c56d4ef6ae22718984png.png?imageMogr/format/webp/thumbnail/!232x154r/gravity/Center/crop/232x154/" alt="">
-            </div> -->
         </div>
     </section>
     <h3 class="index_title">推荐商家</h3>
@@ -282,6 +264,7 @@ nav{
     width:100%;
     display: flex;
     overflow: hidden;
+    padding: 0 .1rem;
     background-image: linear-gradient(90deg,#0af,#0085ff);
 }
 nav .swiper-container {
@@ -289,7 +272,6 @@ nav .swiper-container {
     height: .3rem;
 }
 nav .swiper-slide{
-    display: block;
     flex:1;
     height:.3rem;
     line-height:.3rem;

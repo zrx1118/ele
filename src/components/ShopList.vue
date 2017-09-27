@@ -39,16 +39,6 @@ export default {
       }, err => {
           console.log(err);
       });
-  },
-  computed:{
-    //   computeurl(){
-    //       for(let i=0;i<this.shoplist;i++){
-    //           const url="http://fuss10.elemecdn.com/",
-    //           a=this.shoplist[i].image_path;
-    //           url=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
-    //       }
-    //       return url;
-    //   }
   }
 }
 </script>
@@ -61,6 +51,8 @@ export default {
 .shop_container{
     width: 100%;
     display: flex;
+    flex:1;
+    flex-direction: row;
     justify-content: space-between;
     position: relative;
     border-bottom: 1px solid #eee;
@@ -86,8 +78,21 @@ export default {
     user-select: none;
     width: 3.733333rem;
 }
+.shopname{
+    width:100%;
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    user-select: none;
+}
 .shopname h3{
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .shopname h3:before{
     margin-right: .06667rem;
@@ -105,13 +110,10 @@ export default {
     font-size: .12rem;
     flex: none;
 }
-.shopname h3 span{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
 .shopname ul{
-    float: right;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 .shopname ul li{
     border: 1px solid #eee;
