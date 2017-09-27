@@ -169,9 +169,20 @@ export default {
   data () {
     return {
       msg: '',
-      location:'东城区市政府'
+      location:'东城区市政府',
+    //   url:'https://crayfish.elemecdn.com/h5.ele.me/msite',
+      url:'../assets/takeout.json',
+      list:[]
       
     }
+  },
+  created(){
+      this.$http.get(this.url).then(res=>{
+        //   this.list=JSON.parse(res.data);
+        console.log(res);
+      },err=>{
+          console.log(err);
+      })
   }
 }
 </script>
