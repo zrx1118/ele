@@ -5,11 +5,10 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
 // 分别导入4个组件
-import Takeout from './pages/Takeout'
-import Found from './pages/Found'
-import Order from './pages/Order'
-import Mine from './pages/Mine'
-import Delivery from './pages/Delivery'
+import Takeout from '../pages/Takeout'
+import Found from '../pages/Found'
+import Order from '../pages/Order'
+import Mine from '../pages/Mine'
 
 // 配置路由规则
 const routes=[
@@ -17,8 +16,7 @@ const routes=[
   {path:'/takeout',component:Takeout },
   {path:'/found',component:Found },
   {path:'/order',component:Order },
-  {path:'/mine',component:Mine },
-  {path:'/delivery:a',component:Delivery}
+  {path:'/mine',component:Mine }
 ]
 
 // 创建路由实例
