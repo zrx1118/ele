@@ -6,7 +6,6 @@
             <router-link to="/order"><div class="list"><span></span><p>订单</p></div></router-link>
             <router-link to="/mine"><div class="mine"><span></span><p>我的</p></div></router-link>
         </footer>
-        <router-view></router-view>
     </div>
 </template>
     
