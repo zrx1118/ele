@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <!-- <found></found> -->
+    <!-- <list></list> -->
+    <more></more>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Found from './components/Found'
+import List from './components/List'
+import More from './components/More'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Found,
+    List,
+    More
   }
 }
 </script>
 
 <style>
+html{font-size:100px}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

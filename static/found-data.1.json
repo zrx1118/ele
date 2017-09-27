@@ -1,0 +1,3339 @@
+{
+    "found-frist": [
+        {
+            "1": [
+                {
+                    "id": 6,
+                    "block_index": 1,
+                    "title": "积分商城",
+                    "title_color": "#ff9700",
+                    "subtitle": "0元好物在这里！",
+                    "main_pic_hash": "8389c9aea0e856149083d84af3444b78jpeg",
+                    "sub_pic_hash": "",
+                    "content_url": "https://h5.ele.me/exchange/",
+                    "ubt_stats_id": 0
+                },
+                {
+                    "id": 400012,
+                    "block_index": 1,
+                    "title": "必吃爆料",
+                    "title_color": "#f5785d",
+                    "subtitle": "最夯外卖指南",
+                    "main_pic_hash": "eff3b9c4a4dfda1df548dc9274f6a7c1jpeg",
+                    "sub_pic_hash": "",
+                    "content_url": "https://app-resource.ele.me/prod/By9p0RYVZ.html",
+                    "ubt_stats_id": 0
+                },
+                {
+                    "id": 400013,
+                    "block_index": 1,
+                    "title": "推荐有奖",
+                    "title_color": "#1ba9e1",
+                    "subtitle": "5元现金拿不停",
+                    "main_pic_hash": "6768d42eef97ff4c1c2b671085358541jpeg",
+                    "sub_pic_hash": "",
+                    "content_url": "https://h5.ele.me/commend/#/",
+                    "ubt_stats_id": 0
+                },
+                {
+                    "id": 400041,
+                    "block_index": 1,
+                    "title": "周边优惠",
+                    "title_color": "#ed6660",
+                    "subtitle": "领取口碑好券",
+                    "main_pic_hash": "5102351e989d4171479ba0d7b5c06053jpeg",
+                    "sub_pic_hash": "",
+                    "content_url": "/discover/koubei/",
+                    "ubt_stats_id": 0
+                }
+            ]
+        },
+        {
+            "2": [
+                {
+                    "id": 400011,
+                    "block_index": 2,
+                    "title": "霸王餐",
+                    "title_color": "#ff9700",
+                    "subtitle": "今天吃饭不要钱",
+                    "main_pic_hash": "85a5e3ac248cf218a5e0a6611028dd45jpeg",
+                    "sub_pic_hash": "b6d656006edcd86033a1b32b23ddea37jpeg",
+                    "content_url": "https://h5.ele.me/freelunch/#/",
+                    "ubt_stats_id": 0
+                }
+            ]
+        }
+    ],
+    "more-footer": {
+        "updated_at": "20/56",
+        "tags": [
+            {
+                "id": -1,
+                "name": "专属推荐"
+            },
+            {
+                "id": 876798430,
+                "name": "激情夜宵"
+            },
+            {
+                "id": 1027543770,
+                "name": "膳食平衡"
+            },
+            {
+                "id": 879203067,
+                "name": "滋补养颜"
+            },
+            {
+                "id": 906195320,
+                "name": "特色菜系"
+            },
+            {
+                "id": 656286823,
+                "name": "减肥塑形"
+            }
+        ],
+        "request_id": "5ac3bb24-de46-4076-acac-80cfad463904"
+    },
+    "more-list": [
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 497305,
+                "name": "荷花泰菜（王府井店）",
+                "latitude": 39.909522,
+                "longitude": 116.412222,
+                "description": "欢迎光临",
+                "phone": "010-85186391",
+                "promotion_info": "",
+                "is_premium": false,
+                "recent_order_num": 55,
+                "image_path": "069660b6930c40c3920e6411c4359e2apng",
+                "is_new": false,
+                "address": "北京市东城区东方新天地地铁层cc07",
+                "opening_hours": [
+                    "10:00/21:30"
+                ],
+                "status": 1,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    },
+                    {
+                        "id": 9,
+                        "name": "准时达",
+                        "icon_name": "准",
+                        "icon_color": "57A9FF",
+                        "description": "准时必达，超时秒赔"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 1,
+                    "text": "蜂鸟专送",
+                    "color": "57A9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": true,
+                "closing_count_down": 0,
+                "distance": 688,
+                "order_lead_time": 34,
+                "rating_count": 19,
+                "rating": 4.7,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 5,
+                "piecewise_agent_fee": {
+                    "description": "配送费5元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 5
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费5元"
+                },
+                "activities": [
+                    {
+                        "id": 46974457,
+                        "description": "在线支付满30减13，满60减21，满100减40",
+                        "tips": "在线支付满30减13，满60减21，满100减40",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 103937058,
+                        "description": "7折优惠",
+                        "tips": "7折优惠",
+                        "name": "7折优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "特"
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 513994711,
+                    "restaurant_id": 497305,
+                    "name": "咖喱海鲜",
+                    "price": 89,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "98b2757f26653be30e4fdb987ae6c671jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 2,
+                    "num_rating_5": 1,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 501764390,
+                    "updated_at": null,
+                    "pinyin_name": "galihaixian",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 7,
+                    "recent_rating": 4.33,
+                    "stock": 9990,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 0,
+                    "sort_order": 14999,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "荷花泰菜（王府井店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 513994750,
+                    "restaurant_id": 497305,
+                    "name": "泰国香米饭",
+                    "price": 5,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "74226ac703b758bfc13c292b41115ee4jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 5,
+                    "num_rating_5": 2,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 501759897,
+                    "updated_at": null,
+                    "pinyin_name": "taiguoxiangmifan",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 21,
+                    "recent_rating": 4.29,
+                    "stock": 9943,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 0,
+                    "sort_order": 14993,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "荷花泰菜（王府井店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 513989961,
+                    "restaurant_id": 497305,
+                    "name": "戈抛牛肉碎",
+                    "price": 68,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "3d6767deee81bde608170d2232624951jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 0,
+                    "num_rating_5": 0,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 501759895,
+                    "updated_at": null,
+                    "pinyin_name": "gepaoniurousui",
+                    "is_new": 0,
+                    "is_featured": 0,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 2,
+                    "recent_rating": 0,
+                    "stock": 9997,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 0,
+                    "sort_order": 14996,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "荷花泰菜（王府井店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 789080,
+                "name": "白鹿江西餐厅（广渠门店）",
+                "latitude": 39.8897264177446,
+                "longitude": 116.440442920273,
+                "description": "本店已加盟饿了么",
+                "phone": "01056271345",
+                "promotion_info": "",
+                "is_premium": false,
+                "recent_order_num": 253,
+                "image_path": "343608b5f75f3d13a4f840e75dc29c11png",
+                "is_new": false,
+                "address": "东城区绿景馨园东区13号楼109室",
+                "opening_hours": [
+                    "10:00/14:00",
+                    "16:30/21:30"
+                ],
+                "status": 1,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    },
+                    {
+                        "id": 4,
+                        "name": "开发票",
+                        "icon_name": "票",
+                        "icon_color": "999999",
+                        "description": "该商家支持开发票，请在下单时填写好发票抬头"
+                    },
+                    {
+                        "id": 9,
+                        "name": "准时达",
+                        "icon_name": "准",
+                        "icon_color": "57A9FF",
+                        "description": "准时必达，超时秒赔"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 1,
+                    "text": "蜂鸟专送",
+                    "color": "57A9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": false,
+                "closing_count_down": 0,
+                "distance": 3289,
+                "order_lead_time": 33,
+                "rating_count": 138,
+                "rating": 4.8,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 5,
+                "piecewise_agent_fee": {
+                    "description": "配送费5元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 5
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费5元"
+                },
+                "activities": [
+                    {
+                        "id": 93950353,
+                        "description": "在线支付满30减8，满50减12，满80减25",
+                        "tips": "在线支付满30减8，满50减12，满80减25",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 94794385,
+                        "description": "5折优惠(限09:30-22:00)",
+                        "tips": "5折优惠",
+                        "name": "5折优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 76771433,
+                        "description": "满40.0元赠送可乐或雪碧一听1份",
+                        "tips": "满40.0元赠送可乐或雪碧一听1份",
+                        "name": "满赠优惠",
+                        "icon_color": "3cc791",
+                        "icon_name": "赠"
+                    },
+                    {
+                        "id": 76758961,
+                        "description": "折扣菜",
+                        "tips": "折扣菜",
+                        "name": "折扣菜",
+                        "icon_color": "f07373",
+                        "icon_name": "特"
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 500681164,
+                    "restaurant_id": 789080,
+                    "name": "南昌小炒肉盖饭",
+                    "price": 15,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "86395b60d16c075e960a5cd9389101b8jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 7,
+                    "num_rating_5": 6,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 500099002,
+                    "updated_at": null,
+                    "pinyin_name": "nanchangxiaochaorougaifan",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 65,
+                    "recent_rating": 4.46,
+                    "stock": 9628,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "白鹿江西餐厅（广渠门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 119903802,
+                    "restaurant_id": 789080,
+                    "name": "美味干锅手撕包菜",
+                    "price": 20,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "b92734cd41dca0e8f659ed2809983da5jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 1,
+                    "num_rating_5": 1,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 11919572,
+                    "updated_at": null,
+                    "pinyin_name": "meiweiganguoshousibaocai",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 20,
+                    "recent_rating": 4.5,
+                    "stock": 9999,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 40,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "白鹿江西餐厅（广渠门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 119906845,
+                    "restaurant_id": 789080,
+                    "name": "南昌铁板炒粉",
+                    "price": 18,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "4f2ddb27d910d6fbe3b0685a05e3f351jpeg",
+                    "original_price": 32,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 6,
+                    "num_rating_5": 4,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 524439148,
+                    "updated_at": null,
+                    "pinyin_name": "nanchangtiebanchaofen",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 36,
+                    "recent_rating": 4.4,
+                    "stock": 9807,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "白鹿江西餐厅（广渠门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 885470,
+                "name": "护国寺小吃（红桥店）护国寺小吃(红桥店)",
+                "latitude": 39.886465,
+                "longitude": 116.420299,
+                "description": "",
+                "phone": "010-67693032",
+                "promotion_info": "炎热夏天，需要一份水动力，本店从7月10开始每买一份快餐就送一份西瓜，？小伙伴们快来呦，让我们一起快乐的度过这暑假！",
+                "is_premium": false,
+                "recent_order_num": 197,
+                "image_path": "4fd7a380324bbb2da3a3766d9efbe72ajpeg",
+                "is_new": false,
+                "address": "东城区天坛东路46号迤北负一层",
+                "opening_hours": [
+                    "10:00/21:00"
+                ],
+                "status": 4,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    },
+                    {
+                        "id": 9,
+                        "name": "准时达",
+                        "icon_name": "准",
+                        "icon_color": "57A9FF",
+                        "description": "准时必达，超时秒赔"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 1,
+                    "text": "蜂鸟专送",
+                    "color": "57A9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": false,
+                "closing_count_down": 0,
+                "distance": 2315,
+                "order_lead_time": 32,
+                "rating_count": 200,
+                "rating": 4.8,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 5,
+                "piecewise_agent_fee": {
+                    "description": "配送费5元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 5
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费5元"
+                },
+                "activities": [],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 540523085,
+                    "restaurant_id": 885470,
+                    "name": "鱼香肉丝饭",
+                    "price": 14,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "05a02b51f5b1334559153ff7927cd9dajpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 1,
+                    "num_rating_3": 0,
+                    "num_rating_4": 6,
+                    "num_rating_5": 3,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 510028995,
+                    "updated_at": null,
+                    "pinyin_name": "yuxiangrousifan",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 35,
+                    "recent_rating": 4.1,
+                    "stock": 9825,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 0,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "护国寺小吃（红桥店）护国寺小吃(红桥店)",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 540518844,
+                    "restaurant_id": 885470,
+                    "name": "素炒饼",
+                    "price": 10,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "89360ab0276d7bb4c2fa7b6668676525jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 4,
+                    "num_rating_5": 5,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 510029967,
+                    "updated_at": null,
+                    "pinyin_name": "suchaobing",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 39,
+                    "recent_rating": 4.56,
+                    "stock": 9863,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 0,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "护国寺小吃（红桥店）护国寺小吃(红桥店)",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 540518845,
+                    "restaurant_id": 885470,
+                    "name": "烧饼夹肉",
+                    "price": 5,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "e5a7817182b0e46163c23036e79f1449jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 5,
+                    "num_rating_5": 4,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 510028993,
+                    "updated_at": null,
+                    "pinyin_name": "shaobingjiarou",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 58,
+                    "recent_rating": 4.44,
+                    "stock": 9758,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 0,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "护国寺小吃（红桥店）护国寺小吃(红桥店)",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 804384,
+                "name": "南城香（广渠门店）",
+                "latitude": 39.894631,
+                "longitude": 116.437334,
+                "description": "南城香是“永定门电烤串”地标级美食的创始者，凭借有别于碳烤羊肉串的电烤技法风靡北京南城，被中国烹饪协会授予“中华名小吃”荣誉称号，饿了么授予2017年度“外卖快餐知名品牌”，三十余家连锁店遍布京城，点外卖就要选择实体品牌连锁店！",
+                "phone": "010-67110204",
+                "promotion_info": "南城香-饭香 串香 馄饨香；新鲜健康的无烟电烤羊肉串，一个馄饨一只虾的特色虾仁大馄饨，先后被中国烹饪协会授予\"中华名小吃\"荣誉，家里饭香，南城香更香。！号外号外！饿了么招聘全职骑手，工作时间早十至晚九，综合工资7-9千，电话：17701276518",
+                "is_premium": true,
+                "recent_order_num": 6511,
+                "image_path": "772aa5be7676696d68dba40ba57bf971png",
+                "is_new": false,
+                "address": "北京市东城区广渠门内大街6号13号楼一层",
+                "opening_hours": [
+                    "10:00/21:00"
+                ],
+                "status": 4,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    },
+                    {
+                        "id": 9,
+                        "name": "准时达",
+                        "icon_name": "准",
+                        "icon_color": "57A9FF",
+                        "description": "准时必达，超时秒赔"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 1,
+                    "text": "蜂鸟专送",
+                    "color": "57A9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": false,
+                "closing_count_down": 0,
+                "distance": 2805,
+                "order_lead_time": 30,
+                "rating_count": 3281,
+                "rating": 4.7,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 4,
+                "piecewise_agent_fee": {
+                    "description": "配送费5元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 5
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费5元"
+                },
+                "activities": [
+                    {
+                        "id": 101187058,
+                        "description": "在线支付满40减20",
+                        "tips": "在线支付满40减20",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 103326130,
+                        "description": "安格斯肥牛6折抢",
+                        "tips": "安格斯肥牛6折抢",
+                        "name": "安格斯肥牛6折抢",
+                        "icon_color": "f07373",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 103300186,
+                        "description": "工作辛苦 吃串补补",
+                        "tips": "工作辛苦 吃串补补",
+                        "name": "工作辛苦 吃串补补",
+                        "icon_color": "f07373",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 76644497,
+                        "description": "长假御宅美食趴",
+                        "tips": "长假御宅美食趴",
+                        "name": "长假御宅美食趴",
+                        "icon_color": "f07373",
+                        "icon_name": "折"
+                    },
+                    {
+                        "id": 39195028,
+                        "description": "8折烤串套餐，限时抢购！(限20:00-23:59)",
+                        "tips": "8折烤串套餐，限时抢购！",
+                        "name": "8折烤串套餐，限时抢购！",
+                        "icon_color": "f07373",
+                        "icon_name": "折"
+                    },
+                    {
+                        "id": 39194862,
+                        "description": "7折烤串套餐，限时抢购！(限20:00-23:59)",
+                        "tips": "7折烤串套餐，限时抢购！",
+                        "name": "7折烤串套餐，限时抢购！",
+                        "icon_color": "f07373",
+                        "icon_name": "折"
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 539975360,
+                    "restaurant_id": 804384,
+                    "name": "安格斯肥牛饭",
+                    "price": 20,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "2f5cd9c2cdc5b4cce4816a7cfcc64121jpeg",
+                    "original_price": 0,
+                    "description": "嫩嫩的安格斯肥牛片上躺着懒洋洋的洋葱，被甜中略带咸鲜的汤汁包裹，心中满是甜丝丝的回味，米饭300克需增量请备注。",
+                    "num_rating_1": 0,
+                    "num_rating_2": 5,
+                    "num_rating_3": 0,
+                    "num_rating_4": 290,
+                    "num_rating_5": 121,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 7122185,
+                    "updated_at": null,
+                    "pinyin_name": "angesifeiniufan",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 2289,
+                    "recent_rating": 4.27,
+                    "stock": 9833,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 7,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "南城香（广渠门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 641571835,
+                    "restaurant_id": 804384,
+                    "name": "老坛酸菜鱼饭",
+                    "price": 20,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "fc8247268121d81e4b7a7861077fdc08jpeg",
+                    "original_price": 0,
+                    "description": "酸中有辣的鲜美巴沙鱼肉，更丰富的滋味，更低的卡路里，平淡生活中的小确幸。",
+                    "num_rating_1": 0,
+                    "num_rating_2": 3,
+                    "num_rating_3": 0,
+                    "num_rating_4": 186,
+                    "num_rating_5": 82,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 7122185,
+                    "updated_at": null,
+                    "pinyin_name": "laotansuancaiyufan",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 1536,
+                    "recent_rating": 4.28,
+                    "stock": 9980,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 6,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "南城香（广渠门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 539975348,
+                    "restaurant_id": 804384,
+                    "name": "南城香虾仁大馄饨",
+                    "price": 16,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "667cf1b4cec4cc59a86a3b95980b6b41jpeg",
+                    "original_price": 0,
+                    "description": "一个馄饨一只虾，小鲜肉包裹着滑嫩的整粒虾仁，幸福感UP！UP！",
+                    "num_rating_1": 0,
+                    "num_rating_2": 5,
+                    "num_rating_3": 0,
+                    "num_rating_4": 208,
+                    "num_rating_5": 85,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 7122607,
+                    "updated_at": null,
+                    "pinyin_name": "nanchengxiangxiarendahuntun",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 1674,
+                    "recent_rating": 4.25,
+                    "stock": 8884,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 4,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "南城香（广渠门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 1179986,
+                "name": "吉祥馄饨(大栅栏店)",
+                "latitude": 39.896922,
+                "longitude": 116.395556,
+                "description": "",
+                "phone": "13436907499 13522139858 010-63036308",
+                "promotion_info": "吉祥馄饨是全国连锁！味美价廉！打包是汤和馄饨分开装的，也可以生打包，欢迎各位朋友光临！为了不影响您的用餐时间，请提前半小时下单，如需醋、辣椒、请备注。馄饨汤里有葱、香菜、榨菜。如不要请备注，谢谢！祝您用餐愉快！",
+                "is_premium": false,
+                "recent_order_num": 298,
+                "image_path": "f22533c11c02b6a83f63a2ad7c967f60png",
+                "is_new": false,
+                "address": "西城区廊房二条70",
+                "opening_hours": [
+                    "08:00/23:30"
+                ],
+                "status": 1,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 0,
+                    "text": "不限",
+                    "color": "4CA9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": false,
+                "closing_count_down": 0,
+                "distance": 1314,
+                "order_lead_time": 47,
+                "rating_count": 116,
+                "rating": 4.7,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 5,
+                "piecewise_agent_fee": {
+                    "description": "配送费3元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 3
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费3元"
+                },
+                "activities": [
+                    {
+                        "id": 33127060,
+                        "description": "在线支付满25减7，满45减15，满65减20",
+                        "tips": "在线支付满25减7，满45减15，满65减20",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 65798089,
+                        "description": "美食优惠",
+                        "tips": "美食优惠",
+                        "name": "美食优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "特"
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 1256909194,
+                    "restaurant_id": 1179986,
+                    "name": "吉祥双人套餐",
+                    "price": 54,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "9dd653f6d25ec0246d392a527fa2c691jpeg",
+                    "original_price": 0,
+                    "description": "虾仁玉米鲜肉馄饨+香菇荠菜鲜肉馄饨+小菜",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 5,
+                    "num_rating_5": 3,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 1229496940,
+                    "updated_at": null,
+                    "pinyin_name": "jixiangshuangrentaocan",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 38,
+                    "recent_rating": 4.38,
+                    "stock": 9987,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "吉祥馄饨(大栅栏店)",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 548277019,
+                    "restaurant_id": 1179986,
+                    "name": "虾仁玉米鲜肉馄饨",
+                    "price": 28,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "9dd653f6d25ec0246d392a527fa2c691jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 7,
+                    "num_rating_5": 0,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 511673891,
+                    "updated_at": null,
+                    "pinyin_name": "xiarenyumixianrouhuntun",
+                    "is_new": 1,
+                    "is_featured": 0,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 52,
+                    "recent_rating": 4,
+                    "stock": 9972,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 9,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "吉祥馄饨(大栅栏店)",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 178738871,
+                    "restaurant_id": 1179986,
+                    "name": "超级全家福馄饨",
+                    "price": 23,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "41655f67585bf4cb6b300fbd304872bcjpeg",
+                    "original_price": 23,
+                    "description": "馄饨是五种馅，随机的",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 4,
+                    "num_rating_5": 3,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 11551931,
+                    "updated_at": null,
+                    "pinyin_name": "chaojiquanjiafuhuntun",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 56,
+                    "recent_rating": 4.43,
+                    "stock": 9718,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 9979,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "吉祥馄饨(大栅栏店)",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 155900863,
+                "name": "HealthyOnly轻食店（磁器口店）",
+                "latitude": 39.892838,
+                "longitude": 116.421058,
+                "description": "HealthyOnly——链接，品质与生活。",
+                "phone": "01056258582 13126585036",
+                "promotion_info": "HealthyOnly带着5W小伙伴登陆饿了么啦，还是一样的口味，还是经典的搭配，还是一贯的原则！下单现做，当天制售，发票累计满200开哦，开票及最新动态，加掌柜微信：13126585036",
+                "is_premium": false,
+                "recent_order_num": 1516,
+                "image_path": "1ad3fa8cdc7eb8d553ae8df266a64c8epng",
+                "is_new": false,
+                "address": "广渠门内大街90-8号地下一层西半侧",
+                "opening_hours": [
+                    "09:30/20:00"
+                ],
+                "status": 4,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    },
+                    {
+                        "id": 4,
+                        "name": "开发票",
+                        "icon_name": "票",
+                        "icon_color": "999999",
+                        "description": "该商家支持开发票，开票订单金额200.0元起，请在下单时填写好发票抬头"
+                    },
+                    {
+                        "id": 9,
+                        "name": "准时达",
+                        "icon_name": "准",
+                        "icon_color": "57A9FF",
+                        "description": "准时必达，超时秒赔"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 1,
+                    "text": "蜂鸟专送",
+                    "color": "57A9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": false,
+                "closing_count_down": 0,
+                "distance": 1771,
+                "order_lead_time": 36,
+                "rating_count": 683,
+                "rating": 4.8,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 5,
+                "piecewise_agent_fee": {
+                    "description": "配送费5元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 5
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费5元"
+                },
+                "activities": [
+                    {
+                        "id": 358225698,
+                        "description": "在线支付满35减8，满55减10，满75减15",
+                        "tips": "在线支付满35减8，满55减10，满75减15",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 97178634,
+                        "description": "满120.0元赠送自制解暑甘草酸梅汤1份",
+                        "tips": "满120.0元赠送自制解暑甘草酸梅汤1份",
+                        "name": "满赠优惠",
+                        "icon_color": "3cc791",
+                        "icon_name": "赠"
+                    },
+                    {
+                        "id": 74404810,
+                        "description": "",
+                        "tips": "",
+                        "name": "",
+                        "icon_color": "",
+                        "icon_name": ""
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 648322052,
+                    "restaurant_id": 155900863,
+                    "name": "H.O.无油烤鸡胸沙拉",
+                    "price": 35,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "f77807e3757b0ab6edc7eba6d11a1e03jpeg",
+                    "original_price": 0,
+                    "description": "这一次我们做了很大改良！据说能把鸡胸肉做得好吃的轻食店，才是最给力的轻食店！我是不会告诉你怎么把鸡胸肉烤的外焦里嫩的，只管放心的大口吃肉吧（微辣）！",
+                    "num_rating_1": 0,
+                    "num_rating_2": 1,
+                    "num_rating_3": 0,
+                    "num_rating_4": 50,
+                    "num_rating_5": 33,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 516679274,
+                    "updated_at": null,
+                    "pinyin_name": "H.O.wuyoukaojixiongshala",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 317,
+                    "recent_rating": 4.37,
+                    "stock": 9978,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1.5,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "HealthyOnly轻食店（磁器口店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 648324322,
+                    "restaurant_id": 155900863,
+                    "name": "❤能量轻食组合①号",
+                    "price": 55,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "4d295d9e87f98f440a9ddaed34fa09b8jpeg",
+                    "original_price": 0,
+                    "description": "（配：水果燕麦优格酸奶杯）※这一次，我们用自制的老鸡汤卤制了整整10公斤的精选牛腱肉作为这款轻食组合的核心食材！如果你在选择一顿丰盛而不油腻的正餐，那它再合适不过了！这款以高蛋白低脂肪为特点的组合，在大大满足胃口的同时，配合减脂增肌的运动计划，或许会产生更为出色的效果！",
+                    "num_rating_1": 0,
+                    "num_rating_2": 1,
+                    "num_rating_3": 0,
+                    "num_rating_4": 22,
+                    "num_rating_5": 19,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 516688902,
+                    "updated_at": null,
+                    "pinyin_name": "❤nengliangqingshizuhe①hao",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 182,
+                    "recent_rating": 4.4,
+                    "stock": 9968,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1.5,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "HealthyOnly轻食店（磁器口店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 648322007,
+                    "restaurant_id": 155900863,
+                    "name": "H.O.鲜虾牛油果沙拉",
+                    "price": 38,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "d883120a4e52042ba9558f8c31861119jpeg",
+                    "original_price": 0,
+                    "description": "HealthyOnly首款带着丰富蛋白的海鲜类沙拉，配合着牛油果、面包丁，吃完了也是饱腹感满满，对了，一定要配上我们的超低卡酸奶蛋黄酱~",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 17,
+                    "num_rating_5": 10,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 516679274,
+                    "updated_at": null,
+                    "pinyin_name": "H.O.xianxianiuyouguoshala",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 154,
+                    "recent_rating": 4.37,
+                    "stock": 9974,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1.5,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "HealthyOnly轻食店（磁器口店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 672181,
+                "name": "满座儿（建国门店）",
+                "latitude": 39.9061240525045,
+                "longitude": 116.433570269355,
+                "description": "新店开业    欢迎光临",
+                "phone": "18701200046 57149690",
+                "promotion_info": "本店现在搞，满30减20的活动，所以现在暂【无赠品】",
+                "is_premium": true,
+                "recent_order_num": 1536,
+                "image_path": "71d564a2a7986b6e1109c05b68b31ce1png",
+                "is_new": false,
+                "address": "北京市东城区建国门南大街7号万豪酒店一层A107",
+                "opening_hours": [
+                    "10:00/14:00",
+                    "17:00/20:00"
+                ],
+                "status": 4,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    },
+                    {
+                        "id": 9,
+                        "name": "准时达",
+                        "icon_name": "准",
+                        "icon_color": "57A9FF",
+                        "description": "准时必达，超时秒赔"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 1,
+                    "text": "蜂鸟专送",
+                    "color": "57A9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": true,
+                "closing_count_down": 0,
+                "distance": 2257,
+                "order_lead_time": 34,
+                "rating_count": 1207,
+                "rating": 4.6,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 5,
+                "piecewise_agent_fee": {
+                    "description": "配送费3元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 3
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费3元"
+                },
+                "activities": [
+                    {
+                        "id": 98070626,
+                        "description": "在线支付满30减20，满60减40",
+                        "tips": "在线支付满30减20，满60减40",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 103623770,
+                        "description": "满座儿精品4折优惠套餐",
+                        "tips": "满座儿精品4折优惠套餐",
+                        "name": "满座儿精品4折优惠套餐",
+                        "icon_color": "f07373",
+                        "icon_name": "折"
+                    },
+                    {
+                        "id": 80644705,
+                        "description": "满座儿五折精品套餐",
+                        "tips": "满座儿五折精品套餐",
+                        "name": "满座儿五折精品套餐",
+                        "icon_color": "f07373",
+                        "icon_name": "折"
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 690558137,
+                    "restaurant_id": 672181,
+                    "name": "滑蛋虾仁 ",
+                    "price": 21,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "0978de7a2714fc0d1fdcf402f60c749ajpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 1,
+                    "num_rating_3": 0,
+                    "num_rating_4": 75,
+                    "num_rating_5": 11,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 525869959,
+                    "updated_at": null,
+                    "pinyin_name": "huadanxiaren ",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 271,
+                    "recent_rating": 4.1,
+                    "stock": 9952,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 51,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "满座儿（建国门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 690555809,
+                    "restaurant_id": 672181,
+                    "name": "宫保鸡丁+手撕包菜",
+                    "price": 32,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "e39f53928b142c70aac3e5d25ccee7b2jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 5,
+                    "num_rating_3": 0,
+                    "num_rating_4": 52,
+                    "num_rating_5": 28,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 500268634,
+                    "updated_at": null,
+                    "pinyin_name": "gongbaojiding+shousibaocai",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 256,
+                    "recent_rating": 4.21,
+                    "stock": 9861,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 17,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "满座儿（建国门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 682692615,
+                    "restaurant_id": 672181,
+                    "name": "宫爆鸡丁（小份菜）",
+                    "price": 15,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "2666075bbe230da9ba84a146021d7be3jpeg",
+                    "original_price": 0,
+                    "description": "",
+                    "num_rating_1": 0,
+                    "num_rating_2": 1,
+                    "num_rating_3": 0,
+                    "num_rating_4": 52,
+                    "num_rating_5": 20,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 525869959,
+                    "updated_at": null,
+                    "pinyin_name": "gongbaojiding（xiaofencai）",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 248,
+                    "recent_rating": 4.25,
+                    "stock": 9951,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 62,
+                    "sold_out": 1,
+                    "sale_mode": 0,
+                    "restaurant_name": "满座儿（建国门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 905992,
+                "name": "新盒记（崇文门店）",
+                "latitude": 39.891721,
+                "longitude": 116.418475,
+                "description": "新盒记外卖拥有国家级国宴主厨团队技术支持及官府谭家菜传人的亲手传承。自创立以来，公司始终秉持“美味”“健康”“营养”为中心的核心理念，在无任何添加剂、味精、香精的情况下，将名贵的食材改为有机蔬菜，坚持以“繁菜简做”的理念，保留原有味道，将高端菜做的平易近人。",
+                "phone": "18393566322",
+                "promotion_info": "为保障优质的菜品供应给大家，赠送自制饮料活动取消，如有需要请下单购买。2016年首届中国好外卖评选北京地区第一名，承接各种团队用餐，全市热链配送，准时送达，可开发票，联系电话人：卢经理13718850967（20份起订）感谢您的惠顾。",
+                "is_premium": true,
+                "recent_order_num": 476,
+                "image_path": "2e7101a6e73f487b0d305803f2a273e8png",
+                "is_new": false,
+                "address": "北京市东城区磁器口大街134号-2",
+                "opening_hours": [
+                    "10:00/14:00",
+                    "16:30/19:30"
+                ],
+                "status": 4,
+                "supports": [
+                    {
+                        "id": 4,
+                        "name": "开发票",
+                        "icon_name": "票",
+                        "icon_color": "999999",
+                        "description": "该商家支持开发票，开票订单金额200.0元起，请在下单时填写好发票抬头"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 0,
+                    "text": "不限",
+                    "color": "4CA9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": false,
+                "closing_count_down": 0,
+                "distance": 1734,
+                "order_lead_time": 46,
+                "rating_count": 125,
+                "rating": 4.7,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 7,
+                "piecewise_agent_fee": {
+                    "description": "配送费7元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 7
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费7元"
+                },
+                "activities": [
+                    {
+                        "id": 102078130,
+                        "description": "在线支付满25减20，满35减22，满60减35，满90减40",
+                        "tips": "在线支付满25减20，满35减22，满60减35，满90减40",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 102755066,
+                        "description": "顾客必享优惠",
+                        "tips": "顾客必享优惠",
+                        "name": "顾客必享优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 102686786,
+                        "description": "满588.0元赠送新盒记招牌酸梅汤15份",
+                        "tips": "满588.0元赠送新盒记招牌酸梅汤15份",
+                        "name": "满赠优惠",
+                        "icon_color": "3cc791",
+                        "icon_name": "赠"
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 109757306,
+                    "restaurant_id": 905992,
+                    "name": "台南飘香三杯鸡",
+                    "price": 39.9,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "26c829c75efe067f72d1cc5be7b8a137jpeg",
+                    "original_price": 38,
+                    "description": "主菜+米饭+酸梅汤+搭配四款凉菜拼盘",
+                    "num_rating_1": 0,
+                    "num_rating_2": 0,
+                    "num_rating_3": 0,
+                    "num_rating_4": 19,
+                    "num_rating_5": 12,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 15716906,
+                    "updated_at": null,
+                    "pinyin_name": "tainanpiaoxiangsanbeiji",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 160,
+                    "recent_rating": 4.39,
+                    "stock": 0,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 2,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "新盒记（崇文门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 1238320759,
+                    "restaurant_id": 905992,
+                    "name": "老北京红烧带鱼套餐",
+                    "price": 39.9,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "780ded0d220f91016c1aa2e5f3ae33d1jpeg",
+                    "original_price": 0,
+                    "description": "主菜+米饭+搭配四款特色小菜",
+                    "num_rating_1": 0,
+                    "num_rating_2": 1,
+                    "num_rating_3": 0,
+                    "num_rating_4": 8,
+                    "num_rating_5": 3,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 18336340,
+                    "updated_at": null,
+                    "pinyin_name": "laobeijinghongshaodaiyutaocan",
+                    "is_new": 1,
+                    "is_featured": 0,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 53,
+                    "recent_rating": 4.08,
+                    "stock": 2,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 3,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "新盒记（崇文门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 99750825,
+                    "restaurant_id": 905992,
+                    "name": "浓香咖喱炖牛腩",
+                    "price": 39.9,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "e94f034de9a3894e91ffdc893d6521e5jpeg",
+                    "original_price": 32,
+                    "description": "主菜+米饭+搭配四款特色小菜",
+                    "num_rating_1": 0,
+                    "num_rating_2": 1,
+                    "num_rating_3": 0,
+                    "num_rating_4": 11,
+                    "num_rating_5": 3,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 527343142,
+                    "updated_at": null,
+                    "pinyin_name": "nongxianggalidunniunan",
+                    "is_new": 0,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 0,
+                    "sn": null,
+                    "recent_popularity": 82,
+                    "recent_rating": 4.07,
+                    "stock": 2,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 6,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "新盒记（崇文门店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        },
+        {
+            "style": 1,
+            "restaurant": {
+                "id": 275544,
+                "name": "金百万烤鸭（恒基店）",
+                "latitude": 39.906565,
+                "longitude": 116.428779,
+                "description": "",
+                "phone": "18515052703 15601238712",
+                "promotion_info": "客服电话18515052703   15601238712",
+                "is_premium": true,
+                "recent_order_num": 3394,
+                "image_path": "c1448d5806f132eee1c634547e637a90jpeg",
+                "is_new": false,
+                "address": "北京市东城区建国门内大街18号北京恒基中心商场二层（23、27-32、76-84、88A、SP2",
+                "opening_hours": [
+                    "10:00/21:00"
+                ],
+                "status": 4,
+                "supports": [
+                    {
+                        "id": 7,
+                        "name": "外卖保",
+                        "icon_name": "保",
+                        "icon_color": "999999",
+                        "description": "已加入“外卖保”计划，食品安全有保障"
+                    },
+                    {
+                        "id": 4,
+                        "name": "开发票",
+                        "icon_name": "票",
+                        "icon_color": "999999",
+                        "description": "该商家支持开发票，开票订单金额50.0元起，请在下单时填写好发票抬头"
+                    }
+                ],
+                "next_business_time": "",
+                "delivery_mode": {
+                    "id": 0,
+                    "text": "不限",
+                    "color": "4CA9FF",
+                    "is_solid": true
+                },
+                "only_use_poi": true,
+                "closing_count_down": 0,
+                "distance": 1854,
+                "order_lead_time": 58,
+                "rating_count": 3157,
+                "rating": 4.6,
+                "float_minimum_order_amount": 20,
+                "float_delivery_fee": 5,
+                "piecewise_agent_fee": {
+                    "description": "配送费3元",
+                    "is_extra": false,
+                    "rules": [
+                        {
+                            "price": 20,
+                            "fee": 3
+                        }
+                    ],
+                    "extra_fee": 0,
+                    "tips": "配送费3元"
+                },
+                "activities": [
+                    {
+                        "id": 104222466,
+                        "description": "在线支付满30减15，满40减20，满60减30，满90减45",
+                        "tips": "在线支付满30减15，满40减20，满60减30，满90减45",
+                        "name": "满减优惠",
+                        "icon_color": "f07373",
+                        "icon_name": "减"
+                    },
+                    {
+                        "id": 94974281,
+                        "description": "招牌烤鸭特价25元",
+                        "tips": "招牌烤鸭特价25元",
+                        "name": "招牌烤鸭特价25元",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 91870225,
+                        "description": "中餐厅同款宫保鸡丁套餐",
+                        "tips": "中餐厅同款宫保鸡丁套餐",
+                        "name": "中餐厅同款宫保鸡丁套餐",
+                        "icon_color": "f07373",
+                        "icon_name": "折"
+                    },
+                    {
+                        "id": 77204553,
+                        "description": "扁豆焖面9.9，管饱！",
+                        "tips": "扁豆焖面9.9，管饱！",
+                        "name": "扁豆焖面9.9，管饱！",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 68755906,
+                        "description": "37元共享双人套餐",
+                        "tips": "37元共享双人套餐",
+                        "name": "37元共享双人套餐",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 66148249,
+                        "description": "单人餐“5”折尊享~~",
+                        "tips": "单人餐“5”折尊享~~",
+                        "name": "单人餐“5”折尊享~~",
+                        "icon_color": "f07373",
+                        "icon_name": "折"
+                    },
+                    {
+                        "id": 66138993,
+                        "description": "13.99元小低温炖猪脆排（饭单点）",
+                        "tips": "13.99元小低温炖猪脆排（饭单点）",
+                        "name": "13.99元小低温炖猪脆排（饭单点）",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 66132145,
+                        "description": "39.9元蜀香酸菜鱼",
+                        "tips": "39.9元蜀香酸菜鱼",
+                        "name": "39.9元蜀香酸菜鱼",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 41894890,
+                        "description": "重庆毛血旺特价39.9元",
+                        "tips": "重庆毛血旺特价39.9元",
+                        "name": "重庆毛血旺特价39.9元",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 41893221,
+                        "description": "9.59元小鱼香肉末茄子（饭单点），超值！",
+                        "tips": "9.59元小鱼香肉末茄子（饭单点），超值！",
+                        "name": "9.59元小鱼香肉末茄子（饭单点），超值！",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 39851165,
+                        "description": "59.9元超值烤鸭套餐，嗨翻八月~~",
+                        "tips": "59.9元超值烤鸭套餐，嗨翻八月~~",
+                        "name": "59.9元超值烤鸭套餐，嗨翻八月~~",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    },
+                    {
+                        "id": 33013292,
+                        "description": "炸酱面+土豆丝只要14.9元",
+                        "tips": "炸酱面+土豆丝只要14.9元",
+                        "name": "炸酱面+土豆丝只要14.9元",
+                        "icon_color": "f1884f",
+                        "icon_name": "特"
+                    }
+                ],
+                "regular_customer_count": 0
+            },
+            "foods": [
+                {
+                    "id": 156075702,
+                    "restaurant_id": 275544,
+                    "name": "金百万招牌烤鸭(1份)",
+                    "price": 99,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "a69125b3532cbd72a10fbc869f34e383jpeg",
+                    "original_price": 99,
+                    "description": "招牌烤鸭1份(非整只鸭肉20-22片左右)（面包片垫底吸油解油腻）+鸭饼1份+甜面酱1份+瓜条1份+葱丝1份.绝对的超值享受",
+                    "num_rating_1": 0,
+                    "num_rating_2": 6,
+                    "num_rating_3": 0,
+                    "num_rating_4": 64,
+                    "num_rating_5": 50,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 12959374,
+                    "updated_at": null,
+                    "pinyin_name": "jinbaiwanzhaopaikaoya(1fen)",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 467,
+                    "recent_rating": 4.32,
+                    "stock": 9897,
+                    "max_stock": 10000,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 2,
+                    "sort_order": 0,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "金百万烤鸭（恒基店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 551358986,
+                    "restaurant_id": 275544,
+                    "name": "宫保鸡丁+手撕包菜双拼饭",
+                    "price": 18,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "bdb1876373c93991690894d666933f8ajpeg",
+                    "original_price": 16,
+                    "description": "宫保鸡丁+手撕包菜双拼饭        2346",
+                    "num_rating_1": 0,
+                    "num_rating_2": 6,
+                    "num_rating_3": 0,
+                    "num_rating_4": 69,
+                    "num_rating_5": 48,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 524479329,
+                    "updated_at": null,
+                    "pinyin_name": "gongbaojiding+shousibaocaishuangpinfan",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 351,
+                    "recent_rating": 4.29,
+                    "stock": 298,
+                    "max_stock": 555,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 10000,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "金百万烤鸭（恒基店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                },
+                {
+                    "id": 502560047,
+                    "restaurant_id": 275544,
+                    "name": "老北京炸酱面",
+                    "price": 18,
+                    "is_valid": 1,
+                    "image_url": "",
+                    "image_hash": "f2899c1337ab80fe9dffd67cb4f79582jpeg",
+                    "original_price": 18,
+                    "description": ".老北京炸酱面-邓超炸的酱!",
+                    "num_rating_1": 0,
+                    "num_rating_2": 3,
+                    "num_rating_3": 0,
+                    "num_rating_4": 34,
+                    "num_rating_5": 24,
+                    "attribute": "{}",
+                    "created_at": null,
+                    "category_id": 12957245,
+                    "updated_at": null,
+                    "pinyin_name": "laobeijingzhajiangmian",
+                    "is_new": 1,
+                    "is_featured": 1,
+                    "is_gum": null,
+                    "is_spicy": 1,
+                    "sn": null,
+                    "recent_popularity": 227,
+                    "recent_rating": 4.3,
+                    "stock": 609,
+                    "max_stock": 888,
+                    "daily_reset": false,
+                    "price_changed_at": null,
+                    "has_activity": null,
+                    "packing_fee": 1,
+                    "sort_order": 10000,
+                    "sold_out": 0,
+                    "sale_mode": 0,
+                    "restaurant_name": "金百万烤鸭（恒基店）",
+                    "rec_tag": null,
+                    "rec_reasons": null
+                }
+            ],
+            "toRecPage": 1
+        }
+    ],
+    "foundMenu": {
+        "description": "",
+        "header_image": "6d5de7613f554b5db1380f266097504bjpeg",
+        "more_url": "eleme://web?url=https%3A%2F%2Fh5.ele.me%2Franking%2F%23type%3Dspecial_food&navType=2",
+        "page_title": "天天特价",
+        "query_list": [
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "6折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "6折"
+                            }
+                        ],
+                        "category_id": 525977850,
+                        "discount_activity": "",
+                        "discount_rate": 0.6,
+                        "food_id": 683908467,
+                        "food_rate": "1人好评",
+                        "icon_name": "特",
+                        "id": 683908467,
+                        "image_path": "5d6718d42cf6ec818b08a16ebd4f8ebcjpeg",
+                        "is_new": false,
+                        "month_sales": 1,
+                        "name": "麻辣香锅套餐",
+                        "original_price": 45,
+                        "packing_fee": 2,
+                        "price": 26.8,
+                        "restaurant_id": 155826642,
+                        "restaurant_name": "思乡胡同餐馆（王府井店）",
+                        "satisfy_count": 1,
+                        "satisfy_rate": 100,
+                        "sku_id": "300682269961",
+                        "stock": 9986
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "6.1折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "6.1折"
+                            }
+                        ],
+                        "category_id": 526604065,
+                        "discount_activity": "",
+                        "discount_rate": 0.61,
+                        "food_id": 690531409,
+                        "food_rate": "2人好评",
+                        "icon_name": "特",
+                        "id": 690531409,
+                        "image_path": "c5cb9b6d558047ec19982d6a8f8a8b7bjpeg",
+                        "is_new": false,
+                        "month_sales": 24,
+                        "name": "烤肉炒饭套餐【尝新价】",
+                        "original_price": 49,
+                        "packing_fee": 1,
+                        "price": 29.9,
+                        "restaurant_id": 567510,
+                        "restaurant_name": "阿达西新疆风味（白桥店）",
+                        "satisfy_count": 2,
+                        "satisfy_rate": 100,
+                        "sku_id": "307464163230",
+                        "stock": 9980
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "6.6折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "6.6折"
+                            }
+                        ],
+                        "category_id": 514683344,
+                        "discount_activity": "",
+                        "discount_rate": 0.66,
+                        "food_id": 615292473,
+                        "food_rate": "2人好评",
+                        "icon_name": "特",
+                        "id": 615292473,
+                        "image_path": "b575998909edcacb38e380c6d9d742f8jpeg",
+                        "is_new": false,
+                        "month_sales": 14,
+                        "name": "双排王者套餐",
+                        "original_price": 66,
+                        "packing_fee": 3,
+                        "price": 43.56,
+                        "restaurant_id": 155137031,
+                        "restaurant_name": "美乐滋炸鸡汉堡",
+                        "satisfy_count": 2,
+                        "satisfy_rate": 50,
+                        "sku_id": "230419492330",
+                        "stock": 9815
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "8.3折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "8.3折"
+                            }
+                        ],
+                        "category_id": 526189289,
+                        "discount_activity": "",
+                        "discount_rate": 0.83,
+                        "food_id": 688863101,
+                        "food_rate": "1人好评",
+                        "icon_name": "特",
+                        "id": 688863101,
+                        "image_path": "0793000cbd9c66fce271c4deb076c110jpeg",
+                        "is_new": false,
+                        "month_sales": 1,
+                        "name": "肉筋10串",
+                        "original_price": 30,
+                        "packing_fee": 0,
+                        "price": 25,
+                        "restaurant_id": 156676923,
+                        "restaurant_name": "前门老李烧烤",
+                        "satisfy_count": 1,
+                        "satisfy_rate": 100,
+                        "sku_id": "305755815831",
+                        "stock": 9999
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "8.3折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "8.3折"
+                            }
+                        ],
+                        "category_id": 526189289,
+                        "discount_activity": "",
+                        "discount_rate": 0.83,
+                        "food_id": 688863220,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 688863220,
+                        "image_path": "8c7249276e4669d1d5a7923ef8b1764ajpeg",
+                        "is_new": false,
+                        "month_sales": 1,
+                        "name": "猪脆骨10串",
+                        "original_price": 30,
+                        "packing_fee": 0,
+                        "price": 25,
+                        "restaurant_id": 156676923,
+                        "restaurant_name": "前门老李烧烤",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "305755937687",
+                        "stock": 10000
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "8.6折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "8.6折"
+                            }
+                        ],
+                        "category_id": 514732579,
+                        "discount_activity": "",
+                        "discount_rate": 0.86,
+                        "food_id": 616251399,
+                        "food_rate": "14人好评",
+                        "icon_name": "特",
+                        "id": 616251399,
+                        "image_path": "300751981dca2fe97479876b611700e6jpeg",
+                        "is_new": false,
+                        "month_sales": 63,
+                        "name": "阿达西大盘鸡（小）",
+                        "original_price": 42,
+                        "packing_fee": 2,
+                        "price": 36,
+                        "restaurant_id": 567510,
+                        "restaurant_name": "阿达西新疆风味（白桥店）",
+                        "satisfy_count": 14,
+                        "satisfy_rate": 93,
+                        "sku_id": "231401432990",
+                        "stock": 9732
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 528477545,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 710355415,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 710355415,
+                        "image_path": "1185f3b74c26c59c7c92fb36e42da385jpeg",
+                        "is_new": false,
+                        "month_sales": 0,
+                        "name": "羊蝎子一人餐",
+                        "original_price": 59.8,
+                        "packing_fee": 2,
+                        "price": 29.9,
+                        "restaurant_id": 156937051,
+                        "restaurant_name": "老北京炙子烤肉拌饭",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "327763945057",
+                        "stock": 10000
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 528216640,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 707904418,
+                        "food_rate": "1人好评",
+                        "icon_name": "特",
+                        "id": 707904418,
+                        "image_path": "750fadcc442da559e381f9d9561e21a2jpeg",
+                        "is_new": false,
+                        "month_sales": 12,
+                        "name": "无骨肉+翅中+可乐",
+                        "original_price": 77.8,
+                        "packing_fee": 2,
+                        "price": 38.9,
+                        "restaurant_id": 152106988,
+                        "restaurant_name": "非尝范炸鸡啤酒（磁器口店）",
+                        "satisfy_count": 1,
+                        "satisfy_rate": 100,
+                        "sku_id": "325254124464",
+                        "stock": 9987
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 528216640,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 707877059,
+                        "food_rate": "2人好评",
+                        "icon_name": "特",
+                        "id": 707877059,
+                        "image_path": "4a7b022661f4a83443087118bbe8b389jpeg",
+                        "is_new": false,
+                        "month_sales": 13,
+                        "name": "双人特惠套餐",
+                        "original_price": 99.8,
+                        "packing_fee": 3,
+                        "price": 49.9,
+                        "restaurant_id": 152106988,
+                        "restaurant_name": "非尝范炸鸡啤酒（磁器口店）",
+                        "satisfy_count": 2,
+                        "satisfy_rate": 100,
+                        "sku_id": "325226108848",
+                        "stock": 9986
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "3.7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "3.7折"
+                            }
+                        ],
+                        "category_id": 528102098,
+                        "discount_activity": "",
+                        "discount_rate": 0.37,
+                        "food_id": 708442567,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 708442567,
+                        "image_path": "c45f0a1a58d731b6dd2da82a35c7ed02jpeg",
+                        "is_new": false,
+                        "month_sales": 4,
+                        "name": "20串自选炸串套餐",
+                        "original_price": 79.8,
+                        "packing_fee": 2,
+                        "price": 29.9,
+                        "restaurant_id": 157234337,
+                        "restaurant_name": "串来串去·特色烧烤（东四店）",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "325805188919",
+                        "stock": 9996
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "3.3折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "3.3折"
+                            }
+                        ],
+                        "category_id": 528102098,
+                        "discount_activity": "",
+                        "discount_rate": 0.33,
+                        "food_id": 708456915,
+                        "food_rate": "1人好评",
+                        "icon_name": "特",
+                        "id": 708456915,
+                        "image_path": "ac59412e2faaede8c244281a8539023ejpeg",
+                        "is_new": false,
+                        "month_sales": 7,
+                        "name": "30串自选炸串套餐",
+                        "original_price": 119.8,
+                        "packing_fee": 2,
+                        "price": 39.9,
+                        "restaurant_id": 157234337,
+                        "restaurant_name": "串来串去·特色烧烤（东四店）",
+                        "satisfy_count": 1,
+                        "satisfy_rate": 33,
+                        "sku_id": "325819881271",
+                        "stock": 9993
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "3折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "3折"
+                            }
+                        ],
+                        "category_id": 513349274,
+                        "discount_activity": "",
+                        "discount_rate": 0.3,
+                        "food_id": 709998984,
+                        "food_rate": "1人好评",
+                        "icon_name": "特",
+                        "id": 709998984,
+                        "image_path": "cdccce530419d0b3b9c60b058e644009jpeg",
+                        "is_new": false,
+                        "month_sales": 15,
+                        "name": "【正】椒盐皮皮虾10只",
+                        "original_price": 98,
+                        "packing_fee": 1,
+                        "price": 29.4,
+                        "restaurant_id": 151713603,
+                        "restaurant_name": "麻辣B海鲜大咖",
+                        "satisfy_count": 1,
+                        "satisfy_rate": 100,
+                        "sku_id": "327398959693",
+                        "stock": 9983
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5.9折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5.9折"
+                            }
+                        ],
+                        "category_id": 6223672,
+                        "discount_activity": "",
+                        "discount_rate": 0.59,
+                        "food_id": 645850426,
+                        "food_rate": "226人好评",
+                        "icon_name": "特",
+                        "id": 645850426,
+                        "image_path": "abcf88743e42e807979adc96f16510a7jpeg",
+                        "is_new": false,
+                        "month_sales": 1159,
+                        "name": "麻辣小龙虾嗨翻多只款（20只）",
+                        "original_price": 99,
+                        "packing_fee": 2,
+                        "price": 58.8,
+                        "restaurant_id": 247483,
+                        "restaurant_name": "非常虾（小龙虾外卖）",
+                        "satisfy_count": 226,
+                        "satisfy_rate": 96,
+                        "sku_id": "261710836698",
+                        "stock": 8726
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7.7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7.7折"
+                            }
+                        ],
+                        "category_id": 524603230,
+                        "discount_activity": "",
+                        "discount_rate": 0.77,
+                        "food_id": 666590763,
+                        "food_rate": "17人好评",
+                        "icon_name": "特",
+                        "id": 666590763,
+                        "image_path": "be255c2c56d59fd855071285507e4b8ajpeg",
+                        "is_new": false,
+                        "month_sales": 74,
+                        "name": "麻辣香锅双人餐（2米+2饮料）",
+                        "original_price": 88,
+                        "packing_fee": 3,
+                        "price": 68,
+                        "restaurant_id": 156234411,
+                        "restaurant_name": "晓麻晓辣 麻辣香锅 烤鱼 地道川菜",
+                        "satisfy_count": 17,
+                        "satisfy_rate": 94,
+                        "sku_id": "282948941683",
+                        "stock": 9871
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7.2折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7.2折"
+                            }
+                        ],
+                        "category_id": 528305880,
+                        "discount_activity": "",
+                        "discount_rate": 0.72,
+                        "food_id": 708739612,
+                        "food_rate": "3人好评",
+                        "icon_name": "特",
+                        "id": 708739612,
+                        "image_path": "fabf6bfd33ee4db9a5b05b4967d31c1ajpeg",
+                        "is_new": false,
+                        "month_sales": 8,
+                        "name": "麻辣小龙虾",
+                        "original_price": 68,
+                        "packing_fee": 0,
+                        "price": 48.96,
+                        "restaurant_id": 153918593,
+                        "restaurant_name": "深夜Hi鲜坊",
+                        "satisfy_count": 3,
+                        "satisfy_rate": 100,
+                        "sku_id": "326109362494",
+                        "stock": 9990
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 528922022,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 1284895389,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 1284895389,
+                        "image_path": "5052be4e9bd8ad25b9121401604da43ejpeg",
+                        "is_new": true,
+                        "month_sales": 0,
+                        "name": "【超值】麻辣小龙虾12只+香辣面包蟹",
+                        "original_price": 268,
+                        "packing_fee": 2,
+                        "price": 134,
+                        "restaurant_id": 143530962,
+                        "restaurant_name": "辣家私房.麻辣小海鲜(崇文门店)",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "200000086932878483",
+                        "stock": 10000
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "2.6折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "2.6折"
+                            }
+                        ],
+                        "category_id": 528328303,
+                        "discount_activity": "",
+                        "discount_rate": 0.26,
+                        "food_id": 708521425,
+                        "food_rate": "30人好评",
+                        "icon_name": "特",
+                        "id": 708521425,
+                        "image_path": "228836a4107e18134ac83a5c4409a23bjpeg",
+                        "is_new": false,
+                        "month_sales": 110,
+                        "name": "辣炒花蛤",
+                        "original_price": 38,
+                        "packing_fee": 0,
+                        "price": 9.9,
+                        "restaurant_id": 157610163,
+                        "restaurant_name": "一零一叁.大闸蟹小龙虾",
+                        "satisfy_count": 30,
+                        "satisfy_rate": 100,
+                        "sku_id": "325885939212",
+                        "stock": 9997
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 528895534,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 716679316,
+                        "food_rate": "1人好评",
+                        "icon_name": "特",
+                        "id": 716679316,
+                        "image_path": "7d7b185cd487a082e9ed35c1aa3014b5jpeg",
+                        "is_new": false,
+                        "month_sales": 6,
+                        "name": "哈哈镜小龙虾辣送随机赠品1盒",
+                        "original_price": 90,
+                        "packing_fee": 0,
+                        "price": 45,
+                        "restaurant_id": 156590907,
+                        "restaurant_name": "王老太小海鲜",
+                        "satisfy_count": 1,
+                        "satisfy_rate": 100,
+                        "sku_id": "334239619974",
+                        "stock": 9994
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7折"
+                            }
+                        ],
+                        "category_id": 8372979,
+                        "discount_activity": "",
+                        "discount_rate": 0.7,
+                        "food_id": 86390095,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 86390095,
+                        "image_path": "ce3798c8c4c9758522e89565fa0e84dbjpeg",
+                        "is_new": false,
+                        "month_sales": 1,
+                        "name": "奥尔良鸡肉披萨",
+                        "original_price": 68,
+                        "packing_fee": 1,
+                        "price": 47.6,
+                        "restaurant_id": 901017,
+                        "restaurant_name": "北漂人家（交大店）",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "11865421852",
+                        "stock": 9990
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7折"
+                            }
+                        ],
+                        "category_id": 8372979,
+                        "discount_activity": "",
+                        "discount_rate": 0.7,
+                        "food_id": 86390304,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 86390304,
+                        "image_path": "ebdb6cce07e2674bc53e744e2447bddcjpeg",
+                        "is_new": false,
+                        "month_sales": 1,
+                        "name": "海鲜披萨",
+                        "original_price": 68,
+                        "packing_fee": 1,
+                        "price": 47.6,
+                        "restaurant_id": 901017,
+                        "restaurant_name": "北漂人家（交大店）",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "11865423900",
+                        "stock": 9985
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7折"
+                            }
+                        ],
+                        "category_id": 1231220967,
+                        "discount_activity": "",
+                        "discount_rate": 0.7,
+                        "food_id": 1279152516,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 1279152516,
+                        "image_path": "7aa6b050d91a19f0b6b1a48472246034jpeg",
+                        "is_new": true,
+                        "month_sales": 0,
+                        "name": "十三香小龙虾",
+                        "original_price": 128,
+                        "packing_fee": 1,
+                        "price": 89.6,
+                        "restaurant_id": 142360179,
+                        "restaurant_name": "北漂人家（东城店）",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "200000081052176565",
+                        "stock": 1000
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7折"
+                            }
+                        ],
+                        "category_id": 1231220967,
+                        "discount_activity": "",
+                        "discount_rate": 0.7,
+                        "food_id": 1279157154,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 1279157154,
+                        "image_path": "0e94cc109dccafddbb2830eea3710896jpeg",
+                        "is_new": true,
+                        "month_sales": 0,
+                        "name": "麻辣小龙虾",
+                        "original_price": 128,
+                        "packing_fee": 0,
+                        "price": 89.6,
+                        "restaurant_id": 142360179,
+                        "restaurant_name": "北漂人家（东城店）",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "200000081056925877",
+                        "stock": 1000
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 528922022,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 1281786163,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 1281786163,
+                        "image_path": "3156c20dbf98cdef0ddeef9b6f8b888ejpeg",
+                        "is_new": false,
+                        "month_sales": 0,
+                        "name": "【聚会】辣家私房海鲜大咖",
+                        "original_price": 470,
+                        "packing_fee": 2,
+                        "price": 235,
+                        "restaurant_id": 143530962,
+                        "restaurant_name": "辣家私房.麻辣小海鲜(崇文门店)",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "200000083749031059",
+                        "stock": 10000
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 524844604,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 711098609,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 711098609,
+                        "image_path": "55b9c4666d11d404e0295c17a7434f36jpeg",
+                        "is_new": false,
+                        "month_sales": 5,
+                        "name": "哈哈镜花蛤辣买一送一",
+                        "original_price": 50,
+                        "packing_fee": 0,
+                        "price": 25,
+                        "restaurant_id": 156188497,
+                        "restaurant_name": "哈哈镜(知春路店)",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "328524975827",
+                        "stock": 9993
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7折"
+                            }
+                        ],
+                        "category_id": 13166726,
+                        "discount_activity": "",
+                        "discount_rate": 0.7,
+                        "food_id": 133230894,
+                        "food_rate": "6人好评",
+                        "icon_name": "特",
+                        "id": 133230894,
+                        "image_path": "80cf52a7904207debc7d321b9dac4b56jpeg",
+                        "is_new": false,
+                        "month_sales": 17,
+                        "name": "香辣烤鱼（乌江鱼）",
+                        "original_price": 128,
+                        "packing_fee": 2,
+                        "price": 89.6,
+                        "restaurant_id": 1353919,
+                        "restaurant_name": "蜀一蜀二",
+                        "satisfy_count": 6,
+                        "satisfy_rate": 100,
+                        "sku_id": "14188746721",
+                        "stock": 9935
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 524844604,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 1259481648,
+                        "food_rate": "1人好评",
+                        "icon_name": "特",
+                        "id": 1259481648,
+                        "image_path": "7d7b185cd487a082e9ed35c1aa3014b5jpeg",
+                        "is_new": false,
+                        "month_sales": 3,
+                        "name": "小龙虾（辣）送随机赠品一盒",
+                        "original_price": 89,
+                        "packing_fee": 0,
+                        "price": 44.5,
+                        "restaurant_id": 156188497,
+                        "restaurant_name": "哈哈镜(知春路店)",
+                        "satisfy_count": 1,
+                        "satisfy_rate": 100,
+                        "sku_id": "200000060909208275",
+                        "stock": 9997
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5折"
+                            }
+                        ],
+                        "category_id": 516231084,
+                        "discount_activity": "",
+                        "discount_rate": 0.5,
+                        "food_id": 1257092566,
+                        "food_rate": "32人好评",
+                        "icon_name": "特",
+                        "id": 1257092566,
+                        "image_path": "82c059cef0179a7dfa8682520d887eb3jpeg",
+                        "is_new": false,
+                        "month_sales": 180,
+                        "name": "麻辣龙虾球（mini）",
+                        "original_price": 19.9,
+                        "packing_fee": 2,
+                        "price": 9.9,
+                        "restaurant_id": 155870798,
+                        "restaurant_name": "辣私房小龙虾外卖（北京店）",
+                        "satisfy_count": 32,
+                        "satisfy_rate": 96,
+                        "sku_id": "200000058462787766",
+                        "stock": 9941
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "2.5折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "2.5折"
+                            }
+                        ],
+                        "category_id": 515045320,
+                        "discount_activity": "",
+                        "discount_rate": 0.25,
+                        "food_id": 663540840,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 663540840,
+                        "image_path": "8460324aebbf11630d5b692824d4d950jpeg",
+                        "is_new": false,
+                        "month_sales": 4,
+                        "name": "三文鱼  鱼尾不切",
+                        "original_price": 40,
+                        "packing_fee": 1,
+                        "price": 9.9,
+                        "restaurant_id": 154907150,
+                        "restaurant_name": "胡家湾海鲜",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "279825819932",
+                        "stock": 9981
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "5.6折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "5.6折"
+                            }
+                        ],
+                        "category_id": 15705468,
+                        "discount_activity": "",
+                        "discount_rate": 0.56,
+                        "food_id": 157758373,
+                        "food_rate": "5人好评",
+                        "icon_name": "特",
+                        "id": 157758373,
+                        "image_path": "f70d0614c45a7af9688a599d5fd8905djpeg",
+                        "is_new": false,
+                        "month_sales": 18,
+                        "name": "虫草花乌鸡汤（整只）",
+                        "original_price": 158,
+                        "packing_fee": 1,
+                        "price": 88,
+                        "restaurant_id": 1778747,
+                        "restaurant_name": "酸菜鱼回来了",
+                        "satisfy_count": 5,
+                        "satisfy_rate": 100,
+                        "sku_id": "13201419283",
+                        "stock": 9849
+                    }
+                ]
+            },
+            {
+                "foods": [
+                    {
+                        "activities": [
+                            {
+                                "background": {
+                                    "rgb_from": "FF822D",
+                                    "rgb_to": "FF2A00"
+                                },
+                                "description": "7折",
+                                "icon_color": "F07373",
+                                "icon_name": "折",
+                                "id": 0,
+                                "name": "立减优惠",
+                                "tips": "7折"
+                            }
+                        ],
+                        "category_id": 515612314,
+                        "discount_activity": "",
+                        "discount_rate": 0.7,
+                        "food_id": 630536121,
+                        "food_rate": "0人好评",
+                        "icon_name": "特",
+                        "id": 630536121,
+                        "image_path": "b5f15b56c38e520ad9c9f218d0250fe8jpeg",
+                        "is_new": false,
+                        "month_sales": 1,
+                        "name": "金枕头榴莲披萨",
+                        "original_price": 78,
+                        "packing_fee": 1,
+                        "price": 54.6,
+                        "restaurant_id": 155127194,
+                        "restaurant_name": "皇城夜宵",
+                        "satisfy_count": 0,
+                        "satisfy_rate": 0,
+                        "sku_id": "246028988135",
+                        "stock": 9998
+                    }
+                ]
+            }
+        ],
+        "rank_id": "5af907b4b57e4058bbea01e8f655b40e",
+        "rules": " ",
+        "tabs": [
+            {
+                "name": "全部",
+                "params": {
+                    "flavor_type": "1"
+                }
+            },
+            {
+                "name": "大牌特惠",
+                "params": {
+                    "flavor_type": "2"
+                }
+            },
+            {
+                "name": "下午茶不贵",
+                "params": {
+                    "flavor_type": "3"
+                }
+            },
+            {
+                "name": "商超百货",
+                "params": {
+                    "flavor_type": "4"
+                }
+            },
+            {
+                "name": "水果生鲜",
+                "params": {
+                    "flavor_type": "5"
+                }
+            },
+            {
+                "name": "鲜花蛋糕",
+                "params": {
+                    "flavor_type": "6"
+                }
+            }
+        ]
+    }
+}
