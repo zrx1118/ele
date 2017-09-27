@@ -4,6 +4,7 @@
     <!-- <list></list> -->
     <more></more>
     <foot></foot>
+    <router-view></router-view>
   </div>
 </template>
 
