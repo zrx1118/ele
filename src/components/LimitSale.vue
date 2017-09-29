@@ -93,37 +93,37 @@ export default {
         limitType(num){
             this.type=num;
             return this.type;
-            // console.log(num);
         }
     },
     computed:{
-        typeNum(){
-            console.log(this.$route.params);
-            // for (var item of this.limit) {
-            //     if (this.$route.params.type == item.type) {
-            //         return item;
-            //     }
-            // }
-        },
-        progressNum(a){
-            return a.stoke/a.process_stock;
-        }
+        // typeNum(){
+        //     var typeArr=[];
+        //     for(var item of this.limit){
+        //         if(typeArr.indexOf(item.type)==-1){
+        //             typeArr.push(item.type);
+        //         }
+        //     }
+        //     return typeArr;
+        // },
+        // progressNum(a){
+        //     return a.stoke/a.process_stock;
+        // }
     },
     created(){
         this.$http.get(this.url).then(res=>{
             console.log(res.data);
-            this.limit=res.data[this.type].foods[0].foods;
-        },err=>{
-            console.log(err);
-        })
-    },
-    updated(){
-        this.$http.get(this.url).then(res=>{
-            this.limit=res.data[this.type].foods;
+            // this.limit=res.data;
         },err=>{
             console.log(err);
         })
     }
+    // updated(){
+    //     this.$http.get(this.url).then(res=>{
+    //         this.limit=res.data[this.type].foods;
+    //     },err=>{
+    //         console.log(err);
+    //     })
+    // }
 }
 </script>
     
@@ -254,7 +254,7 @@ section{
 }
 .list_dev_num>p>span{
     display: block;
-    width: 50%;
+    width: 50%
     height: 100%;
     border-radius: .04rem;
     background-color: #ff3618;
