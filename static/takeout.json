@@ -15,8 +15,9 @@
                 "content": "销量最高，好评最多",
                 "info": "TOP 100 >",
                 "imghash": "dd416ff085900d62b8d60fa7e9c6b65dpng",
+                "class":"hot",
                 "bigImghash": "eeedf43e7e53f6e1346c3fda0609f1d3png",
-                "url": "/ranking/#banner=&restaurant_category_ids=None&type=hot_sale_combo&title=&from=h5"
+                "url": "https://h5.ele.me/ranking/#banner=&restaurant_category_ids=None&type=hot_sale_combo&title=&from=h5&geohash=wx4g0bmjetr7"
             }
         ],
         "bottom": [
@@ -898,103 +899,6 @@
                 "icon_name": "保",
                 "id": 7,
                 "name": "外卖保"
-            }
-        ],
-        "type": 0
-    },
-    {
-        "activities": [
-            {
-                "attribute": "{\"40\": {\"1\": 21.0, \"0\": 0}, \"79\": {\"1\": 40.0, \"0\": 0}, \"100\": {\"1\": 55.0, \"0\": 0}, \"30\": {\"1\": 18.0, \"0\": 0}, \"55\": {\"1\": 32.0, \"0\": 0}}",
-                "description": "满30减18，满40减21，满55减32，满79减40，满100减55",
-                "icon_color": "f07373",
-                "icon_name": "减",
-                "id": 103707866,
-                "is_exclusive_with_food_activity": true,
-                "name": "满减",
-                "tips": "满30减18，满40减21，满55减32，满79减40，满100减55",
-                "type": 102
-            },
-            {
-                "description": "优惠",
-                "icon_color": "f07373",
-                "icon_name": "特",
-                "id": 102142602,
-                "name": "优惠",
-                "tips": "优惠"
-            }
-        ],
-        "address": "北京市东城区广渠门内大街90-8号地下一层西半侧",
-        "authentic_id": 3331685480150528,
-        "delivery_mode": {
-            "color": "2395FF",
-            "gradient": {
-                "rgb_from": "00AAFF",
-                "rgb_to": "0085FF"
-            },
-            "id": 1,
-            "is_solid": true,
-            "text": "蜂鸟专送"
-        },
-        "description": "",
-        "distance": 1800,
-        "favored": false,
-        "float_delivery_fee": 5,
-        "float_minimum_order_amount": 20,
-        "id": 157716928,
-        "image_path": "613cc72decfb7b538d115c67df9e806fpng",
-        "is_new": true,
-        "is_premium": false,
-        "is_stock_empty": 0,
-        "is_valid": 1,
-        "latitude": 39.89277,
-        "longitude": 116.421463,
-        "max_applied_quantity_per_order": -1,
-        "name": "黑椒先生牛排扒饭",
-        "next_business_time": "",
-        "only_use_poi": false,
-        "opening_hours": [
-            "09:30/21:00"
-        ],
-        "order_lead_time": 28,
-        "phone": "13552702771",
-        "piecewise_agent_fee": {
-            "description": "配送费¥5",
-            "extra_fee": 0,
-            "is_extra": false,
-            "rules": [
-                {
-                    "fee": 5,
-                    "price": 20
-                }
-            ],
-            "tips": "配送费¥5"
-        },
-        "promotion_info": "",
-        "rating": 4.9,
-        "rating_count": 0,
-        "recent_order_num": 153,
-        "recommend": {
-            "image_hash": "731111f3f9379e772eedf4855beae8a1jpeg",
-            "is_ad": false,
-            "track": "{\"rankType\":\"6\"}"
-        },
-        "regular_customer_count": 0,
-        "status": 1,
-        "supports": [
-            {
-                "description": "已加入“外卖保”计划，食品安全有保障",
-                "icon_color": "999999",
-                "icon_name": "保",
-                "id": 7,
-                "name": "外卖保"
-            },
-            {
-                "description": "该商家支持开发票，开票订单金额100.0元起，请在下单时填写好发票抬头",
-                "icon_color": "999999",
-                "icon_name": "票",
-                "id": 4,
-                "name": "开发票"
             }
         ],
         "type": 0
@@ -2315,6 +2219,1926 @@
         ],
         "type": 0
     }
+    ],
+    "medicine":[
+        {"activities": [
+            {
+                "attribute": "{\"49\": {\"1\": 15.0, \"0\": 0}, \"99\": {\"1\": 20.0, \"0\": 0}, \"69\": {\"1\": 18.0, \"0\": 0}}",
+                "description": "满49减15，满69减18，满99减20",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 99810090,
+                "is_exclusive_with_food_activity": false,
+                "name": "满49-15 69-18 99-20",
+                "tips": "满49减15，满69减18，满99减20",
+                "type": 102
+            },
+            {
+                "description": "8折专享",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 99803858,
+                "name": "8折专享",
+                "tips": "8折专享"
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            },
+            {
+                "description": "5折专享",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 99784298,
+                "name": "5折专享",
+                "tips": "5折专享"
+            },
+            {
+                "description": "9折",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72291002,
+                "name": "9折",
+                "tips": "9折"
+            },
+            {
+                "description": "8折特惠",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72292386,
+                "name": "8折特惠",
+                "tips": "8折特惠"
+            }
+        ],
+        "address": "北京市东城区东四南大街157号-6",
+        "authentic_id": 7391605730328103,
+        "description": "公司一直以大众百姓身体健康为己任，以质优价廉真诚服务为载体。遵循“以人为本，以质取信，低价经营，诚信服务的企业宗旨。以”您的健康是我们最大的心愿，您的认可是我们最大的荣耀“为经营理念，以”真情无处不在，服务永无止境“为服务宗旨，为大众百姓健康尽心竭力。",
+        "distance": 1651,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 5,
+        "id": 150113803,
+        "image_path": "0460a9e5f613988c6d4d9c7cf384c5cepng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.917354899606,
+        "longitude": 116.41729563044,
+        "max_applied_quantity_per_order": -1,
+        "name": "叮当快药(北京市灯市口站)",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/23:55"
+        ],
+        "order_lead_time": 36,
+        "phone": "95028",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 5
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "专业客服及药师为你7X24小时服务，快速送达，药师电话95028。",
+        "rating": 4.8,
+        "rating_count": 0,
+        "recent_order_num": 763,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "description": "大胆爱，杜蕾斯特价5元",
+                "icon_color": "f1884f",
+                "icon_name": "特",
+                "id": 99753434,
+                "name": "大胆爱，杜蕾斯特价5元",
+                "tips": "大胆爱，杜蕾斯特价5元"
+            },
+            {
+                "description": "消糜栓特价5元抢",
+                "icon_color": "f1884f",
+                "icon_name": "特",
+                "id": 99753002,
+                "name": "消糜栓特价5元抢",
+                "tips": "消糜栓特价5元抢"
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            },
+            {
+                "description": "【防霾专享】医用护理口罩5折",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 74900537,
+                "name": "【防霾专享】医用护理口罩5折",
+                "tips": "【防霾专享】医用护理口罩5折"
+            },
+            {
+                "description": "【特价】关爱女性，金毓婷19.8元",
+                "icon_color": "f1884f",
+                "icon_name": "特",
+                "id": 74880049,
+                "name": "【特价】关爱女性，金毓婷19.8元",
+                "tips": "【特价】关爱女性，金毓婷19.8元"
+            },
+            {
+                "description": "【7折】关爱家庭，关爱自己",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72584554,
+                "name": "【7折】关爱家庭，关爱自己",
+                "tips": "【7折】关爱家庭，关爱自己"
+            },
+            {
+                "description": "【8折】家中常备药",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72575074,
+                "name": "【8折】家中常备药",
+                "tips": "【8折】家中常备药"
+            }
+        ],
+        "address": "北京市密云区经济开发区西统路49号",
+        "authentic_id": 4371695724561352,
+        "description": "",
+        "distance": 2589,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 3,
+        "id": 150994052,
+        "image_path": "87bf1af746e292f8faf5a860eb506a6bpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.92746,
+        "longitude": 116.413549,
+        "max_applied_quantity_per_order": -1,
+        "name": "快方送药（东城店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 30,
+        "phone": "01080455099",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 3
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "",
+        "rating": 4.8,
+        "rating_count": 0,
+        "recent_order_num": 580,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [
+            {
+                "description": "该商家支持开发票，开票订单金额20.0元起，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"49\": {\"1\": 15.0, \"0\": 0}, \"99\": {\"1\": 20.0, \"0\": 0}, \"69\": {\"1\": 18.0, \"0\": 0}}",
+                "description": "满49减15，满69减18，满99减20",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 99810090,
+                "is_exclusive_with_food_activity": false,
+                "name": "满49-15 69-18 99-20",
+                "tips": "满49减15，满69减18，满99减20",
+                "type": 102
+            },
+            {
+                "description": "8折专享",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 99803858,
+                "name": "8折专享",
+                "tips": "8折专享"
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            },
+            {
+                "description": "5折专享",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 99784298,
+                "name": "5折专享",
+                "tips": "5折专享"
+            },
+            {
+                "description": "9折",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72291002,
+                "name": "9折",
+                "tips": "9折"
+            },
+            {
+                "description": "8折特惠",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72292386,
+                "name": "8折特惠",
+                "tips": "8折特惠"
+            }
+        ],
+        "address": "北京市丰台区马家堡西路角门西里29号",
+        "authentic_id": 7341605714746438,
+        "description": "公司一直以大众百姓身体健康为己任，以质优价廉真诚服务为载体。遵循“以人为本，以质取信，低价经营，诚信服务的企业宗旨。以”您的健康是我们最大的心愿，您的认可是我们最大的荣耀“为经营理念，以”真情无处不在，服务永无止境“为服务宗旨，为大众百姓健康尽心竭力。",
+        "distance": 1651,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 5,
+        "id": 152174438,
+        "image_path": "b3f3c1e3e960182fd593277a17dd6650jpeg",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.917354899606,
+        "longitude": 116.41729563044,
+        "max_applied_quantity_per_order": -1,
+        "name": "叮当智慧(北京市灯市口站)",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/23:55"
+        ],
+        "order_lead_time": 35,
+        "phone": "95028",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 5
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "专业客服及药师为你7X24小时服务，快速送达，药师电话95028。",
+        "rating": 4.8,
+        "rating_count": 0,
+        "recent_order_num": 92,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"200\": {\"1\": 15.0, \"0\": 0.0}, \"50\": {\"1\": 5.0, \"0\": 0.0}}",
+                "description": "满50减5，满200减15",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 87618985,
+                "is_exclusive_with_food_activity": true,
+                "name": "1231",
+                "tips": "满50减5，满200减15",
+                "type": 102
+            },
+            {
+                "attribute": "3.0",
+                "description": "本店新用户立减3元",
+                "icon_color": "00b762",
+                "icon_name": "新",
+                "id": 81325313,
+                "is_exclusive_with_food_activity": true,
+                "name": "门店新客立减",
+                "tips": "本店新用户立减3元",
+                "type": 108
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            },
+            {
+                "description": "正品行货保证，批发档口直发",
+                "icon_color": "f1884f",
+                "icon_name": "特",
+                "id": 81325265,
+                "name": "正品行货保证，批发档口直发",
+                "tips": "正品行货保证，批发档口直发"
+            },
+            {
+                "description": "情趣外卖品牌的力量",
+                "icon_color": "f1884f",
+                "icon_name": "特",
+                "id": 81324145,
+                "name": "情趣外卖品牌的力量",
+                "tips": "情趣外卖品牌的力量"
+            },
+            {
+                "attribute": "{\"299.0\": {\"quantity\": 1, \"must_pay_online\": 1, \"name\": \"\\u96f7\\u970660ml\\u82a6\\u835f\\u6da6\\u6ed1\\u6db2\"}}",
+                "description": "满299.0元赠送雷霆60ml芦荟润滑液1份",
+                "icon_color": "3cc791",
+                "icon_name": "赠",
+                "id": 70254826,
+                "is_exclusive_with_food_activity": true,
+                "name": "雷霆飞机杯送雷霆肌感润滑液",
+                "tips": "满299.0元赠送雷霆60ml芦荟润滑液1份",
+                "type": 106
+            }
+        ],
+        "address": "北京市丰台区西四环中路77号地下一层阳光康城保健品市场026号",
+        "authentic_id": 5321685723836522,
+        "description": "情趣外卖，一款专注于情趣用品及时配送平台。由90后退伍军人创建，更好的保证客户隐私，提升配送服务，监控产品质量。您有任何问题都可以联系客服小朋友，希望给您带来更好的购物体验。\n售后WX：18631937670",
+        "distance": 11546,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 0,
+        "id": 155105022,
+        "image_path": "a0f28b0d7955668e44cec31305ae542apng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.8935,
+        "longitude": 116.27261,
+        "max_applied_quantity_per_order": -1,
+        "name": "情趣外卖(丰台店)",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 36,
+        "phone": "15101529912 18631937670 15132488812",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 0
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "情趣外卖、专注于情趣用品及时配送平台。",
+        "rating": 4.9,
+        "rating_count": 0,
+        "recent_order_num": 95,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"288\": {\"1\": 25.0, \"0\": 0.0}, \"388\": {\"1\": 35.0, \"0\": 0.0}, \"188\": {\"1\": 15.0, \"0\": 0.0}}",
+                "description": "满188减15，满288减25，满388减35",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 86933305,
+                "is_exclusive_with_food_activity": true,
+                "name": "夜未央满减活动",
+                "tips": "满188减15，满288减25，满388减35",
+                "type": 102
+            },
+            {
+                "description": "夜未央一全程保密配送，解除您的任何担忧",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 98860602,
+                "name": "夜未央一全程保密配送，解除您的任何担忧",
+                "tips": "夜未央一全程保密配送，解除您的任何担忧"
+            },
+            {
+                "attribute": "25.0",
+                "description": "新用户下单立减25元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 41441947,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减25元",
+                "type": 103
+            },
+            {
+                "attribute": "5.0",
+                "description": "本店新用户立减5元",
+                "icon_color": "00b762",
+                "icon_name": "新",
+                "id": 93665009,
+                "is_exclusive_with_food_activity": true,
+                "name": "门店新客立减",
+                "tips": "本店新用户立减5元",
+                "type": 108
+            },
+            {
+                "description": "夜未央——急您所需，供您所求 欢迎进店选购！",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 72196602,
+                "name": "夜未央——急您所需，供您所求 欢迎进店选购！",
+                "tips": "夜未央——急您所需，供您所求 欢迎进店选购！"
+            },
+            {
+                "description": "夜未央激情优惠回馈，欢迎进店选购",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 46033809,
+                "name": "夜未央激情优惠回馈，欢迎进店选购",
+                "tips": "夜未央激情优惠回馈，欢迎进店选购"
+            },
+            {
+                "attribute": "{\"1.0\": {\"quantity\": 1, \"must_pay_online\": 1, \"name\": \"\\u6da6\\u6ed1\\u5242\\uff0c\\u907f\\u5b55\\u5957\"}}",
+                "description": "满1.0元赠送润滑剂，避孕套1份",
+                "icon_color": "3cc791",
+                "icon_name": "赠",
+                "id": 41920104,
+                "is_exclusive_with_food_activity": true,
+                "name": "夜未央回馈礼包",
+                "tips": "满1.0元赠送润滑剂，避孕套1份",
+                "type": 106
+            }
+        ],
+        "address": "北京市大兴区北藏村镇大藏村大荣路45号",
+        "authentic_id": 8371685721484283,
+        "description": "男女之间的性生活质量要有所保障，才能保持感情或婚姻关系稳定，适当利用情趣用品可以让生活多姿多彩。夜未央一家专卖情趣用品店！—— 多点情趣，让性生活更丰富！\n      夜未央 —— 急您所需，供您所求！祝您生活愉快！",
+        "distance": 27966,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 50,
+        "id": 2031883,
+        "image_path": "b3def50004de826f522b041468ca8d96jpeg",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.66464,
+        "longitude": 116.309492,
+        "max_applied_quantity_per_order": -1,
+        "name": "夜未央情趣生活馆   (北京店)",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 45,
+        "phone": "13070151412",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 50
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "下单立即送，礼品多多 \n本店：丰台区，朝阳区，海淀区，昌平区，大兴区 都有配送站点，就近发货。全城保密配送，解除您的任何担忧！\n 夜未央一家专卖情趣用品店——全城1小时极速到达！急您所需，供您所求！\n  适当利用情趣用品可以让生活多姿多彩。多点情趣，让性生活更丰富！祝您生活愉快！",
+        "rating": 3.9,
+        "rating_count": 0,
+        "recent_order_num": 86,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [
+            {
+                "description": "该商家支持开发票，开票订单金额300.0元起，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"500\": {\"1\": 60.0, \"0\": 0.0}, \"100\": {\"1\": 10.0, \"0\": 0.0}}",
+                "description": "满100减10，满500减60",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 72735946,
+                "is_exclusive_with_food_activity": true,
+                "name": "满减",
+                "tips": "满100减10，满500减60",
+                "type": 102
+            },
+            {
+                "description": "开业大吉",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 104089506,
+                "name": "开业大吉",
+                "tips": "开业大吉"
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 106681874,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户下单立减20",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            },
+            {
+                "description": "开业大吉",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 104088034,
+                "name": "开业大吉",
+                "tips": "开业大吉"
+            },
+            {
+                "description": "开业大吉",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 99382106,
+                "name": "开业大吉",
+                "tips": "开业大吉"
+            },
+            {
+                "description": "开业大吉",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 85128153,
+                "name": "开业大吉",
+                "tips": "开业大吉"
+            },
+            {
+                "description": "开业大吉",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 85126881,
+                "name": "开业大吉",
+                "tips": "开业大吉"
+            },
+            {
+                "attribute": "{\"100.0\": {\"quantity\": 1, \"must_pay_online\": 1, \"name\": \"\\u82b1\\u8349\\u8336\"}}",
+                "description": "满100.0元赠送花草茶1份",
+                "icon_color": "3cc791",
+                "icon_name": "赠",
+                "id": 72736242,
+                "is_exclusive_with_food_activity": true,
+                "name": "满增",
+                "tips": "满100.0元赠送花草茶1份",
+                "type": 106
+            }
+        ],
+        "address": "北京市朝阳区延静西里10号楼1层165号",
+        "authentic_id": 7311655716782468,
+        "description": "",
+        "distance": 6660,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 0,
+        "id": 157189868,
+        "image_path": "021e3f29db070cf420f2ea32f10b3560png",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.920526,
+        "longitude": 116.482489,
+        "max_applied_quantity_per_order": -1,
+        "name": "排毒减脂轻食代餐",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 37,
+        "phone": "13011026728",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 0
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "",
+        "rating": 4.6,
+        "rating_count": 0,
+        "recent_order_num": 27,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "description": "医药九折鲜惠购",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 103456210,
+                "name": "医药九折鲜惠购",
+                "tips": "医药九折鲜惠购"
+            },
+            {
+                "description": "111康药85折",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72578634,
+                "name": "111康药85折",
+                "tips": "111康药85折"
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 89199361,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减20",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            },
+            {
+                "description": "111健康9折",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 72572282,
+                "name": "111健康9折",
+                "tips": "111健康9折"
+            }
+        ],
+        "address": "北京市朝阳区利泽中一路1号5层办公A502",
+        "authentic_id": 3311645728179874,
+        "description": "111医药馆隶属于德生堂集团旗下，是国内领先的医药零售企业。业务涵盖医药批发、医药零售、医疗服务、互联网B2B、B2C、O2O、远程医疗、连锁加盟等多个领域。送药到家是111医药馆开展的便民服务。",
+        "distance": 13619,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 0,
+        "id": 157253374,
+        "image_path": "7b286d7641b1831d405679d15efeda96png",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.916339,
+        "longitude": 116.248215,
+        "max_applied_quantity_per_order": -1,
+        "name": "111医药馆（玉泉路分店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 45,
+        "phone": "4006063111",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 0
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "《公告》：亲下单之后使用普通快递派送同城大概1到2天可以收到！亲下单之后使用普通快递派送同城大概1到2天可以收到！亲下单之后使用普通快递派送同城大概1到2天可以收到！",
+        "rating": 3.7,
+        "rating_count": 0,
+        "recent_order_num": 348,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [
+            {
+                "description": "该商家支持开发票，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "高新区瑞达综合批发中心门市区A9号",
+        "authentic_id": 8351605719417449,
+        "description": "桔色20年，在全国拥有850家店铺，最理解成人之欢，被海外品牌评价为无可替代。\n桔色选择欧盟标准的成人用品，拒绝重金属超标带来的危害，为消费者创造放心的欢愉仙境！",
+        "distance": 1646,
+        "favored": false,
+        "float_delivery_fee": 5,
+        "float_minimum_order_amount": 29,
+        "folding_restaurant_brand": "桔色成人",
+        "folding_restaurants": [
+            {
+                "distance": 2708,
+                "id": 156699933,
+                "name": "桔色成人（8833店）",
+                "order_lead_time": 0,
+                "type": 0
+            }
+        ],
+        "id": 156699949,
+        "image_path": "3f28cbdf61d19814fa426036425e0200png",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.898731,
+        "longitude": 116.424841,
+        "max_applied_quantity_per_order": -1,
+        "name": "桔色成人（1833店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "10:00/23:30"
+        ],
+        "order_lead_time": 0,
+        "phone": "18210173391",
+        "piecewise_agent_fee": {
+            "description": "配送费¥5",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 5,
+                    "price": 29
+                }
+            ],
+            "tips": "配送费¥5"
+        },
+        "promotion_info": "850家店遍布大江南北，20年诚信经营。优质成人用品品牌尽收麾下，专为品质用户甄选。100%保护用户隐私。选择桔色，选择放心！",
+        "rating": 0,
+        "rating_count": 0,
+        "recent_order_num": 0,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"90\": {\"1\": 5.0, \"0\": 0.0}, \"399\": {\"1\": 35.0, \"0\": 0.0}, \"199\": {\"1\": 20.0, \"0\": 0.0}}",
+                "description": "满90减5，满199减20，满399减35",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 70040338,
+                "is_exclusive_with_food_activity": false,
+                "name": "相约浪漫之夏",
+                "tips": "满90减5，满199减20，满399减35",
+                "type": 102
+            },
+            {
+                "attribute": "8.0",
+                "description": "本店新用户立减8元",
+                "icon_color": "00b762",
+                "icon_name": "新",
+                "id": 88592505,
+                "is_exclusive_with_food_activity": true,
+                "name": "门店新客立减",
+                "tips": "本店新用户立减8元",
+                "type": 108
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            },
+            {
+                "attribute": "{\"199.0\": {\"quantity\": 1, \"must_pay_online\": 1, \"name\": \"\\u4ef7\\u503c50\\u6da6\\u6ed1\\u5242\\u548c\\u5957\\u5957\\u5927\\u793c\\u5305\\u4e00\\u4efd\"}}",
+                "description": "满199.0元赠送价值50润滑剂和套套大礼包一份1份",
+                "icon_color": "3cc791",
+                "icon_name": "赠",
+                "id": 41937547,
+                "is_exclusive_with_food_activity": true,
+                "name": "爱团爱 爱不完",
+                "tips": "满199.0元赠送价值50润滑剂和套套大礼包一份1份",
+                "type": 106
+            },
+            {
+                "description": "为爱而战",
+                "icon_color": "f07373",
+                "icon_name": "特",
+                "id": 41937507,
+                "name": "为爱而战",
+                "tips": "为爱而战"
+            }
+        ],
+        "address": "北京市昌平区回龙观镇西大街9号院5号楼16层2单元1902室",
+        "authentic_id": 1391615732606307,
+        "description": "爱团爱一直致力于打造高端的服务和高品质产品，同时解决男女之间情趣话题，让您的情趣生活不再单调！\n    1.7x24小时客服服务。\n    2.营业时间：大部分城市7x24小时 \n    3.全城1小时急速到达，偏远地区1－3小时\n      爱团爱——做您所爱，想您所爱",
+        "distance": 20432,
+        "favored": false,
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 0,
+        "id": 154891507,
+        "image_path": "675fb0ffa78d82c70ff1aafcb6d02cfdpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 40.07843,
+        "longitude": 116.32908,
+        "max_applied_quantity_per_order": -1,
+        "name": "爱团爱主题情趣店（北京店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 30,
+        "phone": "13552167507",
+        "piecewise_agent_fee": {
+            "description": "免配送费",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 0,
+                    "price": 0
+                }
+            ],
+            "tips": "免配送费"
+        },
+        "promotion_info": "下单立即送！礼品多多，欢迎选购！全程发货语：急需化妆品，免除您收货任何尴尬！丰台区，朝阳区，海淀区，昌平区均有分店，就近发货！",
+        "rating": 4.6,
+        "rating_count": 0,
+        "recent_order_num": 62,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [
+            {
+                "description": "该商家支持开发票，开票订单金额300.0元起，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"199\": {\"1\": 20.0, \"0\": 0}}",
+                "description": "满199减20",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 85963201,
+                "is_exclusive_with_food_activity": false,
+                "name": "啪啪199减20",
+                "tips": "满199减20",
+                "type": 102
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市大兴区金星西路5号及5号院4号楼8层3单元903",
+        "authentic_id": 6331665731079061,
+        "description": "啪啪成人用品体验店致力打造高端线上线下情趣用品体验，隐私服务，贴心满足各种需求。",
+        "distance": 16787,
+        "favored": false,
+        "float_delivery_fee": 20,
+        "float_minimum_order_amount": 0,
+        "id": 152159961,
+        "image_path": "f710df77e793f992c4e0e7de819ab68cjpeg",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.764943,
+        "longitude": 116.33279,
+        "max_applied_quantity_per_order": -1,
+        "name": "啪啪成人情趣用品（大兴店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 0,
+        "phone": "13261714432",
+        "piecewise_agent_fee": {
+            "description": "配送费¥20",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 20,
+                    "price": 0
+                }
+            ],
+            "tips": "配送费¥20"
+        },
+        "promotion_info": "同城1小时送达，7x24小时营业。\n正品低价，保证隐私，实时送达",
+        "rating": 4,
+        "rating_count": 0,
+        "recent_order_num": 33,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"199\": {\"1\": 20.0, \"0\": 0}}",
+                "description": "满199减20",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 85963201,
+                "is_exclusive_with_food_activity": false,
+                "name": "啪啪199减20",
+                "tips": "满199减20",
+                "type": 102
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市大兴区金星西路5号及5号院4号楼8层3单元903",
+        "authentic_id": 7321665721346221,
+        "description": "啪啪成人用品体验店致力打造高端线上线下情趣用品体验，隐私服务，贴心满足各种需求。",
+        "distance": 18493,
+        "favored": false,
+        "float_delivery_fee": 20,
+        "float_minimum_order_amount": 0,
+        "id": 155837321,
+        "image_path": "3dacb51bbab72565dbff53cdf127d9b4png",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 40.070997,
+        "longitude": 116.409347,
+        "max_applied_quantity_per_order": -1,
+        "name": "啪啪成人情趣用品（立水桥店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "00:00/24:00"
+        ],
+        "order_lead_time": 42,
+        "phone": "13261714432",
+        "piecewise_agent_fee": {
+            "description": "配送费¥20",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 20,
+                    "price": 0
+                }
+            ],
+            "tips": "配送费¥20"
+        },
+        "promotion_info": "同城1小时送达，7x24小时营业。 正品低价，保证隐私，实时送达",
+        "rating": 4.7,
+        "rating_count": 0,
+        "recent_order_num": 43,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市海淀区成府路蓝旗营2号楼一层102号",
+        "authentic_id": 4311675715217497,
+        "description": "桔色20年，在全国拥有850家店铺，最理解成人之欢，被海外品牌评价为无可替代。\n桔色选择欧盟标准的成人用品，拒绝重金属超标带来的危害，为消费者创造放心的欢愉仙境！",
+        "distance": 12152,
+        "favored": false,
+        "float_delivery_fee": 15,
+        "float_minimum_order_amount": 0,
+        "id": 150148697,
+        "image_path": "3a448d1a2e2074985e771947138f460fpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.994141,
+        "longitude": 116.325272,
+        "max_applied_quantity_per_order": -1,
+        "name": "桔色成人（北京店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "10:00/23:30"
+        ],
+        "order_lead_time": 0,
+        "phone": "4008118800",
+        "piecewise_agent_fee": {
+            "description": "配送费¥15",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 15,
+                    "price": 0
+                }
+            ],
+            "tips": "配送费¥15"
+        },
+        "promotion_info": "850家店遍布大江南北，20年诚信经营。优质成人用品品牌尽收麾下，专为品质用户甄选。100%保护用户隐私。选择桔色，选择放心！",
+        "rating": 4,
+        "rating_count": 0,
+        "recent_order_num": 39,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 1,
+        "supports": [],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"49\": {\"1\": 10.0, \"0\": 0}, \"68\": {\"1\": 15.0, \"0\": 0}}",
+                "description": "满49减10，满68减15",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 87811649,
+                "is_exclusive_with_food_activity": false,
+                "name": "百康满减",
+                "tips": "满49减10，满68减15",
+                "type": 102
+            },
+            {
+                "description": "百康九折",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 87800273,
+                "name": "百康九折",
+                "tips": "百康九折"
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市通州区中关村科技园区通州园金桥科技产业基地景盛南四街17号107号楼",
+        "authentic_id": 8391625719727163,
+        "closing_count_down": 0,
+        "delivery_mode": {
+            "color": "2395FF",
+            "gradient": {
+                "rgb_from": "00AAFF",
+                "rgb_to": "0085FF"
+            },
+            "id": 1,
+            "is_solid": true,
+            "text": "蜂鸟专送"
+        },
+        "description": "",
+        "distance": 1566,
+        "favored": false,
+        "float_delivery_fee": 12,
+        "float_minimum_order_amount": 0,
+        "id": 150122363,
+        "image_path": "0d5cffe9298c91956939d56d1591c028jpeg",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.89112,
+        "longitude": 116.402248,
+        "max_applied_quantity_per_order": -1,
+        "name": "百康药房（珠市口店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "10:00/21:00"
+        ],
+        "order_lead_time": 25,
+        "phone": "67071068",
+        "piecewise_agent_fee": {
+            "description": "购物车满100配送费3元，20至100付8元，不满20付12元",
+            "extra_fee": 3,
+            "is_extra": true,
+            "rules": [
+                {
+                    "fee": 12,
+                    "price": 0
+                },
+                {
+                    "fee": 8,
+                    "price": 20
+                },
+                {
+                    "fee": 3,
+                    "price": 100
+                }
+            ],
+            "tips": "配送费约¥8"
+        },
+        "promotion_info": "原福瑞宏达大药房",
+        "rating": 4.8,
+        "rating_count": 0,
+        "recent_order_num": 46,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 4,
+        "supports": [
+            {
+                "description": "已加入“外卖保”计划，食品安全有保障",
+                "icon_color": "999999",
+                "icon_name": "保",
+                "id": 7,
+                "name": "外卖保"
+            },
+            {
+                "description": "该商家支持开发票，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "{\"49\": {\"1\": 10.0, \"0\": 0}, \"68\": {\"1\": 15.0, \"0\": 0}}",
+                "description": "满49减10，满68减15",
+                "icon_color": "f07373",
+                "icon_name": "减",
+                "id": 87811649,
+                "is_exclusive_with_food_activity": false,
+                "name": "百康满减",
+                "tips": "满49减10，满68减15",
+                "type": 102
+            },
+            {
+                "description": "百康九折",
+                "icon_color": "f07373",
+                "icon_name": "折",
+                "id": 87800273,
+                "name": "百康九折",
+                "tips": "百康九折"
+            },
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840599,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市通州区中关村科技园区通州园金桥科技产业基地景盛南四街17号107号楼",
+        "authentic_id": 4311625719727145,
+        "closing_count_down": 0,
+        "delivery_mode": {
+            "color": "2395FF",
+            "gradient": {
+                "rgb_from": "00AAFF",
+                "rgb_to": "0085FF"
+            },
+            "id": 1,
+            "is_solid": true,
+            "text": "蜂鸟专送"
+        },
+        "description": "",
+        "distance": 1375,
+        "favored": false,
+        "float_delivery_fee": 12,
+        "float_minimum_order_amount": 0,
+        "id": 150122345,
+        "image_path": "15d4fdd21685dde6d5d35e37aa09f4c6png",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.899815,
+        "longitude": 116.392356,
+        "max_applied_quantity_per_order": -1,
+        "name": "百康药房（前门店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "10:00/21:00"
+        ],
+        "order_lead_time": 24,
+        "phone": "1059490591",
+        "piecewise_agent_fee": {
+            "description": "购物车满100配送费3元，20至100付8元，不满20付12元",
+            "extra_fee": 3,
+            "is_extra": true,
+            "rules": [
+                {
+                    "fee": 12,
+                    "price": 0
+                },
+                {
+                    "fee": 8,
+                    "price": 20
+                },
+                {
+                    "fee": 3,
+                    "price": 100
+                }
+            ],
+            "tips": "配送费约¥8"
+        },
+        "promotion_info": "原福瑞宏达大药房",
+        "rating": 4.9,
+        "rating_count": 0,
+        "recent_order_num": 35,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 4,
+        "supports": [
+            {
+                "description": "已加入“外卖保”计划，食品安全有保障",
+                "icon_color": "999999",
+                "icon_name": "保",
+                "id": 7,
+                "name": "外卖保"
+            },
+            {
+                "description": "该商家支持开发票，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 39840665,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市东城区骑河楼街24号",
+        "authentic_id": 8341695733502929,
+        "closing_count_down": 0,
+        "delivery_mode": {
+            "color": "2395FF",
+            "gradient": {
+                "rgb_from": "00AAFF",
+                "rgb_to": "0085FF"
+            },
+            "id": 1,
+            "is_solid": true,
+            "text": "蜂鸟专送"
+        },
+        "description": "",
+        "distance": 1695,
+        "favored": false,
+        "float_delivery_fee": 12,
+        "float_minimum_order_amount": 0,
+        "id": 156277229,
+        "image_path": "12c925be9dff000eb877e7ca368d678dpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.919778,
+        "longitude": 116.404338,
+        "max_applied_quantity_per_order": -1,
+        "name": "嘉事堂药店（骑河楼店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "10:00/19:40"
+        ],
+        "order_lead_time": 25,
+        "phone": "18513796779 85175132",
+        "piecewise_agent_fee": {
+            "description": "购物车满100配送费3元，20至100付8元，不满20付12元",
+            "extra_fee": 3,
+            "is_extra": true,
+            "rules": [
+                {
+                    "fee": 12,
+                    "price": 0
+                },
+                {
+                    "fee": 8,
+                    "price": 20
+                },
+                {
+                    "fee": 3,
+                    "price": 100
+                }
+            ],
+            "tips": "配送费约¥8"
+        },
+        "promotion_info": "",
+        "rating": 4.4,
+        "rating_count": 0,
+        "recent_order_num": 40,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 4,
+        "supports": [
+            {
+                "description": "已加入“外卖保”计划，食品安全有保障",
+                "icon_color": "999999",
+                "icon_name": "保",
+                "id": 7,
+                "name": "外卖保"
+            },
+            {
+                "description": "该商家支持开发票，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 74277778,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户下单立减20",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市东城区隆福寺前街1号一层",
+        "authentic_id": 5341615733502984,
+        "closing_count_down": 0,
+        "delivery_mode": {
+            "color": "2395FF",
+            "gradient": {
+                "rgb_from": "00AAFF",
+                "rgb_to": "0085FF"
+            },
+            "id": 1,
+            "is_solid": true,
+            "text": "蜂鸟专送"
+        },
+        "description": "",
+        "distance": 2337,
+        "favored": false,
+        "float_delivery_fee": 13,
+        "float_minimum_order_amount": 0,
+        "id": 156805484,
+        "image_path": "b62aad1cd9c2b98ef709d0509c210881png",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.925057,
+        "longitude": 116.413963,
+        "max_applied_quantity_per_order": -1,
+        "name": "康佰馨大药房(东四店)",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "09:00/21:00"
+        ],
+        "order_lead_time": 31,
+        "phone": "84038855",
+        "piecewise_agent_fee": {
+            "description": "购物车满100配送费4元，20至100付9元，不满20付13元",
+            "extra_fee": 4,
+            "is_extra": true,
+            "rules": [
+                {
+                    "fee": 13,
+                    "price": 0
+                },
+                {
+                    "fee": 9,
+                    "price": 20
+                },
+                {
+                    "fee": 4,
+                    "price": 100
+                }
+            ],
+            "tips": "配送费约¥9"
+        },
+        "promotion_info": "康佰馨大药房为您的健康保驾护航！ 药品属特殊商品售出后无质量问题不予退货，请谅解！",
+        "rating": 5,
+        "rating_count": 0,
+        "recent_order_num": 8,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 4,
+        "supports": [
+            {
+                "description": "已加入“外卖保”计划，食品安全有保障",
+                "icon_color": "999999",
+                "icon_name": "保",
+                "id": 7,
+                "name": "外卖保"
+            },
+            {
+                "description": "该商家支持开发票，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    },
+    {
+        "activities": [
+            {
+                "attribute": "20.0",
+                "description": "新用户下单立减20元",
+                "icon_color": "70bc46",
+                "icon_name": "首",
+                "id": 89199361,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减20",
+                "tips": "新用户下单立减20元",
+                "type": 103
+            }
+        ],
+        "address": "北京市海淀区昆明湖南路11号1号楼",
+        "authentic_id": 7391615734871856,
+        "closing_count_down": 0,
+        "description": "",
+        "distance": 13025,
+        "favored": false,
+        "float_delivery_fee": 7,
+        "float_minimum_order_amount": 0,
+        "id": 157157856,
+        "image_path": "12c925be9dff000eb877e7ca368d678dpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 39.961443,
+        "longitude": 116.273536,
+        "max_applied_quantity_per_order": -1,
+        "name": "嘉事堂药店（北京店）",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "09:00/18:00"
+        ],
+        "order_lead_time": 0,
+        "phone": "18513796739 13661376575 010-53826667",
+        "piecewise_agent_fee": {
+            "description": "配送费¥7",
+            "extra_fee": 0,
+            "is_extra": false,
+            "rules": [
+                {
+                    "fee": 7,
+                    "price": 0
+                }
+            ],
+            "tips": "配送费¥7"
+        },
+        "promotion_info": "北京地区六环内，16点之前下单，次日送达。",
+        "rating": 3.5,
+        "rating_count": 0,
+        "recent_order_num": 11,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "regular_customer_count": 0,
+        "status": 4,
+        "supports": [
+            {
+                "description": "该商家支持开发票，请在下单时填写好发票抬头",
+                "icon_color": "999999",
+                "icon_name": "票",
+                "id": 4,
+                "name": "开发票"
+            }
+        ],
+        "type": 0
+    }
+    ],
+    "entries": [
+        {
+            "background": "",
+            "business_flag": 1,
+            "description": "附近美食一网打尽",
+            "description_color": "附近美食一网打尽",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 15,
+            "image_hash": "b7ed1890cf73ae6f2adb97caa39de7fcjpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu7f8e%5Cu98df%22%2C%20%22complex_category_ids%22%3A%20%5B207%2C%20220%2C%20233%2C%20260%5D%2C%20%22is_show_all_category%22%3A%20false%7D%2C%20%22restaurant_category_id%22%3A%20%5B209%2C%20211%2C%20212%2C%20213%2C%20214%2C%20215%2C%20216%2C%20217%2C%20218%2C%20219%2C%20221%2C%20222%2C%20223%2C%20224%2C%20225%2C%20226%2C%20227%2C%20228%2C%20229%2C%20230%2C%20231%2C%20232%2C%20234%2C%20235%2C%20236%2C%20237%2C%20238%2C%20263%2C%20264%2C%20265%2C%20266%2C%20267%2C%20268%2C%20269%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&banner_type=0&business_flag=1&entry_id=15&search_source=1",
+            "name": "美食",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "business_flag": 2,
+            "description": "苦了累了，来点甜的",
+            "description_color": "只想来点下午茶",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 20,
+            "image_hash": "235696aa5cf9820adada9b11a3d14bf5jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu751c%5Cu54c1%5Cu996e%5Cu54c1%22%2C%20%22complex_category_ids%22%3A%20%5B240%2C%20241%2C%20242%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B240%2C%20241%2C%20242%5D%7D&target_name=%E7%94%9C%E5%93%81%E9%A5%AE%E5%93%81&animation_type=1&banner_type=0&business_flag=2&entry_id=20&search_source=1",
+            "name": "甜品饮品",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "business_flag": 3,
+            "description": "足不出户，便利回家",
+            "description_color": "足不出户，便利回家",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 10,
+            "image_hash": "c3c0184f5b3fa72f295fc01864734218jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu5546%5Cu8d85%5Cu4fbf%5Cu5229%22%2C%20%22complex_category_ids%22%3A%20%5B254%2C%20255%2C%20256%2C%20257%2C%20258%2C%20271%2C%20272%2C%20273%2C%20274%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B254%2C%20255%2C%20256%2C%20257%2C%20258%2C%20271%2C%20272%2C%20273%2C%20274%5D%7D&target_name=%E5%95%86%E8%B6%85%E4%BE%BF%E5%88%A9&animation_type=1&banner_type=0&business_flag=3&entry_id=10&search_source=1",
+            "name": "商超便利",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "0元早餐0起送，每天都有新花样。",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 1,
+            "image_hash": "d497757ff22e8ab28e7dfa5f7e2c2692jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://web?url=https%3A//zaocan.ele.me/%3Ffrom%3Dzzicon&target_name=%E9%A2%84%E8%AE%A2%E6%97%A9%E9%A4%90&animation_type=1&banner_type=0&business_flag=0",
+            "name": "预订早餐",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "business_flag": 4,
+            "description": "一天变女神",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 8,
+            "image_hash": "cdbd20d49e5029281b9b73db1c5ec6f9jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu679c%5Cu852c%5Cu751f%5Cu9c9c%22%2C%20%22complex_category_ids%22%3A%20%5B245%2C%20246%2C%20247%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B245%2C%20246%2C%20247%5D%7D&target_name=%E6%9E%9C%E8%94%AC%E7%94%9F%E9%B2%9C&animation_type=1&banner_type=0&business_flag=4&entry_id=8&search_source=1",
+            "name": "果蔬生鲜",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "business_flag": 14,
+            "description": "大胆尝鲜，遇见惊喜",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 403297,
+            "image_hash": "afad41b04d520d445dc5de42dae9a384jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu65b0%5Cu5e97%5Cu7279%5Cu60e0%22%2C%20%22complex_category_ids%22%3A%20%5B207%2C%20220%2C%20233%2C%20239%2C%20244%2C%20248%2C%20252%2C%20260%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B209%2C%20211%2C%20212%2C%20213%2C%20214%2C%20215%2C%20216%2C%20217%2C%20218%2C%20219%2C%20221%2C%20222%2C%20223%2C%20224%2C%20225%2C%20226%2C%20227%2C%20228%2C%20229%2C%20230%2C%20231%2C%20232%2C%20234%2C%20235%2C%20236%2C%20237%2C%20238%2C%20240%2C%20241%2C%20242%2C%20245%2C%20246%2C%20247%2C%20249%2C%20250%2C%20254%2C%20255%2C%20256%2C%20257%2C%20258%2C%20263%2C%20264%2C%20265%2C%20266%2C%20267%2C%20268%2C%20269%2C%20270%2C%20271%2C%20272%2C%20273%2C%20274%5D%2C%20%22specified_attributes%22%3A%20%5B-1%5D%2C%20%22support_ids%22%3A%20%5B-1%5D%7D&target_name=%E6%96%B0%E5%BA%97%E7%89%B9%E6%83%A0&animation_type=1&banner_type=0&business_flag=14&entry_id=403297&search_source=1",
+            "name": "新店特惠",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 424745,
+            "image_hash": "e7e02b72b5e63c127d5bfae57b8e4ab1jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22is_premium%22%3A%201%2C%20%22specified_attributes%22%3A%20%5B8%5D%2C%20%22support_ids%22%3A%20%5B8%5D%7D&target_name=%E5%A4%A7%E7%89%8C%E5%BF%85%E5%90%83&animation_type=1&banner_type=0&business_flag=0&entry_id=424745&search_source=1",
+            "name": "大牌必吃",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "business_flag": 8,
+            "description": "有菜有肉，营养均衡",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 425001,
+            "image_hash": "407e6c5aa440aa33e1e936ff1b6dae0ejpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu591c%5Cu5bb5%22%2C%20%22complex_category_ids%22%3A%20%5B212%2C%20213%2C%20214%2C%20218%2C%20234%2C%20236%2C%20237%2C%20211%5D%2C%20%22is_show_all_category%22%3A%20false%7D%2C%20%22restaurant_category_id%22%3A%20%5B211%2C%20212%2C%20213%2C%20214%2C%20218%2C%20234%2C%20236%2C%20237%5D%7D&target_name=%E5%A4%9C%E5%AE%B5&animation_type=1&banner_type=0&business_flag=8&entry_id=425001&search_source=1",
+            "name": "夜宵",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "大口大口把你吃掉",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 236,
+            "image_hash": "301c888acb2c8ba9e0c813f36ec9e90ajpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu9c9c%5Cu82b1%5Cu86cb%5Cu7cd5%22%2C%20%22complex_category_ids%22%3A%20%5B275%2C%20251%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B251%5D%7D&target_name=%E6%B5%AA%E6%BC%AB%E9%B2%9C%E8%8A%B1&animation_type=1&banner_type=0&business_flag=0&entry_id=236&search_source=1",
+            "name": "浪漫鲜花",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "老字号，好味道",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 289,
+            "image_hash": "be158aa34ef194d216c9f2328f603588jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu533b%5Cu836f%22%2C%20%22complex_category_ids%22%3A%20%5B277%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B277%5D%7D&target_name=%E5%8C%BB%E8%8D%AF%E5%81%A5%E5%BA%B7&animation_type=1&banner_type=0&business_flag=0&entry_id=289&search_source=1",
+            "name": "医药健康",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 419585,
+            "image_hash": "b7f432619fb21a40b05cd25d11eca02djpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu6c49%5Cu5821%22%2C%20%22complex_category_ids%22%3A%20%5B212%5D%2C%20%22is_show_all_category%22%3A%20false%7D%2C%20%22restaurant_category_id%22%3A%20%5B212%5D%7D&target_name=%E6%B1%89%E5%A0%A1%E8%96%AF%E6%9D%A1&animation_type=1&banner_type=0&business_flag=0&entry_id=419585&search_source=1",
+            "name": "汉堡薯条",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "",
+            "description_color": "就是这个味",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 286,
+            "image_hash": "217244241b514affc0f12f4168cf6628jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu5305%5Cu5b50%22%2C%20%22complex_category_ids%22%3A%20%5B215%2C%20216%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B215%2C%20216%5D%7D&target_name=%E5%8C%85%E5%AD%90%E7%B2%A5%E5%BA%97&animation_type=1&banner_type=0&business_flag=0&entry_id=286&search_source=1",
+            "name": "包子粥店",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "business_flag": 18,
+            "description": "",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 404049,
+            "image_hash": "a8aec21096d528b7cfd23cdd894f01c6jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu4e1c%5Cu5317%5Cu83dc%22%2C%20%22complex_category_ids%22%3A%20%5B220%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B221%2C%20222%2C%20223%2C%20224%2C%20225%2C%20226%2C%20227%2C%20228%2C%20231%2C%20232%2C%20263%5D%7D&target_name=%E5%9C%B0%E6%96%B9%E8%8F%9C%E7%B3%BB&animation_type=1&banner_type=0&business_flag=18&entry_id=404049&search_source=1",
+            "name": "地方菜系",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "西餐始祖，欧洲的味道",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 287,
+            "image_hash": "7b6235761e50d391445f021922b71789jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu62ab%5Cu8428%5Cu610f%5Cu9762%22%2C%20%22complex_category_ids%22%3A%20%5B211%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B211%5D%7D&target_name=%E6%8A%AB%E8%90%A8%E6%84%8F%E9%9D%A2&animation_type=1&banner_type=0&business_flag=0&entry_id=287&search_source=1",
+            "name": "披萨意面",
+            "name_color": "",
+            "title_image_hash": ""
+        },
+        {
+            "background": "",
+            "description": "",
+            "description_color": "",
+            "description_image_hash": "",
+            "icon_hash": "",
+            "id": 419593,
+            "image_hash": "3c7a9ef469a12e7a596b559145b87f09jpeg",
+            "is_in_serving": true,
+            "is_personalized": false,
+            "link": "eleme://restaurants?target=%7B%22category_schema%22%3A%20%7B%22category_name%22%3A%20%22%5Cu9ebb%5Cu8fa3%5Cu70eb%22%2C%20%22complex_category_ids%22%3A%20%5B214%5D%2C%20%22is_show_all_category%22%3A%20true%7D%2C%20%22restaurant_category_id%22%3A%20%5B214%5D%7D&target_name=%E9%BA%BB%E8%BE%A3%E7%83%AB&animation_type=1&banner_type=0&business_flag=0&entry_id=419593&search_source=1",
+            "name": "麻辣烫",
+            "name_color": "",
+            "title_image_hash": ""
+        }
     ],
     "hot_search":[
         {

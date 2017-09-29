@@ -9,6 +9,7 @@ import Takeout from '../pages/Takeout'
 import Found from '../pages/Found'
 import Order from '../pages/Order'
 import Mine from '../pages/Mine'
+import LimitSale from '../components/LimitSale'
 
 // 配置路由规则
 const routes=[
@@ -16,7 +17,8 @@ const routes=[
   {path:'/takeout',component:Takeout },
   {path:'/found',component:Found },
   {path:'/order',component:Order },
-  {path:'/mine',component:Mine }
+  {path:'/mine',component:Mine },
+  {path:'/limitsale',component:LimitSale }
 ]
 
 // 创建路由实例

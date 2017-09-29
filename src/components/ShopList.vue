@@ -5,11 +5,35 @@
                 <img :src="items.image_path | dataFilter" :alt="items.name">
             </div>
             <div class="index_main">
-                <div class="shopname"><h3><span>{{items.name }} </span></h3><ul><li v-for="icon in items.supports" :key="icon.id">{{icon.icon_name}}</li></ul></div>
-                <div class="shopnum"><div><p></p><span>{{items.rating}}</span><span>月售{{items.recent_order_num}}单</span></div><p>蜂鸟专送</p></div>
-                <div class="shopprice"><ul><li>￥{{items.piecewise_agent_fee.extra_fee}}元起送</li><li>{{items.piecewise_agent_fee.tips}}</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
+                <div class="shopname">
+                    <h3><span>{{items.name }} </span></h3>
+                    <ul>
+                        <li v-for="icon in items.supports" :key="icon.id">{{icon.icon_name}}</li>
+                    </ul>
+                </div>
+                <div class="shopnum">
+                    <div>
+                        <p></p>
+                        <span>{{items.rating}}</span>
+                        <span>月售{{items.recent_order_num}}单</span>
+                    </div>
+                    <p>蜂鸟专送</p>
+                </div>
+                <div class="shopprice">
+                    <ul>
+                        <li>￥{{items.piecewise_agent_fee.extra_fee}}元起送</li>
+                        <li>{{items.piecewise_agent_fee.tips}}</li>
+                    </ul>
+                    <ul>
+                        <li>1.06km</li>
+                        <li>27分钟</li>
+                    </ul>
+                </div>
                 <div class="index_discount">
-                    <p v-for="item in items.activities" :key="item.id"><i>{{item.icon_name}}</i><span>{{item.description}}</span></p>
+                    <p v-for="(item,idx) in items.activities" :key="item.id"><i>{{item.icon_name}}</i><span>{{item.description}}</span></p>
+                    <div class="activity">
+                        <span>{{items.activities.length}}个活动</span><i></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -34,7 +58,6 @@ export default {
   },
   created() {
       this.axios.get(this.url).then(res => {
-          console.log(res.data.restaurants[0].delivery_mode.text);
           this.shoplist = res.data.restaurants;
       }, err => {
           console.log(err);
@@ -53,18 +76,17 @@ export default {
     display: flex;
     flex:1;
     flex-direction: row;
-    justify-content: space-between;
-    position: relative;
+    justify-content: flex-start;
     border-bottom: 1px solid #eee;
     background-color: #fff;
     color: #666;
     font-size: .12rem;
+    padding-right: .1rem;
 }
 .shop_container .shop_brand{
-    width:.8rem;
-    position: relative;
-    padding: .1rem .122223rem;
-    flex: none;
+    width:.7rem;
+    padding: .1rem;
+    flex:none;
 }
 .shop_brand img{
     width:100%;
@@ -74,31 +96,26 @@ export default {
     justify-content: space-between;
     flex-grow: 1;
     flex-direction: column;
-    padding: .1rem .122223rem .1rem 0;
+    padding: .1rem 0 .1rem 0;
     user-select: none;
-    width: 3.733333rem;
+    width:2.45rem;
 }
 .shopname{
     width:100%;
     display: flex;
     flex:1;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    user-select: none;
+    justify-content: space-around;
+    /* justify-content: space-between; */
 }
 .shopname h3{
+    width:55%;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: flex-start;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 .shopname h3:before{
-    margin-right: .06667rem;
+    margin-right: .05rem;
     padding: 0 .033334;
-    height: .12rem;
-    line-height: .12rem;
     border-radius: .023333rem;
     background-image: -webkit-linear-gradient(229deg,#fff100,#ffe339);
     background-image: linear-gradient(-139deg,#fff100,#ffe339);
@@ -108,9 +125,14 @@ export default {
     white-space: nowrap;
     font-weight: 400;
     font-size: .12rem;
-    flex: none;
+}
+.shopname h3 span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .shopname ul{
+    width:35%;
     display: flex;
     flex: 1;
     justify-content: flex-end;
@@ -122,12 +144,11 @@ export default {
 }
 .shopnum{
     line-height: .2rem;
-}
-.shopnum>div{
-    float: left;
+    display: flex;
+    flex: 1;
+    justify-content:space-between;
 }
 .shopnum>p{
-    float:right;
     padding: 0 .025333rem;
     border: 1px solid #44a5ff;
     border-radius: .025333rem;
@@ -156,12 +177,16 @@ export default {
     border: none;
 }
 .index_discount{
+    position: relative;
     border-top: 1px solid #eee;
-    padding:.05rem 0 0 0;
+    padding:.02rem 0 0 0;
     margin-top: .05rem;
 }
 .index_discount p{
-    line-height: .2rem;
+    width:50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .index_discount i{
     font-style: normal;
@@ -189,20 +214,23 @@ export default {
 .activity{
     position: absolute;
     top:0;
-    right: 0;
-    padding: .04rem 0 .1rem;
-    height: 100%;
+    right: -.02rem;
     color: #999;
-    text-align: right;
-    line-height: 1;
+    height: 100%;
 }
 .activity i{
-    width: .04rem;
-    height:.04rem;
+    width: .05rem;
+    height:.05rem;
+    content: "";
+    margin-left: .02rem;
     display: inline-block;
-    border-top: .04rem solid #aaa;
-    border-bottom: .04rem solid transparent;
-    border-left: .04rem solid transparent;
-    border-right: .04rem solid transparent;
+    border: .01rem solid #aaa;
+    border-width: .02rem 0 0 .02rem;
+    box-sizing: border-box;
+    transform-origin: 33.3% 33.3%;
+    transform: rotate(225deg);
+    -webkit-box-sizing: border-box;
+    -webkit-transform-origin: 33.3% 33.3%;
+    -webkit-transform: rotate(225deg);
 }
 </style>
