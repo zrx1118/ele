@@ -47,9 +47,9 @@ export default {
     methods: {
         backFn() {
             // BOM的history 回退上一个
-        //   history.back();
+          history.back();
         // 通过路由回退
-        this.$router.go(-1);
+        // this.$router.go(-1);
         }
     },
     created(){
