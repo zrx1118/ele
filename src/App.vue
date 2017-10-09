@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <order></order>
-    <sell></sell>
+    
     <foot></foot>
   </div>
 </template>
 
 <script>
-import Foot from './components/Foot'
+import Foot from './components/Foot';
+
 // import Hello from './components/Hello'
 //导入两个组件
 
@@ -16,6 +16,8 @@ export default {
   components: {
     // order
     Foot
+ 
+
   }
 }
 </script>

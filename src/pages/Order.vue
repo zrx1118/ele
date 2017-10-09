@@ -10,8 +10,8 @@
         <div class="my-all-order">
             <div class="my-all-order-top">
                 <span class="order-item-my">我的订单</span>
-                <router-link :to="order/sell"><span class="order-item-all">全部订单 ></span></router-link>
-                <router-view></router-view>
+                <router-link to="/sell"><span class="order-item-all">全部订单 ></span></router-link>
+                <!-- <router-view></router-view> -->
             </div>
         </div>
         <div class="order-finish">
@@ -61,138 +61,258 @@
                 </div>
             </div>
         </div>
+        <div class="nulls"></div>
+        <div class="order-neig">
+            <div class="neig-items">
+                <div class="order-neig-buy"><router-link to="/neighbour">附近买过</router-link></div>
+                <div class="order-neig-coll"><router-link to="/collect">附近收藏</router-link></div>
+            </div>
+        </div>
+        <router-view></router-view>
+
         <div class="order-like">
             <div class="order-like-cai">猜你喜欢</div>
         </div>
-        <div class="order-f">
-
-            <div class="order-food">
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
+        <div class="o-list">
+            <ul class="o-list-ul" >
+                <li class="o-list-li" v-for='item in list' :key="item.id">
+                    <a class="o-list-a" href="#">
+                        <img class="o-list-img" :src="item.foods[0].image_path | dataFilter" alt="">
+                        <span class="o-discount">{{ item.foods[0].activities[0].description }}</span>
+                        <div class="o-name"><h1>{{ item.foods[0].restaurant_name }}</h1></div>
+                    </a>
+                    <h3 class="o-things-name">{{item.foods[0].name}}</h3>
+                    <div class="o-price">
+                        <div class="commodity-price">
+                            <i>￥</i>
+                            <span>{{item.foods[0].price}}</span>
+                            <em>￥{{item.foods[0].original_price}}</em>                                 
                         </div>
-                        <div class="order-food-qiang">抢</div>
+                        <div class="o-rob">抢</div>
                     </div>
-                </div>
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
+                </li>
+                <!-- <li class="o-list-li">
+                    <a class="o-list-a" href="#">
+                        <img class="o-list-img" src="https://fuss10.elemecdn.com/f/75/0fc408c8d0f20fb2b8c9118f26390jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
+                        <span class="o-discount">4.0折</span>
+                        <div class="o-name"><h1>胡同客欧式烤肉版</h1></div>
+                    </a>
+                    <h3 class="o-things-name">至尊披萨(12寸)</h3>
+                    <div class="o-price">
+                        <div class="commodity-price">
+                            <i>￥</i>
+                            <span>31.2</span>
+                            <em>￥78</em>                                 
                         </div>
-                        <div class="order-food-qiang">抢</div>
+                        <div class="o-rob">抢</div>
                     </div>
-                </div>
-            </div>
-            <div class="order-food">
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
+                </li>
+                <li class="o-list-li">
+                    <a class="o-list-a" href="#">
+                        <img class="o-list-img" src="https://fuss10.elemecdn.com/3/33/a6c94f55e9d619c2edd37c09370abjpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
+                        <span class="o-discount">4.0折</span>
+                        <div class="o-name"><h1>胡同客欧式烤肉版</h1></div>
+                    </a>
+                    <h3 class="o-things-name">至尊披萨(12寸)</h3>
+                    <div class="o-price">
+                        <div class="commodity-price">
+                            <i>￥</i>
+                            <span>31.2</span>
+                            <em>￥78</em>                                 
                         </div>
-                        <div class="order-food-qiang">抢</div>
+                        <div class="o-rob">抢</div>
                     </div>
-                </div>
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
+                </li>
+                <li class="o-list-li">
+                    <a class="o-list-a" href="#">
+                        <img class="o-list-img" src="https://fuss10.elemecdn.com/f/75/0fc408c8d0f20fb2b8c9118f26390jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
+                        <span class="o-discount">4.0折</span>
+                        <div class="o-name"><h1>胡同客欧式烤肉版</h1></div>
+                    </a>
+                    <h3 class="o-things-name">至尊披萨(12寸)</h3>
+                    <div class="o-price">
+                        <div class="commodity-price">
+                            <i>￥</i>
+                            <span>31.2</span>
+                            <em>￥78</em>                                 
                         </div>
-                        <div class="order-food-qiang">抢</div>
+                        <div class="o-rob">抢</div>
                     </div>
-                </div>
-            </div>
-            <div class="order-food">
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
-                        </div>
-                        <div class="order-food-qiang">抢</div>
-                    </div>
-                </div>
-                <div class="order-food-items">
-                    <div class="discover-food">
-                        <img src="https://fuss10.elemecdn.com/b/b9/550eb569aa7c571b88ffaf0a39987jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/" alt="">
-                        <div class="DiscountFood-6EHuk">6.8折</div>
-                        <div class="DiscountFood-name"><span>白鹿江西餐厅（广渠门店）</span></div>
-                    </div>
-                    <div class="order-food-name">井冈山烟熏炒肉</div>
-                    <div class="order-food-price">
-                        <div class="order-food-price-one">
-                            <em class="order-food-em">￥</em>
-                            <span class="order-food-span">24.48</span>
-                            <i class="order-food-i">￥36</i>
-                        </div>
-                        <div class="order-food-qiang">抢</div>
-                    </div>
-                </div>
-            </div>
-
+                </li> -->
+            </ul>
         </div>
+        <div class="order-footer"></div>
         
 
     </div>
 </template>
 <script>
 export default {
-    name: 'order',
-    data () {
-        return {
-            haha: '我是订单'
+  data(){
+      return{
+            url:"./static/order.json",
+            list:[]
+      }
+  },
+  filters: {
+        //图片转换格式过滤器
+        dataFilter: function (a) {
+        let url="https://fuss10.elemecdn.com/";
+        url+=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
+        return url;
         }
-    }
+    },
+  created(){
+    //   使用axios
+    this.axios.get(this.url).then(res =>{
+        // 获取数据信息
+        this.list =res.data.query_list;
+        console.log(res.data.query_list);
+    },err => {
+        console.log(err);
+    })
+  }
 }
 </script>
-<style>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+<style scoped>
+/* 开始 */
+.o-list{
+    width: 100%;
+    font-size: 12px;
 }
-html{
-    font-size: 100px;
+.o-list-ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 .07rem;
+    justify-content: space-between;
 }
+.o-list-li{
+    width: 49.5%;
+    padding: 0 .02rem .3rem .02rem;
+    /* background: pink; */
+    /* display: block; */
+}
+.o-list-a{
+    width: 100%;
+    display: block;
+    position: relative;
+    justify-content: space-around;
+}
+.o-list-a img{
+    width: 100%;
+}
+.o-list-a .o-discount{
+    width: 25%;
+    position: absolute;
+    text-align: center;
+    color:#fff;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: .004rem .008rem;
+    background: rgba(0,0,0,.7);
+    font-size: .5em;
+}
+.o-list-a .o-name{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    height: .6rem;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 0 .05rem;
+    width: 100%;
+    display: flex;
+    font-size: .1em;
+    line-height: .22rem;
+    background-image: linear-gradient(-180deg,transparent,rgba(0,0,0,.8));
+    
+}
+.o-list-a .o-name h1{
+    color: #fff;
+    align-items: end;
+}
+.o-things-name{
+    width: 100%;
+    font-size:10px;
+    color:#333;
+    padding: .06rem 0 .06rem .05rem;
+}
+.o-price{
+    width: 100%;
+    height: 11%;
+    /* background: hotpink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.o-price .o-rob{
+    width: 22%;
+    height: 100%;
+    background: #f94843;
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+}
+.commodity-price i, .commodity-price span{
+    color: #ff6000;
+    font-size: 12px;
+}
+.commodity-price i{
+    /* font-size:8px; */
+    font-style: normal;
+}
+.commodity-price span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.commodity-price em{
+    font-style: normal;
+    color: #999;
+    text-decoration: line-through;
+}
+/* 结束 */
+
+
+
+.nulls{
+    width: 100%;
+    height: 6px;
+    background: #f4f4f4;
+}
+.order-neig{
+    width: 100%;
+    /* height: .4rem; */
+    padding: 0 .1rem;
+}
+.neig-items{
+    width: 45%;
+    height: .4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.order-neig-buy, .order-neig-coll{
+    color:#000;
+    font-size: 14px;
+    text-align: center;
+    line-height: .4rem;
+    display: inline-block;
+}
+.order-neig-buy{
+    border-bottom: 1px solid blue;
+}
+.router-link-active {
+    /* color:#2395ff; */
+    border-bottom:1px solid blue;
+}
+
+/* 收藏 */
+    
+
+
 .order{
     width:100%;
     font-size: 0;
@@ -237,41 +357,41 @@ html{
 }
 .my-all-order span{
     display: block;
-    
     font-size: .12rem;
 }
 .order-item-my{
     font-size: .16rem;
     color: #000;
 }
+
 .order-finish{
     width: 100%;
-    height: 1.3217rem;
+    /* height: 1.3217rem; */
     padding-top: .15rem; 
     border-bottom:1px solid #f6f9fb;
 }
 .order-finish-list{
     width: 94%;
-    height: 1.1717rem;
+    /* height: 1.1717rem; */
     margin: auto;
     display: flex;
     justify-content:space-between;
 }
 .order-finish-img{
     width: .358rem;
-    height: .98rem;
+    /* height: .98rem;s */
 }
 .order-finish-img>img{
     width:.273rem;
-    height: .273rem;
+    /* height: .273rem; */
 }
 .order-items{
     width: 100%;
-    height: 1.1717rem;;
+    /* height: 1.1717rem; */
 }
 .order-item-one{
     width: 100%;
-    height: 33.3%;
+    height: .39rem;
 }
 .order-item-one-name{
     display: flex;
@@ -291,7 +411,7 @@ html{
 }
 .order-item-two{
     width: 100%;
-    height: 33.3%;
+    height: .39rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -305,7 +425,7 @@ html{
 }
 .order-item-three{
     width: 100%;
-    height: 33.3%;
+    height: .39rem;
     padding-top: .07rem;
 }
 .order-item-three-come{
@@ -336,97 +456,12 @@ html{
     color:#000;
     font-weight: bold;
 }
-.order-f{
-    width: 100%;
 
-}
-.order-food{
+
+.order-footer{
     width: 100%;
-    height: 1.954rem;
-    display: flex;
-    padding: 0 .082rem;
-    justify-content: space-between;
-    margin-bottom: .2rem;
-}
-.order-food-items{
-    width: 1.4719rem;
-    height: 1.954rem;
-}
-.discover-food{
-    width: 1.4719rem;
-    height: 1.4719rem;
-    position: relative;
-}
-.DiscountFood-6EHuk{
-    position: absolute;
-    top:0;
-    left: 0;
-    padding: .02rem .02rem;
-    background: rgba(0,0,0,.7);
-    font-weight: 400;
-    font-size: .002rem;
-    color:#fff;
-}
-.DiscountFood-name{
-    position: absolute;
-    bottom:0;
-    left: 0;
-    align-items: flex-end;
-    padding: 0 .06rem;
-    width: 100%;
-    height: .4693rem;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.8)));
-    background-image: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.8));
-    background-image: linear-gradient(-180deg,transparent,rgba(0,0,0,.8));
-    line-height: .666667rem;
-}
-.DiscountFood-name span{
-    font-size: 12px;
-    color:#fff;
-}
-.discover-food img{
-    width: 1.4719rem;
-    height: 1.4719rem;
-}
-.order-food-name{
-    width: 100%;
-    height: .277rem;
-    font-size: 12px;
-    color: #333;
-    line-height: .277rem;
-    font-weight: bold;
-}
-.order-food-price{
-    width: 100%;
-    height: .2047rem;
-    display: flex;
-    justify-content: space-between;
-}
-.order-food-price-one{
-    color:#ff6000;
-    font-size: 3px;
-}
-.order-food-em{
-    font-size: .5em;
-    font-style: normal;
-}
-.order-food-span{
-    font-size: .5em;
-}
-.order-food-i{
-    font-size: .5em;
-    color:#999;
-    font-style: normal;
-    text-decoration: line-through;
-}
-.order-food-qiang{
-    width:.34135rem;
-    height: .20475rem; 
-    background: #f94843;
-    color:#fff;
-    font-size: 12px;
-    text-align: center;
-    line-height: .20475rem;
+    height: .488rem;
+    background: red;
 }
 </style>
 
