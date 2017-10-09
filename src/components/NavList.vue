@@ -1,5 +1,5 @@
 <template>
-    <div class="navlist">
+    <div class="navlist" v-if="product">
         <div class="delivery">
             <i @click="backFn"></i><span>{{product.name}}</span>
         </div>
