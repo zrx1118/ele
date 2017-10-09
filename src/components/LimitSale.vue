@@ -1,41 +1,5 @@
 <template>
     <div class="limitsale">
-        <!-- <div class="sales">
-            <p><span>早餐</span></p>
-            <p><span>午餐</span></p>
-            <p><span>下午茶</span></p>
-            <p><span>夜宵</span></p>
-        </div>
-        <div class="h_hidden"></div>
-        <section>
-            <div class="list_z">
-                <div class="list_brand">
-                    <p><i></i>大馅香儿水饺</p>
-                    <p><span>评价4.5分</span><span>配送费约￥5</span></p>
-                </div>
-                <div class="list_dev">
-                    <div class="list_dev_img">
-                        <img src="http://fuss10.elemecdn.com/4/ee/ef1c817747d7dd017b570e3198ea8jpeg.jpeg?imageMogr/format/webp/thumbnail/!180x180r/gravity/Center/crop/180x180/">
-                    </div>
-                    <div class="list_dev_info">
-                        <h3>大馅香儿水饺中分</h3>
-                        <div class="list_dev_limit">
-                            <div class="list_dev_num">
-                                <span>仅剩20份</span>
-                                <p><span :style="width:progressNum(item)" ></span></p>
-                                <div>
-                                    <span>￥<b>9.9</b></span> <s>￥22.00</s>
-                                </div>
-                            </div>
-                            <div class="list_grab">马上抢</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-
 
         <div class="sales">
             <p @click="limitType(0)"><span>早餐</span></p>
@@ -59,7 +23,7 @@
                         <div class="list_dev_limit">
                             <div class="list_dev_num">
                                 <span>仅剩{{item.stock}}份</span>
-                                <p><span></span></p>
+                                <p><span :style="{'width':((item.stock/item.process_stock)*100)+'%'}"></span></p>
                                 <div>
                                     <span>￥<b>{{item.price}}</b></span> <s>￥{{item.float_minimum_order_amount}}</s>
                                 </div>
@@ -96,34 +60,34 @@ export default {
         }
     },
     computed:{
-        // typeNum(){
-        //     var typeArr=[];
-        //     for(var item of this.limit){
-        //         if(typeArr.indexOf(item.type)==-1){
-        //             typeArr.push(item.type);
-        //         }
-        //     }
-        //     return typeArr;
-        // },
-        // progressNum(a){
-        //     return a.stoke/a.process_stock;
-        // }
+        typeNum(){
+            var typeArr=[];
+            for(var item of this.limit){
+                if(typeArr.indexOf(item.type)==-1){
+                    typeArr.push(item.type);
+                }
+            }
+            return typeArr;
+        },
+        progressNum(a){
+            return a.stoke/a.process_stock;
+        }
     },
     created(){
         this.$http.get(this.url).then(res=>{
             console.log(res.data);
-            // this.limit=res.data;
+            this.limit=res.data[this.type].foods;
+        },err=>{
+            console.log(err);
+        })
+    },
+    updated(){
+        this.$http.get(this.url).then(res=>{
+            this.limit=res.data[this.type].foods;
         },err=>{
             console.log(err);
         })
     }
-    // updated(){
-    //     this.$http.get(this.url).then(res=>{
-    //         this.limit=res.data[this.type].foods;
-    //     },err=>{
-    //         console.log(err);
-    //     })
-    // }
 }
 </script>
     
@@ -254,7 +218,7 @@ section{
 }
 .list_dev_num>p>span{
     display: block;
-    width: 50%
+    width: 50%;
     height: 100%;
     border-radius: .04rem;
     background-color: #ff3618;

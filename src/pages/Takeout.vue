@@ -26,12 +26,18 @@
         <a v-for="item in hot_search" :key="item.id"><span class="active">{{item.word}}</span></a>
     </nav>
     <div class="menu">
-        <a :href="item.link" v-for="(item,index) in entries" :key="item.id">
+        <!-- <router-link  v-for="(item,index) in entries" :key="item.id" :to="'/shopdetail/'+item.id">
             <div>
                 <img :src="item.image_hash | dataFilter" alt="">
             </div>
             <span>{{item.name}}</span>
-        </a>
+        </router-link> -->
+        <router-link  v-for="(item,index) in entries" :key="item.id" :to="{path:'/navlist/'+item.id}">
+            <div>
+                <img :src="item.image_hash | dataFilter" alt="">
+            </div>
+            <span>{{item.name}}</span>
+        </router-link>
         <div class="pagination">
             <span></span>
             <span></span>
@@ -59,36 +65,7 @@
         </div>
     </section>
     <h3 class="index_title">推荐商家</h3>
-    <shoplist :url="url" :category="'restaurants'">
-        <!-- <div class="shop_container">
-            <div class="shop_brand">
-                <img src="http:////fuss10.elemecdn.com/f/8d/f29dbf20be425fc12426c0b1f90b7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
-            </div>
-            <div class="index_main">
-                <div class="shopname"><h3><span>CoCo都可(前门店）</span></h3><ul><li>保</li></ul></div>
-                <div class="shopnum"><div><p></p><span>4.7</span><span>月售1416单</span></div><p>蜂鸟专送</p></div>
-                <div class="shopprice"><ul><li>￥20起送</li><li>配送费5元</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
-                <div class="index_discount">
-                    <p class="discount"><i>减</i><span>满35减8，满50减14</span></p>
-                    <p class="first"><i>首</i><span>新用户下单立减17.0元</span></p>
-                </div>
-            </div>
-        </div>
-        <div class="shop_container">
-            <div class="shop_brand">
-                <img src="http:////fuss10.elemecdn.com/f/8d/f29dbf20be425fc12426c0b1f90b7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
-            </div>
-            <div class="index_main">
-                <div class="shopname"><h3><span>CoCo都可(前门店）</span></h3><ul><li>保</li></ul></div>
-                <div class="shopnum"><div><p></p><span>4.7</span><span>月售1416单</span></div><p>蜂鸟专送</p></div>
-                <div class="shopprice"><ul><li>￥20起送</li><li>配送费5元</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
-                <div class="index_discount">
-                    <p class="discount"><i>减</i><span>满35减8，满50减14</span></p>
-                    <p class="first"><i>首</i><span>新用户下单立减17.0元</span></p>
-                </div>
-            </div>
-        </div> -->
-    </shoplist>
+    <shoplist :url="url" :category="'restaurants'"></shoplist>
     <div class="t-hidden"></div>
     
     </div>
@@ -115,6 +92,9 @@ export default {
     methods:{
         checksale(){
             this.$router.push('/limitsale');
+        },
+        checkNavList(){
+            this.$router.push('/navlist');
         }
     },
     filters: {

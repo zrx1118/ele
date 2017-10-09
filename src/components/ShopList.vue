@@ -1,6 +1,6 @@
 <template>
     <div class="shop">
-       <div class="shop_container" v-for="(items,index) in shoplist" :key="items.id">
+       <div class="shop_container" v-for="(items,index) in shoplist" :key="items.id" @click="checkdetail">
             <div class="shop_brand">
                 <img :src="items.image_path | dataFilter" :alt="items.name">
             </div>
@@ -41,28 +41,34 @@
 </template>
     
 <script>
+
 export default {
-  name: "shop",
-  data () {
-    return {
-        shoplist:[]
-    };
-  },
-  props: ['url', 'category'],
-  filters: {
-      dataFilter: function (a) {
-        var url="https://fuss10.elemecdn.com/";
-        url+=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
-        return url;
-      }
-  },
-  created() {
-      this.axios.get(this.url).then(res => {
-          this.shoplist = res.data.restaurants;
-      }, err => {
-          console.log(err);
-      });
-  }
+    name: "shop",
+    data () {
+        return {
+            shoplist:[]
+        };
+    },
+    props: ['url', 'category'],
+    filters: {
+        dataFilter: function (a) {
+            var url="https://fuss10.elemecdn.com/";
+            url+=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
+            return url;
+        }
+    },
+    methods:{
+        checkdetail(){
+            this.$router.push('/shopdetail');
+        }
+    },
+    created() {
+        this.axios.get(this.url).then(res => {
+            this.shoplist = res.data.restaurants;
+        }, err => {
+            console.log(err);
+        });
+    }
 }
 </script>
     

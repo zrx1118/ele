@@ -1,5 +1,5 @@
 <template>
-    <div class="order_list">
+    <div class="shopdetail">
        <div class="shop-container">
             <div class="shop-header">
             </div>
@@ -36,24 +36,22 @@
         </div>
         <main>
             <ul class="shopnav">
-                <li :class="{active:index==0}" 
-                v-for="(item, index) in list" 
-                :key="item.id"><i v-show="index==0?true:false">
-                </i>{{ item.name }}</li>
+                <li>
+                </i></li>
             </ul>
             <div class="shoplist">
-                <div v-for="(item, index) in list" :key="item.id">
+                <div>
                     <div class="text">
-                        <b>{{ item.name }}</b>
-                        <span>{{ item.description }}</span>
+                        <b></b>
+                        <span></span>
                         <span class="right">...</span>
                     </div>
                     <ul>
-                        <li v-for="it in item.foods" :key="it.id">
-                            <img :src="it.image_path | dataFilter">
-                            <h3>{{ it.name }}</h3>
-                            <p><span>{{ it.tips }}</span><span>好评率100%</span></p>
-                            <span class="doll">￥</span><b>{{ it.specfoods[0].price }}</b>
+                        <li>
+                            <img>
+                            <h3></h3>
+                            <p><span></span><span>好评率100%</span></p>
+                            <span class="doll">￥</span><b></b>
                             <div>
                                 <span class="minus"></span>
                                 <i>1</i>
@@ -77,29 +75,29 @@
     
 <script>
 export default {
-  name: "component_name",
-  data () {
-    return {
-        list:[]
-    };
-  },
-  created(){
-       this.axios.get('./static/found-data2.json').then(res => {
-          this.list = res.data;
-          console.log(this.list);
-      }, err => {
-          console.log(err);
-      });
-  },
-  filters: {
-      //图片转换格式过滤器
-      dataFilter: function (dateNum) {
-        var url="https://fuss10.elemecdn.com/",
-        res4=dateNum.substr(dateNum.lastIndexOf("jpeg")!=-1?dateNum.length-4:dateNum.length-3);
-        url+=dateNum.substr(0,1)+"/"+dateNum.substr(1,2)+"/"+dateNum.substr(3)+"."+res4;
+    name: "component_name",
+    data () {
+        return {
+            list:[]
+        };
+    },
+    props: ['url', 'category'],
+    created(){
+        this.axios.get(this.url).then(res => {
+            console.log(res.data[this.category]);
+            // this.list = res.data;
+        }, err => {
+            console.log(err);
+        });
+    },
+    filters: {
+        //图片转换格式过滤器
+        dataFilter: function (a) {
+        let url="https://fuss10.elemecdn.com/";
+        url+=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
         return url;
-      }
-  }
+        }
+    }
 }
 </script>
     
@@ -144,7 +142,6 @@ export default {
     content: "";
     float: left;
     margin: .056667rem 0 0 0;
-    display: inline-block;
     border: .02rem solid #fff;
     border-width: .02rem 0 0 .02rem;
     width: .12rem;
@@ -287,7 +284,7 @@ main{
     top:1.58rem;
 }
 .shopnav i{
-    background:url(https://fuss10.elemecdn.com/5/da/3872d782f707b4c82ce4607c73d1ajpeg.jpeg?imageMogr/format/webp/thumbnail/18x/) no-repeat;
+    background:url(https://fuss10.elemecdn.com/5/da/3872d782f707b4c82ce4607c73d1ajpeg.jpeg) no-repeat;
     display:inline-block;
     width:.08rem;
     height:.08rem;

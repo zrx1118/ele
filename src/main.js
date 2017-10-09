@@ -9,6 +9,17 @@ import App from './App'
 import router from './router'
 // 导入网络资源
 import resource from 'vue-resource'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+// 导入懒加载模块
+import VueLazyload from 'vue-lazyload'
+import logoSrc from './assets/logo.png'
+
+Vue.use(VueAwesomeSwiper)
+Vue.use(VueLazyload,{
+  error:logoSrc,//这个是请求失败后显示的图片
+  loading:logoSrc,//这个是加载的loading过度效果
+  try:2//这个是加载图片数量
+})
 
 // 全局配置一下资源模块
 Vue.use(resource)
@@ -68,7 +79,9 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App },
+  components: {
+    App
+  },
   router
   // mounted(){
   //   var mySwiper1 = new Swiper ('nav .swiper-container', {

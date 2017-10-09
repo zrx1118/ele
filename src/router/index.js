@@ -10,6 +10,8 @@ import Found from '../pages/Found'
 import Order from '../pages/Order'
 import Mine from '../pages/Mine'
 import LimitSale from '../components/LimitSale'
+import ShopDetail from '../components/ShopDetail'
+import NavList from '../components/NavList'
 
 // 配置路由规则
 const routes=[
@@ -18,7 +20,9 @@ const routes=[
   {path:'/found',component:Found },
   {path:'/order',component:Order },
   {path:'/mine',component:Mine },
-  {path:'/limitsale',component:LimitSale }
+  {path:'/limitsale',component:LimitSale },
+  {path:'/shopdetail',component:ShopDetail },
+  {path:'/navlist/:id',component:NavList }
 ]
 
 // 创建路由实例
