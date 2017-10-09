@@ -13,7 +13,7 @@
                     <div>
                         <p>{{ it.name }}</p>
                         <span>{{ "￥"+it.price }}</span>
-                        <label class="look">去看看</label>
+                        <label class="look" @click="fn1">去看看</label>
                     </div>
                 </a>
             </div>
@@ -38,12 +38,18 @@ export default {
         return url;
       }
   },
+  props: ['url', 'category'],
   created() {
-      this.axios.get("./static/found-data.1.json").then(res => {
-          this.list = res.data['more-list'];
+      this.axios.get("../static/found-data1.json").then(res => {
+          this.list = res.data["more-list"];
       }, err => {
           console.log(err);
       });
+  },
+  methods:{
+      fn1(){
+          this.$router.push("/second.shopdetail");
+      }
   }
 }
 </script>

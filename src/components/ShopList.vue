@@ -39,16 +39,6 @@ export default {
       }, err => {
           console.log(err);
       });
-  },
-  computed:{
-    //   computeurl(){
-    //       for(let i=0;i<this.shoplist;i++){
-    //           const url="http://fuss10.elemecdn.com/",
-    //           a=this.shoplist[i].image_path;
-    //           url=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
-    //       }
-    //       return url;
-    //   }
   }
 }
 </script>

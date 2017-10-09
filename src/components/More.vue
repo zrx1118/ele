@@ -1,43 +1,45 @@
 <template>
     <div class="box">
-        <footer class="footer">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><a class="active spe" href="javascript:void(0)">专属推荐</a></div>
-                    <div class="swiper-slide"><a href="javascript:void(0)">专属推荐</a></div>
-                    <div class="swiper-slide"><a href="javascript:void(0)">膳食平衡</a></div>
-                    <div class="swiper-slide"><a href="javascript:void(0)">风味小吃</a></div>
-                    <!-- <div class="swiper-slide"><a href="javascript:void(0)">滋补养颜</a></div> -->
-                    <!-- <div class="swiper-slide"><a href="javascript:void(0)">狂野食肉</a></div>
-                    <div class="swiper-slide"><a href="javascript:void(0)">减肥塑形</a></div> -->
-                </div>
-            </div>
-        </footer>
+        <header class="footer">
+                <router-link to="/second.more/morelist" class="active spe">专属推荐</router-link>
+                <router-link v-for="item in list" :key="item.id" :to="{path:'/second.more/secondlist/'+item.jsonid}" >{{ item.name }}</router-link>
+        </header>
         <div class="hidden"></div>
-        <list-child></list-child>
+        <router-view></router-view>
     </div>
 </template>                                 
 <script>
 // 导入List
-import ListChild from '../components/More-list'
+import ListChild from '../components/MoreList'
+import SecondList from '../components/SecondList'
 
 export default {
     name:'box',
     data () {
         return {
-            url:'../static/found-data.json'
+            n:1,
+            url:'../static/found-data1.json',
+            category:'more-list',
+            list:[]
+
         };
     },
     components: {
-      ListChild
+      ListChild,
+      SecondList
+    },
+    created(){
+        this.axios.get("../static/found-data1.json").then(res=>{
+            this.list=res.data["more-footer"].tags
+        },err => {
+          console.log(err);
+      })
     }
 }
 </script>
 <style scoped>
     .footer{
             width:100%;
-            height: 0.42rem;
-            line-height:.42rem;
             padding:.1rem .1rem;
             position:fixed;
             left:0;
@@ -45,18 +47,22 @@ export default {
             font-size:0;
             background-color:rgba(255,255,255,.7);
             z-index:99;
+            white-space: nowrap;
+            overflow: auto;
+            overflow-y: hidden;
         }
         .footer a{
             font-size: 0.12rem;
             text-align: center;
-            width:0.67rem;
+            display:inline-block;
+            width:0.68rem;
             height:0.21rem;
+            line-height:0.21rem;
             color: #333;
             line-height: 0.21rem;
             border-radius:.1rem;
             border:1px solid #ddd;
             text-decoration:none;
-            float:left;
             margin-left:10px;
         }
         .footer .spe{
@@ -65,6 +71,10 @@ export default {
         .footer .active{
             border-color: #ff5339;
             color: #ff5339;
+        }
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 1px;
         }
         .h-line{
             width:100%;

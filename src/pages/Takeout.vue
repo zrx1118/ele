@@ -89,14 +89,6 @@
                     <img :src="item.imghash | dataFilter" alt="">
                 </div>
             </a>
-            <!-- <div class="sales hot">
-                <h3>热卖套餐</h3>
-                <label>销量最高，好评最多</label>
-                <p>top100 <i></i></p>
-                <div>
-                    <img src="http:////fuss10.elemecdn.com/b/e1/0fa0ed514c093a7138b0b9a50d61fpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/" alt="">
-                </div>
-            </div> -->
         </div>
     </section>
     <section class="foo_menu clear">
@@ -106,48 +98,10 @@
                 <span>{{item.content}}</span>
                 <img :src="item.imghash | dataFilter" alt="">
             </div>
-            <!-- <div class="special">
-                <h3>乐享鲜果</h3>
-                <span>鲜果乐享7折</span>
-                <img src="http:////fuss10.elemecdn.com/5/06/ddb537220b8c56d4ef6ae22718984png.png?imageMogr/format/webp/thumbnail/!232x154r/gravity/Center/crop/232x154/" alt="">
-            </div>
-            <div class="special">
-                <h3>品质优选</h3>
-                <span>尖货来袭</span>
-                <img src="http:////fuss10.elemecdn.com/5/06/ddb537220b8c56d4ef6ae22718984png.png?imageMogr/format/webp/thumbnail/!232x154r/gravity/Center/crop/232x154/" alt="">
-            </div> -->
         </div>
     </section>
     <h3 class="index_title">推荐商家</h3>
     <shoplist :url="url" :category="'restaurants'">
-        <!-- <div class="shop_container">
-            <div class="shop_brand">
-                <img src="http:////fuss10.elemecdn.com/f/8d/f29dbf20be425fc12426c0b1f90b7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
-            </div>
-            <div class="index_main">
-                <div class="shopname"><h3><span>CoCo都可(前门店）</span></h3><ul><li>保</li></ul></div>
-                <div class="shopnum"><div><p></p><span>4.7</span><span>月售1416单</span></div><p>蜂鸟专送</p></div>
-                <div class="shopprice"><ul><li>￥20起送</li><li>配送费5元</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
-                <div class="index_discount">
-                    <p class="discount"><i>减</i><span>满35减8，满50减14</span></p>
-                    <p class="first"><i>首</i><span>新用户下单立减17.0元</span></p>
-                </div>
-            </div>
-        </div>
-        <div class="shop_container">
-            <div class="shop_brand">
-                <img src="http:////fuss10.elemecdn.com/f/8d/f29dbf20be425fc12426c0b1f90b7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
-            </div>
-            <div class="index_main">
-                <div class="shopname"><h3><span>CoCo都可(前门店）</span></h3><ul><li>保</li></ul></div>
-                <div class="shopnum"><div><p></p><span>4.7</span><span>月售1416单</span></div><p>蜂鸟专送</p></div>
-                <div class="shopprice"><ul><li>￥20起送</li><li>配送费5元</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
-                <div class="index_discount">
-                    <p class="discount"><i>减</i><span>满35减8，满50减14</span></p>
-                    <p class="first"><i>首</i><span>新用户下单立减17.0元</span></p>
-                </div>
-            </div>
-        </div> -->
     </shoplist>
     <div class="t-hidden"></div>
     
