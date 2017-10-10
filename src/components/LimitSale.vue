@@ -59,20 +59,6 @@ export default {
             return this.type;
         }
     },
-    computed:{
-        typeNum(){
-            var typeArr=[];
-            for(var item of this.limit){
-                if(typeArr.indexOf(item.type)==-1){
-                    typeArr.push(item.type);
-                }
-            }
-            return typeArr;
-        },
-        progressNum(a){
-            return a.stoke/a.process_stock;
-        }
-    },
     created(){
         this.$http.get(this.url).then(res=>{
             console.log(res.data);
