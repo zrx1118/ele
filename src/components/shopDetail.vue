@@ -190,7 +190,6 @@ export default {
     content: "";
     float: left;
     margin: .056667rem 0 0 0;
-    display: inline-block;
     border: .02rem solid #fff;
     border-width: .02rem 0 0 .02rem;
     width: .12rem;

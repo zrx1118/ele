@@ -1,34 +1,19 @@
 <template>
   <div id="app">
-    <!-- <found></found> -->
-    <!-- <list></list> -->
-    <!-- <more></more> -->
     <foot v-show="isShow()"></foot>
     <router-view></router-view>
-    <!-- <shop-detail> </shop-detail> -->
-    <!-- <second-list></second-list> -->
     
   </div>
 </template>
 
 <script>
-import Found from './pages/Found'
-import List from './components/List'
-import More from './components/More'
-import ShopDetail from './components/ShopDetail'
-import SecondList from './components/SecondList'
 
 import Foot from './components/Foot'
 
 export default {
   name: 'app',
   components: {
-    Found,
-    List,
-    More,
-    Foot,
-    ShopDetail,
-    SecondList
+    Foot
   },
   methods: {
     isShow() {

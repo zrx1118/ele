@@ -39,7 +39,7 @@
 
 <script>
 export default {
-    name:'list',
+    name:'found',
     data(){
         return {
             list:[],
