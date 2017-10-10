@@ -40,7 +40,9 @@ export default {
   name: "component_name",
   data () {
     return {
-        list:[]
+		url:'../../static/found-data1.json',
+		product:[],
+		type:""
     };
   },
   filters: {
@@ -52,35 +54,33 @@ export default {
 				return url;
 		}
   },
-  created(){
-	  this.axios.get("../../static/found-data"+this.$route.params.id+".json").then(res => {
-				  this.list=res.data;
-		  		  console.log(this.list);
-				 
-	  },err => {
-          console.log(err);
-      })
-  },
-  beforeRouteUpdate(to, from, next) {
-        next()
-        // 在当前路由改变，但是该组件被复用时调用
-        // 举例来说，对于一个带有动态参数的路径 /foo/:id，在 /foo/1 和 /foo/2 之间跳转的时候，
-        // 由于会渲染同样的 Foo 组件，因此组件实例会被复用。而这个钩子就会在这个情况下被调用。
-        // 可以访问组件实例 `this`
-		// console.log('beforeRouteUpdate');
-		 this.axios.get("../../static/found-data"+this.$route.params.id+".json").then(res => {
-				  this.list=res.data;
-		  		  console.log(this.list);
-				 
-	  },err => {
-          console.log(err);
-      })
+	methods:{
+
+	},
+	created(){
+		this.axios.get(this.url).then(res => {
+			this.product=res.data["more-footer"].tags;
+				// return res.data;
+		},err => {
+			console.log(err);
+		})
+	},
+	computed:{
+		list(){
+			for(var item of this.product){
+				if(this.$route.params.id==item.id){
+					
+					console.log(item);
+					return item.detail;
+				}
+			}
+		}
 	}
 }
 </script>
     
 <style lang="css" scoped>
-    	.order-f{
+    .order-f{
 		    width: 100%;
 		}
 		.order-food{

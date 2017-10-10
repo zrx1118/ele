@@ -55,9 +55,9 @@
                             <p><span>{{ it.tips }}</span><span>好评率100%</span></p>
                             <span class="doll">￥</span><b>{{ it.specfoods[0].price }}</b>
                             <div>
-                                <span class="minus"></span>
-                                <i>1</i>
-                                <span class="add"></span>
+                                <span class="minus" @click=down(it)></span>
+                                <i class="count">1</i>
+                                <span class="add" @click=up(it)></span>
                             </div>
                         </li>
                     </ul>
@@ -100,6 +100,20 @@ export default {
         return url;
       }
   },
+  methods:{
+      //按添加按钮进行点餐
+      up(item){
+          this.$store.dispath("up", item)
+      },
+      down(item){
+          this.$store.dispatch("down", item)
+      }
+  },
+  computed:{
+      counts(){
+          return this.$store.
+      }
+  }
 }
 
     //js方法控制页面
@@ -126,6 +140,13 @@ export default {
             });
         }
     });
+    //控制页面减少按钮的出现与隐藏
+    if($(".count").text()>0){
+        $(".minus").show();
+    }else{
+        $(".minus").hide();
+    }
+    
 </script>
     
 <style lang="css" scoped>

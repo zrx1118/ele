@@ -22,6 +22,7 @@ const routes=[
   {path:'/order',component:Order },
   {path:'/mine',component:Mine },
   {path:'/second.more',component:More ,children:[
+    {path:'/', redirect: '/second.more/morelist'},
     {path:'/second.more/morelist',component:MoreList },
     {path:'/second.more/secondlist/:id',component:SecondList}
   ]},
