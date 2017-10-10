@@ -111,7 +111,10 @@ export default {
   },
   computed:{
       counts(){
-          return this.$store.
+          return this.$store.getters.totalCount
+      },
+      prices(){
+          return this.$store.getters.totalPrice
       }
   }
 }

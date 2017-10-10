@@ -13,7 +13,6 @@ import LimitSale from '../components/LimitSale'
 import ShopDetail from '../components/ShopDetail'
 import NavList from '../components/NavList'
 import More from '../components/More'
-import ShopDetail from '../components/ShopDetail'
 import MoreList from '../components/MoreList'
 import SecondList from '../components/SecondList'
 
