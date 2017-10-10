@@ -55,9 +55,9 @@
                             <p><span>{{ it.tips }}</span><span>好评率100%</span></p>
                             <span class="doll">￥</span><b>{{ it.specfoods[0].price }}</b>
                             <div>
-                                <span class="minus" @click=down(it)></span>
+                                <span class="minus" @click="down(it)"></span>
                                 <i class="count">1</i>
-                                <span class="add" @click=up(it)></span>
+                                <span class="add" @click="up(it)"></span>
                             </div>
                         </li>
                     </ul>
