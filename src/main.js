@@ -32,8 +32,6 @@ Vue.prototype.axios = axios
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: {
-    App
-  },
+  components: { App },
   router
 })

@@ -49,15 +49,15 @@
                         <span class="right">...</span>
                     </div>
                     <ul>
-                        <li v-for="items in item.foods" :key="items.id">
-                            <img :src="items.image_path | dataFilter">
-                            <h3>{{ items.name }}</h3>
-                            <p><span>{{ items.tips }}</span><span>好评率100%</span></p>
-                            <span class="doll">￥</span><b>{{ items.specfoods[0].price }}</b>
+                        <li v-for="it in item.foods" :key="it.id">
+                            <img :src="it.image_path | dataFilter">
+                            <h3>{{ it.name }}</h3>
+                            <p><span>{{ it.tips }}</span><span>好评率100%</span></p>
+                            <span class="doll">￥</span><b>{{ it.specfoods[0].price }}</b>
                             <div>
-                                <span class="minus" @click="down(items)"></span>
+                                <span class="minus" @click=down(it)></span>
                                 <i class="count">1</i>
-                                <span class="add" @click="up(items)"></span>
+                                <span class="add" @click=up(it)></span>
                             </div>
                         </li>
                     </ul>
@@ -110,9 +110,6 @@ export default {
       }
   },
   computed:{
-      counts(){
-          return this.$store.
-      }
   }
 }
 
@@ -190,6 +187,7 @@ export default {
     content: "";
     float: left;
     margin: .056667rem 0 0 0;
+    display: inline-block;
     border: .02rem solid #fff;
     border-width: .02rem 0 0 .02rem;
     width: .12rem;

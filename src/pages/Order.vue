@@ -75,7 +75,7 @@
         </div>
         <div class="o-list">
             <ul class="o-list-ul" >
-                <li @click="interFn" class="o-list-li" v-for='item in list' :key="item.id">
+                <li class="o-list-li" v-for='item in list' :key="item.id">
                     <a class="o-list-a" href="#">
                         <img class="o-list-img" :src="item.foods[0].image_path | dataFilter" alt="">
                         <span class="o-discount">{{ item.foods[0].activities[0].description }}</span>

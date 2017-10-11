@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Foot from './components/Foot';
+import Foot from './components/Foot'
 
 // import Hello from './components/Hello'
 //导入两个组件
@@ -56,6 +56,6 @@ input{
     display: block;
     height: 0;
     clear: both;
-    visibility: hidden; 
+    visibility: hidden;
 }
 </style>
