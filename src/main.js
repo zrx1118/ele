@@ -79,19 +79,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   template: '<App/>',
-<<<<<<< HEAD
-  components: {
-    App
-  },
-  router
-  // mounted(){
-  //   var mySwiper1 = new Swiper ('nav .swiper-container', {
-  //     slidesPerView:6,
-  //     freeMode:true
-  //   });
-  // }
-=======
   components: { App },
   router
->>>>>>> syl/mine
 })
