@@ -111,10 +111,10 @@ export default {
   },
   computed:{
       counts(){
-          return this.$store.getters.totalCount
+          return this.$store.getters.totalcount
       },
       price(){
-          return this.$store.getters.totalPrice
+          return this.$store.getters.totalprice
       }
   }
 }
