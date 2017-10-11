@@ -75,7 +75,7 @@
         </div>
         <div class="o-list">
             <ul class="o-list-ul" >
-                <li class="o-list-li" v-for='item in list' :key="item.id">
+                <li @click="interFn" class="o-list-li" v-for='item in list' :key="item.id">
                     <a class="o-list-a" href="#">
                         <img class="o-list-img" :src="item.foods[0].image_path | dataFilter" alt="">
                         <span class="o-discount">{{ item.foods[0].activities[0].description }}</span>
@@ -154,6 +154,10 @@ export default {
             list:[]
       }
   },
+  interFn:function() {
+            // history.back(-1);
+            this.$router.push('/buy');;
+        },
   filters: {
         //图片转换格式过滤器
         dataFilter: function (a) {
@@ -464,5 +468,9 @@ export default {
     background: red;
 }
 </style>
+
+
+
+
 
 
