@@ -21,7 +21,7 @@ import Found from '../pages/Found'
 import Order from '../pages/Order'
 import Mine from '../pages/Mine'
 import LimitSale from '../components/LimitSale'
-import ShopDetail from '../components/ShopDetail'
+import ShDetail from '../components/ShDetail'
 import NavList from '../components/NavList'
 import More from '../components/More'
 import MoreList from '../components/MoreList'
@@ -44,14 +44,14 @@ const routes = [
   {path:'/order',component:Order },
   {path:'/mine',component:Mine },
   {path:'/limitsale',component:LimitSale },
-  {path:'/shopdetail',component:ShopDetail },
+  {path:'/shdetail',component:ShDetail },
   {path:'/navlist/:id',component:NavList },
   {path:'/second.more',component:More ,children:[
     {path:'/', redirect: '/second.more/morelist'},
     {path:'/second.more/morelist',component:MoreList },
     {path:'/second.more/secondlist/:id',component:SecondList}
   ]},
-  {path:'/second.shopdetail',component:ShopDetail },
+  {path:'/second.shdetail',component:ShDetail },
   {path:'/Integ',component:Integ},
   {path:'/New',component:New},
   {path:'/Money',component:Money},
