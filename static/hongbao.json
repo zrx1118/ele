@@ -1,0 +1,87 @@
+{
+    "success": true,
+    "code": "0000000",
+    "desc": "成功",
+    "data": {
+        "arunum": 5,
+        "autoRecommendNextPage": false,
+        "appItemNextPage": false,
+        "items": [
+            {
+                "appItemId": 1143916,
+                "tagClasses": "",
+                "tagColor": null,
+                "recommendText": "兑换",
+                "tagText": "",
+                "title": "7元饿了么红包－餐饮专享",
+                "type": "virtual",
+                "url": "//goods.m.duiba.com.cn/mobile/appItemDetail?appItemId=1143916&dbnewopen&dpm=14695.33.1.1&dcm=102.1143916.0.0",
+                "dcm": "102.1143916.0.0",
+                "emdDpmJson": "{\"dpm\":\"dpm=14695.33.1.1\",\"domain\":\"//embedlog.duiba.com.cn\",\"dcm\":\"102.1143916.0.0\"}",
+                "subTitle": "",
+                "credits": "3500积分",
+                "logo": "//yun.duiba.com.cn/images/201706/jj4tfgrezu.png"
+            },
+            {
+                "appItemId": 1202686,
+                "tagClasses": "custom",
+                "tagColor": "#fe4a21",
+                "recommendText": "兑换",
+                "tagText": "五折",
+                "title": "9元饿了么红包－鲜果超市红包",
+                "type": "virtual",
+                "url": "//goods.m.duiba.com.cn/mobile/appItemDetail?appItemId=1202686&dbnewopen&dpm=14695.33.2.1&dcm=102.1202686.0.0",
+                "dcm": "102.1202686.0.0",
+                "emdDpmJson": "{\"dpm\":\"dpm=14695.33.2.1\",\"domain\":\"//embedlog.duiba.com.cn\",\"dcm\":\"102.1202686.0.0\"}",
+                "subTitle": "",
+                "credits": "2700积分",
+                "logo": "//yun.duiba.com.cn/images/201707/11kjxxebbk.png"
+            },
+            {
+                "appItemId": 1202682,
+                "tagClasses": "custom",
+                "tagColor": "#fe4a21",
+                "recommendText": "兑换",
+                "tagText": "五折",
+                "title": "5元饿了么红包－鲜果超市红包",
+                "type": "virtual",
+                "url": "//goods.m.duiba.com.cn/mobile/appItemDetail?appItemId=1202682&dbnewopen&dpm=14695.33.3.1&dcm=102.1202682.0.0",
+                "dcm": "102.1202682.0.0",
+                "emdDpmJson": "{\"dpm\":\"dpm=14695.33.3.1\",\"domain\":\"//embedlog.duiba.com.cn\",\"dcm\":\"102.1202682.0.0\"}",
+                "subTitle": "",
+                "credits": "1500积分",
+                "logo": "//yun.duiba.com.cn/images/201707/owsq8crdg3.png"
+            },
+            {
+                "appItemId": 1202677,
+                "tagClasses": "",
+                "tagColor": null,
+                "recommendText": "兑换",
+                "tagText": "",
+                "title": "3元饿了么红包－鲜果超市红包",
+                "type": "virtual",
+                "url": "//goods.m.duiba.com.cn/mobile/appItemDetail?appItemId=1202677&dbnewopen&dpm=14695.33.4.1&dcm=102.1202677.0.0",
+                "dcm": "102.1202677.0.0",
+                "emdDpmJson": "{\"dpm\":\"dpm=14695.33.4.1\",\"domain\":\"//embedlog.duiba.com.cn\",\"dcm\":\"102.1202677.0.0\"}",
+                "subTitle": "",
+                "credits": "1800积分",
+                "logo": "//yun.duiba.com.cn/images/201706/foo1frf1ov.png"
+            },
+            {
+                "appItemId": 1143920,
+                "tagClasses": "",
+                "tagColor": null,
+                "recommendText": "兑换",
+                "tagText": "",
+                "title": "15元饿了么红包－餐饮专享",
+                "type": "virtual",
+                "url": "//goods.m.duiba.com.cn/mobile/appItemDetail?appItemId=1143920&dbnewopen&dpm=14695.33.5.1&dcm=102.1143920.0.0",
+                "dcm": "102.1143920.0.0",
+                "emdDpmJson": "{\"dpm\":\"dpm=14695.33.5.1\",\"domain\":\"//embedlog.duiba.com.cn\",\"dcm\":\"102.1143920.0.0\"}",
+                "subTitle": "",
+                "credits": "6500积分",
+                "logo": "//yun.duiba.com.cn/images/201706/n1txu7i6m8.png"
+            }
+        ]
+    }
+}
