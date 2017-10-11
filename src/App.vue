@@ -7,7 +7,6 @@
 </template>
 
 <script>
-
 import Foot from './components/Foot'
 
 export default {
@@ -52,6 +51,6 @@ input{
     display: block;
     height: 0;
     clear: both;
-    visibility: hidden; 
+    visibility: hidden;
 }
 </style>

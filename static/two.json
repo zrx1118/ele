@@ -1,0 +1,78 @@
+{
+    "success": true,
+    "list": [
+        {
+            "dcm": "203.950530.0.0",
+            "dpm": "14695.5.204.1",
+            "id": 950530,
+            "link": "//goods.m.duiba.com.cn/button/classify?id=1775&dbnewopen=&dpm=14695.5.204.1&dcm=203.950530.0.0",
+            "logo": "//yun.duiba.com.cn/images/201611/s5mddnlk6l.png",
+            "name": "今日新品",
+            "stInfo": "{\"dpm\":\"14695.5.204.1\",\"dcm\":\"203.950530.0.0\"}"
+        },
+        {
+            "dcm": "203.941322.0.0",
+            "dpm": "14695.5.204.2",
+            "id": 941322,
+            "link": "//goods.m.duiba.com.cn/button/classify?id=2010&dbnewopen=&dpm=14695.5.204.2&dcm=203.941322.0.0",
+            "logo": "//yun.duiba.com.cn/images/201707/gawmi0zjp2.jpg",
+            "name": "红包专区",
+            "stInfo": "{\"dpm\":\"14695.5.204.2\",\"dcm\":\"203.941322.0.0\"}"
+        },
+        {
+            "dcm": "203.874387.0.0",
+            "dpm": "14695.5.204.3",
+            "id": 874387,
+            "link": "//goods.m.duiba.com.cn/button/classify?id=2753&dbnewopen=&dpm=14695.5.204.3&dcm=203.874387.0.0",
+            "logo": "//yun.duiba.com.cn/developer/img/custom_default_icon.png",
+            "name": "0元兑换",
+            "stInfo": "{\"dpm\":\"14695.5.204.3\",\"dcm\":\"203.874387.0.0\"}"
+        },
+        {
+            "dcm": "203.396250.0.0",
+            "dpm": "14695.5.204.4",
+            "id": 396250,
+            "link": "//goods.m.duiba.com.cn/button/classify?id=1720&dbnewopen=&dpm=14695.5.204.4&dcm=203.396250.0.0",
+            "logo": "//yun.duiba.com.cn/images/201611/by82zpc962.png",
+            "name": "优惠礼券",
+            "stInfo": "{\"dpm\":\"14695.5.204.4\",\"dcm\":\"203.396250.0.0\"}"
+        },
+        {
+            "dcm": "203.568025.0.0",
+            "dpm": "14695.5.204.5",
+            "id": 568025,
+            "link": "//goods.m.duiba.com.cn/button/classify?id=1650&dbnewopen=&dpm=14695.5.204.5&dcm=203.568025.0.0",
+            "logo": "//yun.duiba.com.cn/images/201611/yrvj0axxff.png",
+            "name": "食品饮料",
+            "stInfo": "{\"dpm\":\"14695.5.204.5\",\"dcm\":\"203.568025.0.0\"}"
+        },
+        {
+            "dcm": "203.568024.0.0",
+            "dpm": "14695.5.204.6",
+            "id": 568024,
+            "link": "//goods.m.duiba.com.cn/button/classify?id=1644&dbnewopen=&dpm=14695.5.204.6&dcm=203.568024.0.0",
+            "logo": "//yun.duiba.com.cn/images/201611/e2gpweapqd.png",
+            "name": "数码家电",
+            "stInfo": "{\"dpm\":\"14695.5.204.6\",\"dcm\":\"203.568024.0.0\"}"
+        },
+        {
+            "dcm": "203.568023.0.0",
+            "dpm": "14695.5.204.7",
+            "id": 568023,
+            "link": "//goods.m.duiba.com.cn/button/classify?id=1643&dbnewopen=&dpm=14695.5.204.7&dcm=203.568023.0.0",
+            "logo": "//yun.duiba.com.cn/images/201611/q4eion0i4l.png",
+            "name": "日常家居",
+            "stInfo": "{\"dpm\":\"14695.5.204.7\",\"dcm\":\"203.568023.0.0\"}"
+        },
+        {
+            "dcm": "203.526958.0.0",
+            "dpm": "14695.5.204.8",
+            "hasBubble": false,
+            "id": 526958,
+            "link": "//goods.m.duiba.com.cn/button/items?type=all&dbnewopen=&dpm=14695.5.204.8&dcm=203.526958.0.0",
+            "logo": "//yun.duiba.com.cn/img/icon_all.png",
+            "name": "所有商品",
+            "stInfo": "{\"dpm\":\"14695.5.204.8\",\"dcm\":\"203.526958.0.0\"}"
+        }
+    ]
+}

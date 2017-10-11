@@ -79,6 +79,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   template: '<App/>',
+<<<<<<< HEAD
   components: {
     App
   },
@@ -89,4 +90,8 @@ new Vue({
   //     freeMode:true
   //   });
   // }
+=======
+  components: { App },
+  router
+>>>>>>> syl/mine
 })

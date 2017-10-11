@@ -1,0 +1,40 @@
+jsonp3({
+    "success": true,
+    "list": [
+        {
+            "btnLink": "//activity.m.duiba.com.cn/newtools/index?id=2450650&dbnewopen&dpm=14695.5.24.1&dcm=202.2450650.0.0",
+            "countDownEnable": 0,
+            "countDownTime": "",
+            "dcm": "202.2450650.0.0",
+            "dpm": "14695.5.24.1",
+            "image": "//yun.duiba.com.cn/images/201709/qu4f7w34r9.png",
+            "place": 1,
+            "relationImage": "//yun.duiba.com.cn/images/201709/82zapxi5ft.png",
+            "relationTitle": "送你酷炫键盘",
+            "stInfo": "{\"dpm\":\"14695.5.24.1\",\"dcm\":\"202.2450650.0.0\"}"
+        },
+        {
+            "btnLink": "//activity.m.duiba.com.cn/newtools/index?id=2456184&dbnewopen&dpm=14695.5.24.2&dcm=202.2456184.0.0",
+            "countDownEnable": 0,
+            "dcm": "202.2456184.0.0",
+            "dpm": "14695.5.24.2",
+            "image": "//yun.duiba.com.cn/images/201709/l53fppogwf.png",
+            "place": 2,
+            "relationImage": "//yun.duiba.com.cn/images/201709/mt740s00x1.jpg",
+            "relationTitle": "带榨汁机回家",
+            "stInfo": "{\"dpm\":\"14695.5.24.2\",\"dcm\":\"202.2456184.0.0\"}"
+        },
+        {
+            "btnLink": "//activity.m.duiba.com.cn/newtools/index?id=2450647&dbnewopen&dpm=14695.5.24.3&dcm=202.2450647.0.0",
+            "countDownEnable": 0,
+            "countDownTime": "",
+            "dcm": "202.2450647.0.0",
+            "dpm": "14695.5.24.3",
+            "image": "//yun.duiba.com.cn/images/201709/0g2dfeqcsz.png",
+            "place": 3,
+            "relationImage": "//yun.duiba.com.cn/images/201709/to6xiokltv.png",
+            "relationTitle": "红包任性抽",
+            "stInfo": "{\"dpm\":\"14695.5.24.3\",\"dcm\":\"202.2450647.0.0\"}"
+        }
+    ]
+})

@@ -1,0 +1,89 @@
+{
+    "success": true,
+    "list": [
+        {
+            "activityEndDate": "",
+            "activityStartDate": "",
+            "dpm": "14695.5.157.1",
+            "image": "//yun.duiba.com.cn/images/201709/7cjl9vpkio.jpg",
+            "imageNew": "",
+            "link": "//home.m.duiba.com.cn/log/redirect?url=https%3A%2F%2Fbattleship.ele.me%2Factivitylandingpage%3Fid%3D401689%26dbtodeveloper%26uid%3Dnot_login%26dbnewopen&dpm=14695.5.157.1&dcm=",
+            "sourceType": 2,
+            "stInfo": "{\"dpm\":\"14695.5.157.1\"}",
+            "systemDate": "2017-09-26",
+            "title": "公告"
+        },
+        {
+            "activityEndDate": "",
+            "activityId": 2450650,
+            "activityStartDate": "",
+            "activityType": 100,
+            "dcm": "202.2450650.0.0",
+            "dpm": "14695.5.157.2",
+            "image": "//yun.duiba.com.cn/images/201709/q2wcheee3u.jpg",
+            "imageNew": "//yun.duiba.com.cn/images/201709/qfvo4gl5iu.jpg",
+            "link": "//activity.m.duiba.com.cn/newtools/index?id=2450650&dbnewopen&dpm=14695.5.157.2&dcm=202.2450650.0.0",
+            "sourceType": 8,
+            "stInfo": "{\"dpm\":\"14695.5.157.2\",\"dcm\":\"202.2450650.0.0\"}",
+            "systemDate": "2017-09-26",
+            "title": "送你酷炫键盘"
+        },
+        {
+            "activityEndDate": "",
+            "activityId": 2456184,
+            "activityStartDate": "",
+            "activityType": 100,
+            "dcm": "202.2456184.0.0",
+            "dpm": "14695.5.157.3",
+            "image": "//yun.duiba.com.cn/images/201709/snkg8e72uj.jpg",
+            "imageNew": "//yun.duiba.com.cn/images/201709/knrzsph54j.jpg",
+            "link": "//activity.m.duiba.com.cn/newtools/index?id=2456184&dbnewopen&dpm=14695.5.157.3&dcm=202.2456184.0.0",
+            "sourceType": 12,
+            "stInfo": "{\"dpm\":\"14695.5.157.3\",\"dcm\":\"202.2456184.0.0\"}",
+            "systemDate": "2017-09-26",
+            "title": "带榨汁机回家"
+        },
+        {
+            "activityEndDate": "",
+            "activityStartDate": "",
+            "dpm": "14695.5.157.4",
+            "image": "//yun.duiba.com.cn/images/201709/18ehgli930.jpg",
+            "imageNew": "",
+            "link": "https://h5.ele.me/exchange/?dbredirect=https%3A%2F%2Factivity.m.duiba.com.cn%2Fnewtools%2Findex%3Fid%3D2406582&dbtodeveloper&uid=not_login&dbnewopen&dpm=14695.5.157.4&dcm=",
+            "sourceType": 2,
+            "stInfo": "{\"dpm\":\"14695.5.157.4\"}",
+            "systemDate": "2017-09-26",
+            "title": "翻牌赢苹果"
+        },
+        {
+            "activityEndDate": "",
+            "activityId": 2452419,
+            "activityStartDate": "",
+            "activityType": 100,
+            "dcm": "202.2452419.0.0",
+            "dpm": "14695.5.157.5",
+            "image": "//yun.duiba.com.cn/images/201709/8vpwlfkm86.png",
+            "imageNew": "//yun.duiba.com.cn/images/201709/uzzrzrarmn.jpg",
+            "link": "//activity.m.duiba.com.cn/newtools/index?id=2452419&dbnewopen&dpm=14695.5.157.5&dcm=202.2452419.0.0",
+            "sourceType": 7,
+            "stInfo": "{\"dpm\":\"14695.5.157.5\",\"dcm\":\"202.2452419.0.0\"}",
+            "systemDate": "2017-09-26",
+            "title": "果粉狂欢季 第三期"
+        },
+        {
+            "activityEndDate": "",
+            "activityId": 2457797,
+            "activityStartDate": "",
+            "activityType": 100,
+            "dcm": "202.2457797.0.0",
+            "dpm": "14695.5.157.6",
+            "image": "//yun.duiba.com.cn/images/201709/ah4ra9ybki.jpg",
+            "imageNew": "//yun.duiba.com.cn/upload/hdTool/turnCard/banner_750x220.png",
+            "link": "//activity.m.duiba.com.cn/newtools/index?id=2457797&dbnewopen&dpm=14695.5.157.6&dcm=202.2457797.0.0",
+            "sourceType": 12,
+            "stInfo": "{\"dpm\":\"14695.5.157.6\",\"dcm\":\"202.2457797.0.0\"}",
+            "systemDate": "2017-09-26",
+            "title": "5000瓶桃花醉"
+        }
+    ]
+}
