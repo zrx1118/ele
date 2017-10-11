@@ -23,156 +23,111 @@
         </div>
     </div>
     <nav>
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><span class="active">黄焖鸡</span></div>
-                <div class="swiper-slide"><span>贡茶</span></div>
-                <div class="swiper-slide"><span>米线</span></div>
-                <div class="swiper-slide"><span>真功夫</span></div>
-                <div class="swiper-slide"><span>奶茶</span></div>
-                <div class="swiper-slide"><span>吉野家</span></div>
-                <div class="swiper-slide"><span>肯德基</span></div>
-                <div class="swiper-slide"><span>面</span></div>
-                <div class="swiper-slide"><span>酸辣粉</span></div>
-                <div class="swiper-slide"><span>粥</span></div>
-            </div>
-        </div>
+        <a v-for="item in hot_search" :key="item.id"><span class="active">{{item.word}}</span></a>
     </nav>
-    <div class="menu clear">
-        <a href="">
+    <div class="menu">
+        <!-- <router-link  v-for="(item,index) in entries" :key="item.id" :to="'/shopdetail/'+item.id">
             <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
+                <img :src="item.image_hash | dataFilter" alt="">
             </div>
-            <span>美食</span>
-        </a>
-        <a href="">
+            <span>{{item.name}}</span>
+        </router-link> -->
+        <router-link  v-for="(item,index) in entries" :key="item.id" :to="{path:'/navlist/'+item.id}">
             <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
+                <img :src="item.image_hash | dataFilter" alt="">
             </div>
-            <span>美食</span>
-        </a>
-        <a href="">
-            <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
-            </div>
-            <span>美食</span>
-        </a>
-        <a href="">
-            <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
-            </div>
-            <span>美食</span>
-        </a>
-        <a href="">
-            <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
-            </div>
-            <span>美食</span>
-        </a>
-        <a href="">
-            <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
-            </div>
-            <span>美食</span>
-        </a>
-        <a href="">
-            <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
-            </div>
-            <span>美食</span>
-        </a>
-        <a href="">
-            <div>
-            <img src="http:////fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/" alt="">
-            </div>
-            <span>美食</span>
-        </a>
+            <span>{{item.name}}</span>
+        </router-link>
+        <div class="pagination">
+            <span></span>
+            <span></span>
+        </div>
     </div>
     <section class="food_menu clear">
-        <div>
-            <div class="sales limit">
-                <h3>限量抢购</h3>
-                <label>超值美味9.9元起</label>
-                <p><span>649人</span>正在抢 <i></i></p>
+        <div class="sale">
+            <a v-for="item in top" :href="item.url" :key="item.id" @click.prevent="checksale" :class="item.class">
+                <h3>{{item.title}}</h3>
+                <label>{{item.content}}</label> 
+                <p><span v-show=item.showAmount>649人</span>{{item.info}}</p>
                 <div>
-                    <img src="http:////fuss10.elemecdn.com/b/e1/0fa0ed514c093a7138b0b9a50d61fpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/" alt="">
+                    <img :src="item.imghash | dataFilter" alt="">
                 </div>
-            </div>
-            <div class="sales hot">
-                <h3>热卖套餐</h3>
-                <label>销量最高，好评最多</label>
-                <p>top100 <i></i></p>
-                <div>
-                    <img src="http:////fuss10.elemecdn.com/b/e1/0fa0ed514c093a7138b0b9a50d61fpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/" alt="">
-                </div>
-            </div>
+            </a>
         </div>
     </section>
     <section class="foo_menu clear">
         <div>
-            <div class="special ">
-                <h3>天天特价</h3>
-                <span>低至1折</span>
-                <img src="http:////fuss10.elemecdn.com/5/06/ddb537220b8c56d4ef6ae22718984png.png?imageMogr/format/webp/thumbnail/!232x154r/gravity/Center/crop/232x154/" alt="">
-            </div>
-            <div class="special">
-                <h3>乐享鲜果</h3>
-                <span>鲜果乐享7折</span>
-                <img src="http:////fuss10.elemecdn.com/5/06/ddb537220b8c56d4ef6ae22718984png.png?imageMogr/format/webp/thumbnail/!232x154r/gravity/Center/crop/232x154/" alt="">
-            </div>
-            <div class="special">
-                <h3>品质优选</h3>
-                <span>尖货来袭</span>
-                <img src="http:////fuss10.elemecdn.com/5/06/ddb537220b8c56d4ef6ae22718984png.png?imageMogr/format/webp/thumbnail/!232x154r/gravity/Center/crop/232x154/" alt="">
+            <div class="special " v-for="item in bottom" :key="item.id">
+                <h3>{{item.title}}</h3>
+                <span>{{item.content}}</span>
+                <img :src="item.imghash | dataFilter" alt="">
             </div>
         </div>
     </section>
     <h3 class="index_title">推荐商家</h3>
-    <section class="shop">
-        <div class="shop_container">
-            <div class="shop_brand">
-                <img src="http:////fuss10.elemecdn.com/f/8d/f29dbf20be425fc12426c0b1f90b7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
-            </div>
-            <div class="index_main">
-                <div class="shopname"><h3><span>CoCo都可(前门店）</span></h3><ul><li>保</li></ul></div>
-                <div class="shopnum"><div><p></p><span>4.7</span><span>月售1416单</span></div><p>蜂鸟专送</p></div>
-                <div class="shopprice"><ul><li>￥20起送</li><li>配送费5元</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
-                <div class="index_discount">
-                    <p class="discount"><i>减</i><span>满35减8，满50减14</span></p>
-                    <p class="first"><i>首</i><span>新用户下单立减17.0元</span></p>
-                </div>
-            </div>
-        </div>
-        <div class="shop_container">
-            <div class="shop_brand">
-                <img src="http:////fuss10.elemecdn.com/f/8d/f29dbf20be425fc12426c0b1f90b7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
-            </div>
-            <div class="index_main">
-                <div class="shopname"><h3><span>CoCo都可(前门店）</span></h3><ul><li>保</li></ul></div>
-                <div class="shopnum"><div><p></p><span>4.7</span><span>月售1416单</span></div><p>蜂鸟专送</p></div>
-                <div class="shopprice"><ul><li>￥20起送</li><li>配送费5元</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
-                <div class="index_discount">
-                    <p class="discount"><i>减</i><span>满35减8，满50减14</span></p>
-                    <p class="first"><i>首</i><span>新用户下单立减17.0元</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <shoplist :url="url" :category="'restaurants'"></shoplist>
     <div class="t-hidden"></div>
     
     </div>
 </template>
 
 <script>
+// 导入商铺列表组件
+import ShopList from '../components/ShopList'
+
 export default {
-  name: 'takeout',
-  data () {
-    return {
-      msg: '',
-      location:'东城区市政府'
-      
+    name: 'takeout',
+    data () {
+        return {
+            msg: '',
+            location:'东城区市政府',
+        //   url:'https://crayfish.elemecdn.com/h5.ele.me/msite',
+            url:'./static/takeout.json',
+            top:[],
+            bottom:[],
+            hot_search:[],
+            entries:[]
+        }
+    },
+    methods:{
+        checksale(){
+            this.$router.push('/limitsale');
+        },
+        checkNavList(){
+            this.$router.push('/navlist');
+        }
+    },
+    filters: {
+        dataFilter: function (a) {
+        var url="https://fuss10.elemecdn.com/";
+        url+=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
+        return url;
+        }
+    },
+    components:{
+        shoplist:ShopList
+    },
+    created(){
+        this.$http.get(this.url).then(res=>{
+        this.top=res.data.activityLinks.top;
+        this.bottom=res.data.activityLinks.bottom;
+        this.hot_search=res.data.hot_search;
+        this.entries=res.data.entries;
+        },err=>{
+            console.log(err);
+        })
+    },
+    mounted(){
+        // var mySwiper1 = new Swiper ('nav .swiper-container', {
+        //     slidesPerView:6.5,
+        //     freeMode:true
+        // });
+        // var mySwiper2 = new Swiper ('.menu .swiper-container', {
+        
+        //     freeMode:true,
+        //     pagination: '.swiper-pagination'
+        // });
     }
-  }
 }
 </script>
 
@@ -263,39 +218,44 @@ header{
     background-size: 100% 100%;
 }
 nav{
-    width:100%;
-    display: flex;
-    overflow: hidden;
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0;
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
     background-image: linear-gradient(90deg,#0af,#0085ff);
 }
-nav span{
-    flex:1;
-    display: block;
-    height:.3rem;
+nav a{
+    display: inline-block;
+    height: 100%;
+    font-size: 0.12rem;
+    text-align: center;
     line-height:.3rem;
-    font-size: .12rem;
-    margin-left: .2rem;
-    white-space: nowrap;
-    color:#fff;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 .07rem;
+    padding: 0 .05rem;
 }
-nav .swiper-container {
-    width: 100%;
-    height: .3rem;
+::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
 }
 .menu{
     width:100%;
+    height: 1.4rem;
     font-size: 0;
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
     margin-bottom: .15rem;
-    clear: both;
 }
 .menu a{
     width:25%;
-    position: relative;
     float: left;
     font-size: .12rem;
     margin-top: .14667rem;
     text-align: center;
-    color:
 }
 .menu a div{
     width:.384rem;
@@ -312,12 +272,21 @@ nav .swiper-container {
     color: #666;
     font-size: .12rem;
 }
+.pagination span{
+    width:.1rem;
+    height: .1rem;
+    border-radius: .05rem;
+    background-color: #eee;
+}
 .food_menu{
     width:100%;
     font-size: 0;
     padding: 0 .1rem;
 }
-.food_menu .sales{
+.food_menu .sale{
+    width:100%;
+}
+.sale a{
     width:49%;
     font-size: .12rem;
     float: left;
@@ -328,10 +297,10 @@ nav .swiper-container {
     background: -webkit-linear-gradient(bottom,#f4f4f4 5%,#fafafa 95%);
     background: linear-gradient(0deg,#f4f4f4 5%,#fafafa 95%);
 }
-.food_menu .limit{
+.sale a:first-child{
     margin-right: .02rem;
 }
-.sales img{
+.sale img{
     width:1.024rem;
     height:.6826rem;
     vertical-align: top;
@@ -339,7 +308,7 @@ nav .swiper-container {
     bottom: -.05rem;
     right: -.05rem;
 }
-.sales i{
+.sale i{
     content: "";
     display: inline-block;
     border: .01rem solid gray;
@@ -353,18 +322,18 @@ nav .swiper-container {
     -webkit-transform-origin: 33.3% 33.3%;
     -webkit-transform: rotate(135deg);
 }
-.limit h3{
+.sales h3{
     font-size: .14rem;
     color: #e81919;
 }
-.limit label,.hot label{
+.sales label,.hot label{
     color:#777;
     line-height: .2rem;
 }
-.limit p{
+.sales p{
     font-weight: 300;
 }
-.limit span{
+.sales span{
     color: #e81919;
     font-size: .1rem;
 }
@@ -425,124 +394,4 @@ nav .swiper-container {
     font-size: .14em;
     font-weight: bold;
 }
-.shop{
-    width:100%;
-    font-size: 0;
-}
-.shop_container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    border-bottom: 1px solid #eee;
-    background-color: #fff;
-    color: #666;
-    font-size: .12rem;
-}
-.shop_container .shop_brand{
-    width:.8rem;
-    position: relative;
-    padding: .1rem .122223rem;
-    flex: none;
-}
-.shop_brand img{
-    width:100%;
-}
-.shop_container .index_main{
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: .1rem .122223rem .1rem 0;
-    user-select: none;
-    width: 3.733333rem;
-}
-.shopname h3{
-    float: left;
-}
-.shopname h3:before{
-    margin-right: .06667rem;
-    padding: 0 .033334;
-    height: .12rem;
-    line-height: .12rem;
-    border-radius: .023333rem;
-    background-image: -webkit-linear-gradient(229deg,#fff100,#ffe339);
-    background-image: linear-gradient(-139deg,#fff100,#ffe339);
-    color: #6f3f15;
-    content: "\54C1\724C";
-    text-align: center;
-    white-space: nowrap;
-    font-weight: 400;
-    font-size: .12rem;
-    flex: none;
-}
-.shopname h3 span{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.shopname ul{
-    float: right;
-    border: 1px solid #eee;
-}
-.shopnum{
-    line-height: .2rem;
-}
-.shopnum>div{
-    float: left;
-}
-.shopnum>p{
-    float:right;
-    padding: 0 .025333rem;
-    border: 1px solid #44a5ff;
-    border-radius: .025333rem;
-    background-color: #fff;
-    color: #2395ff;
-    font-size: .12rem;
-    height: .17rem;
-    line-height: .17rem;
-    background-image: -webkit-linear-gradient(45deg,#0085ff,#0af);
-    background-image: linear-gradient(45deg,#0085ff,#0af);
-    color: #fff;
-}
-.shopprice ul:first-child{
-    float: left;
-}
-.shopprice ul:last-child{
-    float: right;
-}
-.shopprice ul li{
-    padding:0 .05rem;
-    border-left: 1px solid #eee;
-    float: left;
-}
-.shopprice ul li:first-child{
-    padding-left:0;
-    border: none;
-}
-.index_discount{
-    border-top: 1px solid #eee;
-    padding:.05rem 0 0 0;
-    margin-top: .05rem;
-}
-.index_discount p{
-    line-height: .2rem;
-}
-.index_discount i{
-    font-style: normal;
-    text-align: center;
-    padding:.01rem;
-    margin-right: .06rem;
-    border-radius: .02rem;
-}
-.discount i{
-    background-color: rgb(240, 115, 115);
-    color: rgb(255, 255, 255);
-}
-.first i{
-    background-color: rgb(112, 188, 70);
-    color: rgb(255, 255, 255);
-}
-
-/* 底部菜单 */
 </style>
