@@ -14,6 +14,7 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 // 导入懒加载模块
 import VueLazyload from 'vue-lazyload'
 
+Vue.use(VueAwesomeSwiper)
 
 // 全局配置一下资源模块
 Vue.use(resource)

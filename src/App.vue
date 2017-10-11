@@ -3,7 +3,6 @@
     
     <foot v-show="isShow()"></foot>
     <router-view></router-view>
-    
   </div>
 </template>
 

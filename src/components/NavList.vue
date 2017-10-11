@@ -14,6 +14,7 @@
                 <span>筛选</span><i></i>
             </a>
         </div>
+        <div class="h_hidden"></div>
         <section class="shop">
             <div class="shop_container"  v-for="items in product.detail" :key="items.id">
                 <div class="shop_brand">
@@ -102,7 +103,6 @@ export default {
     content: "";
     float: left;
     margin: .17rem 0 0 .1rem;
-    display: inline-block;
     border: .02rem solid #fff;
     border-width: .02rem 0 0 .02rem;
     width: .12rem;
@@ -119,6 +119,7 @@ export default {
     height:.3334rem;
     line-height:.3334rem;
     font-size: .12rem;
+    background-color: #fff;
     color:#777;
     border-bottom: 1px solid #eee;
 }

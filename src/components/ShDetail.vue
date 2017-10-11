@@ -55,9 +55,9 @@
                             <p><span>{{ it.tips }}</span><span>好评率100%</span></p>
                             <span class="doll">￥</span><b>{{ it.specfoods[0].price }}</b>
                             <div>
-                                <span class="minus" @click=down(it)></span>
+                                <span class="minus" @click="down(it)"></span>
                                 <i class="count">1</i>
-                                <span class="add" @click=up(it)></span>
+                                <span class="add" @click="up(it)"></span>
                             </div>
                         </li>
                     </ul>
@@ -70,7 +70,7 @@
                 <span>¥40</span>
                 <p>配送费¥4</p>
             </div>
-            <button class="btn ">还差¥4结算</button>
+            <button class="btn">还差¥4结算</button>
         </footer>
    </div>
 </template>
@@ -111,7 +111,10 @@ export default {
   },
   computed:{
       counts(){
-          return this.$store.
+          return this.$store.getters.totalCount
+      },
+      price(){
+          return this.$store.getters.totalPrice          
       }
   }
 }

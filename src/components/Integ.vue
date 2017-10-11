@@ -4,21 +4,9 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"  v-for="items in arr1" :key=items.id><img :src="items.image" alt=""></div>
-                <!-- <div class="swiper-slide"><img src="https://yun.duiba.com.cn/images/201709/7cjl9vpkio.jpg?x-oss-process=image/format,webp" alt=""></div>
-                <div class="swiper-slide"><img src="https://yun.duiba.com.cn/images/201709/snkg8e72uj.jpg?x-oss-process=image/format,webp" alt=""></div>
-                <div class="swiper-slide"><img src="https://yun.duiba.com.cn/images/201709/8vpwlfkm86.png?x-oss-process=image/format,webp" alt=""></div>
-                <div class="swiper-slide"><img src="https://yun.duiba.com.cn/images/201709/ah4ra9ybki.jpg?x-oss-process=image/format,webp" alt=""></div> -->
             </div> 
             <!-- 如果需要分页器 -->
             <div class="swiper-pagination"></div>
-            
-            <!-- 如果需要导航按钮 -->
-            <!-- <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div> -->
-            
-            <!-- 如果需要滚动条 -->
-            <!-- <div class="swiper-scrollbar"></div> -->
-
         </div>
         <div class="nav">
             <div class="nav_left">
