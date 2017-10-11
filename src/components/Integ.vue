@@ -92,83 +92,83 @@
 <script>
 
 export default {
-  data() {
-      return {
-          url:"./static/four.json",
-          list:[],
-          path:"./static/two.json",
-          arr:[],
-          url1:'./static/lunbo.json',
-          arr1:[]
+    data() {
+        return {
+            url:"./static/four.json",
+            list:[],
+            path:"./static/two.json",
+            arr:[],
+            url1:'./static/lunbo.json',
+            arr1:[]
 
-      }  
-  },
-  created(){
-      this.axios.get(this.url).then(res =>{
-          this.list = res.data.list
-      },err=>{
-          console.log(err)
-      }),
-      this.axios.get(this.path).then(res =>{
-          this.arr = res.data.list
-      },err=>{
-          console.log(err)
-      }),
-      this.axios.get(this.url1).then(res =>{
-          this.arr1 = res.data.list
-      },err=>{
-          console.log(err)
-      })
-
-  },
-  mounted: function () {
-setTimeout(function(){
-        var mySwiper = new Swiper ('.swiper-container', {
-        //direction: 'vertical',
-        loop: true,
-
-        // 如果需要分页器
-        pagination: '.swiper-pagination',
-
-        // 如果需要前进后退按钮
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-
-        // 如果需要滚动条
-        //scrollbar: '.swiper-scrollbar',
-
-       // effect:"cube",
-        autoplay:1000
+        }  
+    },
+    created(){
+        this.axios.get(this.url).then(res =>{
+            this.list = res.data.list
+        },err=>{
+            console.log(err)
+        }),
+        this.axios.get(this.path).then(res =>{
+            this.arr = res.data.list
+        },err=>{
+            console.log(err)
+        }),
+        this.axios.get(this.url1).then(res =>{
+            this.arr1 = res.data.list
+        },err=>{
+            console.log(err)
         })
 
-    },1000)
-},
-  methods:{
-      fn1() {
-          this.$router.push('/New');
-      },
-      fn2() {
-          this.$router.push('/Money');
-      },
-      fn3() {
-          this.$router.push('/Duihuan');
-      },
-      fn4() {
-          this.$router.push('/Liquan');
-      },
-      fn5() {
-          this.$router.push('/Yinliao');
-      },
-      fn6() {
-          this.$router.push('/Jiadian');
-      },
-      fn7() {
-          this.$router.push('/Jiaju');
-      },
-      fn8() {
-          this.$router.push('/All');
-      },
-  }
+    },
+    mounted: function () {
+        setTimeout(function(){
+            var mySwiper = new Swiper ('.swiper-container', {
+            //direction: 'vertical',
+            loop: true,
+
+            // 如果需要分页器
+            pagination: '.swiper-pagination',
+
+            // 如果需要前进后退按钮
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+
+            // 如果需要滚动条
+            //scrollbar: '.swiper-scrollbar',
+
+        // effect:"cube",
+            autoplay:1000
+            })
+
+        },1000)
+    },
+    methods:{
+        fn1() {
+            this.$router.push('/New');
+        },
+        fn2() {
+            this.$router.push('/Money');
+        },
+        fn3() {
+            this.$router.push('/Duihuan');
+        },
+        fn4() {
+            this.$router.push('/Liquan');
+        },
+        fn5() {
+            this.$router.push('/Yinliao');
+        },
+        fn6() {
+            this.$router.push('/Jiadian');
+        },
+        fn7() {
+            this.$router.push('/Jiaju');
+        },
+        fn8() {
+            this.$router.push('/All');
+        },
+    }
 }
 </script>
 

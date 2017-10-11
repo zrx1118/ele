@@ -1,6 +1,6 @@
 <template>
     <div class="new">
-        <a href="" v-for = "(item,index) in list" :key="item.id">
+        <a href="" v-for="(item,index) in list" :key="item.id">
           <div class="new_top">
             <img :src="item.logo" alt="">
           </div>
