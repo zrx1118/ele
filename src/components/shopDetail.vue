@@ -70,7 +70,7 @@
                 <span>¥40</span>
                 <p>配送费¥4</p>
             </div>
-            <button class="btn ">还差¥4结算</button>
+            <button class="btn">还差¥4结算</button>
         </footer>
    </div>
 </template>
