@@ -114,11 +114,7 @@ export default {
           return this.$store.getters.totalCount
       },
       price(){
-<<<<<<< HEAD:src/components/ShDetail.vue
           return this.$store.getters.totalPrice
-=======
-          return this.$store.getters.totalPrice          
->>>>>>> dev:src/components/ShDetail.vue
       }
   }
 }
