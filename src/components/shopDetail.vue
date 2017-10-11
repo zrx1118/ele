@@ -110,6 +110,9 @@ export default {
       }
   },
   computed:{
+      counts(){
+          return this.$store.
+      }
   }
 }
 
