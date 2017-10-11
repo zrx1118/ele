@@ -1,0 +1,27 @@
+{
+    "success": true,
+    "code": "0000000",
+    "desc": "成功",
+    "data": {
+        "arunum": 1,
+        "autoRecommendNextPage": false,
+        "appItemNextPage": false,
+        "items": [
+            {
+                "appItemId": 1213466,
+                "tagClasses": "custom",
+                "tagColor": "#05b2c2",
+                "recommendText": "兑换",
+                "tagText": "+38元",
+                "title": "台湾脆虾组合",
+                "type": "coupon",
+                "url": "//goods.m.duiba.com.cn/mobile/appItemDetail?appItemId=1213466&dbnewopen&dpm=14695.33.1.1&dcm=102.1213466.0.0",
+                "dcm": "102.1213466.0.0",
+                "emdDpmJson": "{\"dpm\":\"dpm=14695.33.1.1\",\"domain\":\"//embedlog.duiba.com.cn\",\"dcm\":\"102.1213466.0.0\"}",
+                "subTitle": "",
+                "credits": "299积分",
+                "logo": "//yun.duiba.com.cn/images/201706/wcupeembet.jpg"
+            }
+        ]
+    }
+}

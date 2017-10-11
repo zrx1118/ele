@@ -30,15 +30,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: {
-    App
-  },
-  router,
-  store
-  // mounted(){
-  //   var mySwiper1 = new Swiper ('nav .swiper-container', {
-  //     slidesPerView:6,
-  //     freeMode:true
-  //   });
-  // }
+  components: { App },
+  router
 })
