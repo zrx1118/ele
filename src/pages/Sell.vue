@@ -19,7 +19,6 @@
 <script>
 
 export default {
-  
     data () {
         return {
             haha: '我是订单'
