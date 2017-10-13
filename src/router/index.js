@@ -44,7 +44,7 @@ const routes = [
   {path:'/order',component:Order },
   {path:'/mine',component:Mine },
   {path:'/limitsale',component:LimitSale },
-  {path:'/shdetail',component:ShDetail },
+  {path:'/shdetail/:id',component:ShDetail },
   {path:'/navlist/:id',component:NavList },
   {path:'/second.more',component:More ,children:[
     {path:'/', redirect: '/second.more/morelist'},

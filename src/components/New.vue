@@ -1,7 +1,6 @@
 <template>
     <div class="new">
-        <a href="" v-for = "(item,index) in list" :key="item.id">
-			<router-link :to="'/Details'+list.appItemId" class="link">
+			<router-link  v-for = "(item,index) in list" :key="item.id" :to="'/Details'+list.appItemId" class="link">
 				<div class="new_top">
 					<img :src="item.logo" alt="">
 				</div>
@@ -14,7 +13,7 @@
 				</div>
 				<button>{{item.recommendText}}</button>
 		  </router-link>
-        </a>
+      <router-view></router-view>
    </div>
 </template>
     
@@ -23,101 +22,100 @@ export default {
   name: "component_name",
   data () {
     return {
-        url:"./static/xinpin.json",
-		list:[],
-		 arr: [
-            {
-                "appItemId": 651910,
-                "recommendText": "妮维雅清洁柔肤香皂",
-                "tagText": "299积分",
-                "title": "2017-09-14 至 2017-09-30",
-                "type": "object",
-                "logo": "https://yun.duiba.com.cn/images/201709/zu4qoxy0zg.jpg",
-                "shopText":"友情提示",
-                "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
-                "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
-                "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
-                "shopFour": "l  活动商品数量有限,售完即止!",
-                "shopFive": "活动商品不退不换",
-                "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
-            },
-            {
-                "appItemId": 817732,
-                "recommendText": "妮维雅清洁柔肤香皂",
-                "tagText": "299积分",
-                "title": "2017-09-14 至 2017-09-30",
-                "type": "object",
-                "logo": "https://yun.duiba.com.cn/images/201708/7coa9k1tfw.jpg",
-                "shopText":"友情提示",
-                "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
-                "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
-                "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
-                "shopFour": "l  活动商品数量有限,售完即止!",
-                "shopFive": "活动商品不退不换",
-                "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
-            },
-            {
-                "appItemId": 863616,
-                "recommendText": "妮维雅清洁柔肤香皂",
-                "tagText": "299积分",
-                "title": "2017-09-14 至 2017-09-30",
-                "type": "object",
-                "logo": "https://yun.duiba.com.cn/images/201708/7coa9k1tfw.jpg",
-                "shopText":"友情提示",
-                "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
-                "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
-                "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
-                "shopFour": "l  活动商品数量有限,售完即止!",
-                "shopFive": "活动商品不退不换",
-                "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
-            },
-            {
-                "appItemId": 1133773,
-                "recommendText": "妮维雅清洁柔肤香皂",
-                "tagText": "299积分",
-                "title": "2017-09-14 至 2017-09-30",
-                "type": "object",
-                "logo": "https://yun.duiba.com.cn/images/201708/j9j332ju7f.jpg",
-                "shopText":"友情提示",
-                "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
-                "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
-                "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
-                "shopFour": "l  活动商品数量有限,售完即止!",
-                "shopFive": "活动商品不退不换",
-                "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
-            },
-            {
-                "appItemId": 929778,
-                "recommendText": "妮维雅清洁柔肤香皂",
-                "tagText": "299积分",
-                "title": "2017-09-14 至 2017-09-30",
-                "type": "object",
-                "logo": "https://yun.duiba.com.cn/images/201708/lf2b093fh1.jpg",
-                "shopText":"友情提示",
-                "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
-                "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
-                "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
-                "shopFour": "l  活动商品数量有限,售完即止!",
-                "shopFive": "活动商品不退不换",
-                "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
-            },
-            {
-                "appItemId": 1134002,
-                "recommendText": "妮维雅清洁柔肤香皂",
-                "tagText": "299积分",
-                "title": "2017-09-14 至 2017-09-30",
-                "type": "object",
-                "logo": "https://yun.duiba.com.cn/images/201708/qiakp1kqfp.jpg",
-                "shopText":"友情提示",
-                "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
-                "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
-                "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
-                "shopFour": "l  活动商品数量有限,售完即止!",
-                "shopFive": "活动商品不退不换",
-                "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
-            },
-            
-    ]
+      url:"./static/xinpin.json",
+		  list:[],
+		  arr: [
+        {
+            "appItemId": 651910,
+            "recommendText": "妮维雅清洁柔肤香皂",
+            "tagText": "299积分",
+            "title": "2017-09-14 至 2017-09-30",
+            "type": "object",
+            "logo": "https://yun.duiba.com.cn/images/201709/zu4qoxy0zg.jpg",
+            "shopText":"友情提示",
+            "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
+            "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
+            "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
+            "shopFour": "l  活动商品数量有限,售完即止!",
+            "shopFive": "活动商品不退不换",
+            "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
+        },
+        {
+            "appItemId": 817732,
+            "recommendText": "妮维雅清洁柔肤香皂",
+            "tagText": "299积分",
+            "title": "2017-09-14 至 2017-09-30",
+            "type": "object",
+            "logo": "https://yun.duiba.com.cn/images/201708/7coa9k1tfw.jpg",
+            "shopText":"友情提示",
+            "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
+            "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
+            "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
+            "shopFour": "l  活动商品数量有限,售完即止!",
+            "shopFive": "活动商品不退不换",
+            "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
+        },
+        {
+            "appItemId": 863616,
+            "recommendText": "妮维雅清洁柔肤香皂",
+            "tagText": "299积分",
+            "title": "2017-09-14 至 2017-09-30",
+            "type": "object",
+            "logo": "https://yun.duiba.com.cn/images/201708/7coa9k1tfw.jpg",
+            "shopText":"友情提示",
+            "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
+            "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
+            "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
+            "shopFour": "l  活动商品数量有限,售完即止!",
+            "shopFive": "活动商品不退不换",
+            "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
+        },
+        {
+            "appItemId": 1133773,
+            "recommendText": "妮维雅清洁柔肤香皂",
+            "tagText": "299积分",
+            "title": "2017-09-14 至 2017-09-30",
+            "type": "object",
+            "logo": "https://yun.duiba.com.cn/images/201708/j9j332ju7f.jpg",
+            "shopText":"友情提示",
+            "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
+            "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
+            "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
+            "shopFour": "l  活动商品数量有限,售完即止!",
+            "shopFive": "活动商品不退不换",
+            "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
+        },
+        {
+            "appItemId": 929778,
+            "recommendText": "妮维雅清洁柔肤香皂",
+            "tagText": "299积分",
+            "title": "2017-09-14 至 2017-09-30",
+            "type": "object",
+            "logo": "https://yun.duiba.com.cn/images/201708/lf2b093fh1.jpg",
+            "shopText":"友情提示",
+            "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
+            "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
+            "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
+            "shopFour": "l  活动商品数量有限,售完即止!",
+            "shopFive": "活动商品不退不换",
+            "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
+        },
+        {
+            "appItemId": 1134002,
+            "recommendText": "妮维雅清洁柔肤香皂",
+            "tagText": "299积分",
+            "title": "2017-09-14 至 2017-09-30",
+            "type": "object",
+            "logo": "https://yun.duiba.com.cn/images/201708/qiakp1kqfp.jpg",
+            "shopText":"友情提示",
+            "shopOne": "l  需先把默认优惠券删除,在【平台优惠券】栏里面输入“饿了么”平台发送的【兑换码】",
+            "shopTwo": "l  不是在【店铺优惠】栏输入兑换码,是在【平台优惠券】内输入兑换码;",
+            "shopThird": "l  海关规定跨境商品需要实名认证,新注册用户需点击:【实名认证】填写后,才能成功下单;",
+            "shopFour": "l  活动商品数量有限,售完即止!",
+            "shopFive": "活动商品不退不换",
+            "shopNone" : "3. 单笔订单仅限使用一张,同一账户ID,同一手机号,同一收货地址,同一IP,或其他被认为同一用户状态下,仅限用一张券,且不与其他优惠同时使用,不可兑换现金" 
+        }     
+      ]
     };
   },
   created(){

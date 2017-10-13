@@ -26,12 +26,6 @@
         <a v-for="item in hot_search" :key="item.id"><span class="active">{{item.word}}</span></a>
     </nav>
     <div class="menu">
-        <!-- <router-link  v-for="(item,index) in entries" :key="item.id" :to="'/shopdetail/'+item.id">
-            <div>
-                <img :src="item.image_hash | dataFilter" alt="">
-            </div>
-            <span>{{item.name}}</span>
-        </router-link> -->
         <router-link  v-for="(item,index) in entries" :key="item.id" :to="{path:'/navlist/'+item.id}">
             <div>
                 <img :src="item.image_hash | dataFilter" alt="">
@@ -116,17 +110,6 @@ export default {
         },err=>{
             console.log(err);
         })
-    },
-    mounted(){
-        // var mySwiper1 = new Swiper ('nav .swiper-container', {
-        //     slidesPerView:6.5,
-        //     freeMode:true
-        // });
-        // var mySwiper2 = new Swiper ('.menu .swiper-container', {
-        
-        //     freeMode:true,
-        //     pagination: '.swiper-pagination'
-        // });
     }
 }
 </script>

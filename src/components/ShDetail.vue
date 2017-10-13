@@ -10,7 +10,7 @@
                 <div class="index_main">
                     <img  class="shop_brand" src="https://fuss10.elemecdn.com/c/14/48d5806f132eee1c634547e637a90jpeg.jpeg" alt="">
                     <div>
-                        <h3>荷花泰菜（王府井店）</span></h3>
+                        <h3>{{product.name}}</span></h3>
                         <p><span>商家配送/</span><span>50分钟送达/</span><span>配送费￥3</span></p>
                         <p>公告:<span>客服电话:162622626262 22222222</span></p> 
                     </div>
@@ -77,78 +77,86 @@
     
 <script>
 export default {
-  name: "component_name",
-  data () {
+    name: "shop_detail",
+    data () {
     return {
+        url:'../static/takeout.json',
         list:[]
     };
-  },
-  created(){
-      //用axious实现页面的本地数据ajax请求
-       this.axios.get('./static/found-data2.json').then(res => {
-          this.list = res.data;
-      }, err => {
-          console.log(err);
-      });
-  },
-  filters: {
-      //图片转换格式过滤器
-      dataFilter: function (dateNum) {
+    },
+    created(){
+        //用axious实现页面的本地数据ajax请求
+        this.axios.get(this.url).then(res => {
+            this.list = res.data.restaurants;
+        }, err => {
+            console.log(err);
+        });
+    },
+    filters: {
+        //图片转换格式过滤器
+        dataFilter: function (dateNum) {
         var url="https://fuss10.elemecdn.com/",
         res4=dateNum.substr(dateNum.lastIndexOf("jpeg")!=-1?dateNum.length-4:dateNum.length-3);
         url+=dateNum.substr(0,1)+"/"+dateNum.substr(1,2)+"/"+dateNum.substr(3)+"."+res4;
         return url;
-      }
-  },
-  methods:{
-      //按添加按钮进行点餐
-      up(item){
-          this.$store.dispath("up", item)
-      },
-      down(item){
-          this.$store.dispatch("down", item)
-      }
-  },
-  computed:{
-      counts(){
-          return this.$store.getters.totalcount
-      },
-      price(){
-          return this.$store.getters.totalprice
-      }
-  }
+        }
+    },
+    methods:{
+        //按添加按钮进行点餐
+        up(item){
+            this.$store.dispath("up", item)
+        },
+        down(item){
+            this.$store.dispatch("down", item)
+        }
+    },
+    computed:{
+        product(){
+            for (var item of this.list) {
+                if (this.$route.params.id == item.id) {
+                    return item;
+                }
+            }
+        },
+        counts(){
+            return this.$store.getters.totalcount
+        },
+        price(){
+            return this.$store.getters.totalprice
+        }
+    }
 }
 
-    //js方法控制页面
-    $(window).on("scroll",function(){
-        var top=$(window).scrollTop();
-        if(top>=124){
-            $(".classfy").css({
-                "position":"fixed",
-                "left":0,
-                "top":0
-            });
-            $(".shopnav").css({
-                "position":"fixed",
-                "left":0,
-                "top":".33rem"
-            });
-        }else{
-            $(".classfy").css({
-                "position":"relative"
-            });
-            $(".shopnav").css({
-                "position":"relative",
-                "top":"0"
-            });
-        }
-    });
-    //控制页面减少按钮的出现与隐藏
-    if($(".count").text()>0){
-        $(".minus").show();
+//js方法控制页面
+$(window).on("scroll",function(){
+    var top=$(window).scrollTop();
+    if(top>=124){
+        $(".classfy").css({
+            "position":"fixed",
+            "left":0,
+            "top":0
+        });
+        $(".shopnav").css({
+            "position":"fixed",
+            "left":0,
+            "top":".33rem"
+        });
     }else{
-        $(".minus").hide();
+        $(".classfy").css({
+            "position":"relative"
+        });
+        $(".shopnav").css({
+            "position":"relative",
+            "top":"0"
+        });
     }
+});
+//控制页面减少按钮的出现与隐藏
+if($(".count").text()>0){
+    $(".minus").show();
+}else{
+    $(".minus").hide();
+}
     
 </script>
     
