@@ -17,7 +17,7 @@
         <div class="order-finish">
             <div class="order-finish-list">
                 <div class="order-finish-img">
-                    <img src="https://fuss10.elemecdn.com/e/55/3db109a38f5d7c2fade18394576e8jpeg.jpeg?imageMogr/format/webp/thumbnail/!64x64r/gravity/Center/crop/64x64/" alt="">
+                    <img src="https://fuss10.elemecdn.com/e/55/3db109a38f5d7c2fade18394576e8jpeg.jpeg" alt="">
                 </div>
                 <div class="order-items">
                     <div class="order-item-one">

@@ -1,6 +1,7 @@
 <template>
     <div class="shop">
        <div class="shop_container" v-for="(items,index) in shoplist" :key="items.id" @click="checkdetail">
+           <router-link :to="{path:'/shdetail/'+items.id}">
             <div class="shop_brand">
                 <img :src="items.image_path | dataFilter" :alt="items.name">
             </div>
@@ -36,6 +37,7 @@
                     </div>
                 </div>
             </div>
+           </router-link>
         </div>
     </div>
 </template>

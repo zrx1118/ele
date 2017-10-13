@@ -10,7 +10,6 @@
         <div class="sell-other">
             <div class="sell-other-one active"><router-link to="/outsell">外卖</router-link></div>
             <div class="sell-other-two "><router-link to="/break">早餐</router-link></div>
-            
         </div>
         <router-view></router-view>
     </div>

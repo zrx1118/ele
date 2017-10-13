@@ -3,7 +3,7 @@
             <div class="sell-finish">
                 <div class="sell-finish-list">
                     <div class="sell-finish-img">
-                        <img src="https://fuss10.elemecdn.com/e/55/3db109a38f5d7c2fade18394576e8jpeg.jpeg?imageMogr/format/webp/thumbnail/!64x64r/gravity/Center/crop/64x64/" alt="">
+                        <img src="https://fuss10.elemecdn.com/e/55/3db109a38f5d7c2fade18394576e8jpeg.jpeg" alt="">
                     </div>
                     <div class="sell-items">
                         <div class="sell-item-one">

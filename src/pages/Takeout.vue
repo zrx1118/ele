@@ -26,12 +26,6 @@
         <a v-for="item in hot_search" :key="item.id"><span class="active">{{item.word}}</span></a>
     </nav>
     <div class="menu">
-        <!-- <router-link  v-for="(item,index) in entries" :key="item.id" :to="'/shopdetail/'+item.id">
-            <div>
-                <img :src="item.image_hash | dataFilter" alt="">
-            </div>
-            <span>{{item.name}}</span>
-        </router-link> -->
         <router-link  v-for="(item,index) in entries" :key="item.id" :to="{path:'/navlist/'+item.id}">
             <div>
                 <img :src="item.image_hash | dataFilter" alt="">
@@ -57,7 +51,7 @@
     </section>
     <section class="foo_menu clear">
         <div>
-            <div class="special " v-for="item in bottom" :key="item.id">
+            <div class="special " v-for="item in bottom" :key="item.id" :href="'https://h5.ele.me'+item.url">
                 <h3>{{item.title}}</h3>
                 <span>{{item.content}}</span>
                 <img :src="item.imghash | dataFilter" alt="">
