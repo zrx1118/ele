@@ -51,7 +51,7 @@
     </section>
     <section class="foo_menu clear">
         <div>
-            <div class="special " v-for="item in bottom" :key="item.id">
+            <div class="special " v-for="item in bottom" :key="item.id" :href="'https://h5.ele.me'+item.url">
                 <h3>{{item.title}}</h3>
                 <span>{{item.content}}</span>
                 <img :src="item.imghash | dataFilter" alt="">

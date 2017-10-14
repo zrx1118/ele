@@ -57,22 +57,13 @@ export default {
     },
     created(){
         this.axios.get(this.url).then(res => {
-                console.log(res);
             this.list = res.data.entries;
         }, err => {
                 console.log(err);
         });
-        // this.$http.get(this.url).then(res => {
-        //     console.log(res);
-        //     // console.log(JSON.parse(res.data))
-        //     // this.list = JSON.parse(res.data).data;
-        // }, err => {
-        //     console.log(err);
-        // });
     },
     computed:{
         product(){
-            console.log(this.$route.params.id);
             for (var item of this.list) {
                 if (this.$route.params.id == item.id) {
                     return item;
