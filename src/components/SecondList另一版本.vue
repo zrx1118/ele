@@ -15,7 +15,6 @@
 				</div>
 			</div>
 		</div>
-		
         <div class="order-food" v-if="items.foods">
             <div class="order-food-items" v-for="its in items.foods" :key=its.id>
                 <div class="discover-food">

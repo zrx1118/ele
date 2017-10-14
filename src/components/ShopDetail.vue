@@ -36,16 +36,24 @@
         </div>
         <main>
             <ul class="shopnav">
-                <li :class="{active:index==0}" 
+                <li :class="{active:item.is_selected}" 
                 v-for="(item, index) in list" 
-                :key="item.id"><i v-show="index==0?true:false">
-                </i>{{ item.name }}</li>
+                :key="item.id"
+                @click=active(item)>
+                <a :href="'#'+index">
+                <i v-show="index==0?true:false"></i>{{ item.name }}
+                </a>
+                </li>
             </ul>
             <div class="shoplist">
-                <div v-for="(item, index) in list" :key="item.id">
+                <div v-for="(item, index) in list" 
+                    :key="item.id"
+                    class="box"
+                    :id="index">
+                    <div class="hidden-nav" v-show="index>=1?true:false"></div>
                     <div class="text">
                         <b>{{ item.name }}</b>
-                        <span>{{ item.description }}</span>
+                        <span class="scrolltop">{{ item.description }}</span>
                         <span class="right">...</span>
                     </div>
                     <ul>
@@ -55,9 +63,9 @@
                             <p><span>{{ it.tips }}</span><span>好评率100%</span></p>
                             <span class="doll">￥</span><b>{{ it.specfoods[0].price }}</b>
                             <div>
-                                <span class="minus" @click=down(it)></span>
-                                <i class="count">1</i>
-                                <span class="add" @click=up(it)></span>
+                                <span class="minus" @click="down(it)" v-show="it.is_essential"></span>
+                                <i class="count" v-show="it.is_essential">{{ it.specfoods[0].packing_fee }}</i>
+                                <span class="add" @click="up(it)"></span>
                             </div>
                         </li>
                     </ul>
@@ -65,12 +73,13 @@
             </div>
         </main>
         <footer>
-            <label><i></i></label>
+            <label :class="{act:counts}"><i class="price_box" v-show="counts">{{ counts }}</i></label>
             <div>
-                <span>¥40</span>
+                <span>¥{{  prices }}</span>
                 <p>配送费¥4</p>
             </div>
-            <button class="btn ">还差¥4结算</button>
+            <button class="btn" v-show="20-prices>0?true:false">还差¥{{ 20-prices }}结算</button>
+            <button class="btn_active" v-show="20-prices>0?false:true" @click="golist()">去结算</button>
         </footer>
    </div>
 </template>
@@ -80,16 +89,20 @@ export default {
   name: "component_name",
   data () {
     return {
-        list:[]
+        list1:[],
+        math:0
     };
   },
   created(){
       //用axious实现页面的本地数据ajax请求
-       this.axios.get('./static/found-data2.json').then(res => {
-          this.list = res.data;
-      }, err => {
-          console.log(err);
-      });
+      if(this.$store.state.showlist==""){
+          this.axios.get('./static/found-data2.json').then(res => {
+          this.list1 = res.data;
+          this.$store.dispatch("data",this.list1);
+          }, err => {
+                console.log(err);
+          });
+      }
   },
   filters: {
       //图片转换格式过滤器
@@ -103,15 +116,30 @@ export default {
   methods:{
       //按添加按钮进行点餐
       up(item){
-          this.$store.dispath("up", item)
+          this.$store.dispatch("up", item);
       },
       down(item){
-          this.$store.dispatch("down", item)
+          this.$store.dispatch("down", item);
+      },
+      golist(){
+          this.$router.push('/second.list')
+      },
+      active(item){
+          for(let n of this.list){
+              n.is_selected=false;
+          }
+          item.is_selected=true;
       }
   },
   computed:{
       counts(){
-          return this.$store.
+          return this.$store.getters.totalcount
+      },
+      prices(){
+          return this.$store.getters.totalprice
+      },
+      list(){
+          return this.$store.state.showlist
       }
   }
 }
@@ -140,16 +168,14 @@ export default {
             });
         }
     });
-    //控制页面减少按钮的出现与隐藏
-    if($(".count").text()>0){
-        $(".minus").show();
-    }else{
-        $(".minus").hide();
-    }
+
     
 </script>
     
 <style lang="css" scoped>
+.active-li{
+    border-left:2px solid #3190e8;
+}
 .shop-container{
     width: 100%;
     height: 100%;
@@ -190,7 +216,6 @@ export default {
     content: "";
     float: left;
     margin: .056667rem 0 0 0;
-    display: inline-block;
     border: .02rem solid #fff;
     border-width: .02rem 0 0 .02rem;
     width: .12rem;
@@ -311,6 +336,9 @@ p{
     z-index:4;
     background-color:#fff;
 }
+.hidden-nav{
+    height:.3334rem;
+}
 .classfy a{
     width:33%;
     float: left;
@@ -345,13 +373,13 @@ main{
     height:.43rem;
     line-height:.43rem;
     text-indent:10px;
-    background-color:;
     color:#666;
     border-bottom: 1px solid #ededed;
     background-color: #f8f8f8;
 }
 .shopnav .active{
      background-color: #fff;
+     border-left:2px solid #3190e8;
 }
 .shoplist{
     width:77%;
@@ -430,6 +458,16 @@ footer{
     background-color: #535356;
 }
 .btn_active{
+    width:0.9rem;
+    font-size:0.14rem;
+    height: 0.48rem;
+    outline:none;
+    border:none;
+    color:#fff;
+    text-align:center;
+    position:absolute;
+    right: 0;
+    bottom:0;
     background-color: #00d762;
 }
 footer label{
@@ -448,6 +486,9 @@ footer label{
 footer i{
     width:13px;
     height:13px;
+    font-size:12px;
+    text-align:center;
+    font-style:normal;
     display:inline-block;
     border-radius:50%;
     background-color: #ff461d;
@@ -455,7 +496,6 @@ footer i{
     left:.27rem;
     top:-.05rem;
     color:#fff;
-    display:none;
 }
 footer div{
     color:#fff;
@@ -489,7 +529,6 @@ footer .act{
     font-style:normal;
     display:inline-block;
     vertical-align:middle;
-    display:none;
 }
 .shoplist .minus{
     display:inline-block;
@@ -498,7 +537,6 @@ footer .act{
     background:url(../assets/minus.png) no-repeat center center;
     background-size:cover;
     vertical-align:middle;
-    display:none;
 }
 .shoplist .add{
     display:inline-block;

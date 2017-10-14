@@ -16,7 +16,10 @@ Vue.use(resource)
 import axios from 'axios'
 // 因为axios不是vue的模块，所以不能使用Vue.use()来进行注册，我们使用原型链的机制来注册
 Vue.prototype.axios = axios
+// 导入vuex配置模块index.js
 import store from './store'
+
+
 
 Vue.config.productionTip = false
 
@@ -26,6 +29,7 @@ new Vue({
   template: '<App/>',
   components: { App },
   router,
+  store,
   mounted(){
     var mySwiper1 = new Swiper ('nav .swiper-container', {
       slidesPerView:6.5,

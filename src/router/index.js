@@ -13,20 +13,23 @@ import More from '../components/More'
 import ShopDetail from '../components/ShopDetail'
 import MoreList from '../components/MoreList'
 import SecondList from '../components/SecondList'
+import List from '../components/List'
 
 // 配置路由规则
 const routes=[
   {path:'',component:Takeout},
-  {path:'/takeout',component:Takeout },
-  {path:'/found',component:Found },
-  {path:'/order',component:Order },
-  {path:'/mine',component:Mine },
+  {path:'/takeout',component:Takeout},
+  {path:'/found',component:Found},
+  {path:'/order',component:Order},
+  {path:'/mine',component:Mine},
   {path:'/second.more',component:More ,children:[
-    {path:'/', redirect: '/second.more/morelist'},
-    {path:'/second.more/morelist',component:MoreList },
-    {path:'/second.more/secondlist/:id',component:SecondList}
+    {path:'/', redirect: 'morelist'},
+    {path:'morelist',component:MoreList },
+    // 路由传参
+    {path:'secondlist/:id',component:SecondList}
   ]},
-  {path:'/second.shopdetail',component:ShopDetail }
+  {path:'/second.shopdetail',component:ShopDetail},
+  {path:'/second.list',component:List}
 ]
 
 // 创建路由实例

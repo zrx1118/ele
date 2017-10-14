@@ -1,8 +1,13 @@
 <template>
     <div class="box">
         <header class="footer">
-                <router-link to="/second.more/morelist" class="active spe">专属推荐</router-link>
-                <router-link v-for="item in list" :key="item.id" :to="{path:'/second.more/secondlist/'+item.jsonid}" >{{ item.name }}</router-link>
+                <router-link to="/second.more/morelist" :class="{active:resact,spe:true }"><span @click="acts()">
+                专属推荐</span></router-link>
+                <router-link v-for="item in list" 
+                :key="item.id" 
+                :to="{path:'/second.more/secondlist/'+item.jsonid}"  
+                :class="{active:item.id==resactive}"><span @click="active(item.id)">{{ item.name }}</span>
+                </router-link>
         </header>
         <div class="hidden"></div>
         <router-view></router-view>
@@ -20,8 +25,8 @@ export default {
             n:1,
             url:'../static/found-data1.json',
             category:'more-list',
-            list:[]
-
+            list:[],
+            index:1
         };
     },
     components: {
@@ -34,6 +39,23 @@ export default {
         },err => {
           console.log(err);
       })
+    },
+    methods:{
+       active(item){
+           this.$store.dispatch("active", item);
+           this.index=2;
+       } ,
+       acts(){
+            this.$store.dispatch("acts");
+        }
+    },
+    computed:{
+        resactive(){
+            return this.$store.state.activeli;
+        },
+        resact(){
+            return this.$store.state.activefirst;
+        }
     }
 }
 </script>
