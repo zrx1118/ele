@@ -8,18 +8,14 @@
 <script>
 import Foot from './components/Foot'
 
-// import Hello from './components/Hello'
-//导入两个组件
-
 export default {
   name: 'app',
   components: {
-    // order
     Foot
   },
   methods: {
     isShow() {
-      return this.$route.path.indexOf('second') == -1 ? true : false;
+      return this.$route.path.indexOf('shdetail') == -1 ? true : false;
     }
   }
 }
