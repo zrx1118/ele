@@ -13,9 +13,6 @@ import Liquan from '../components/Liquan'
 import Yinliao from '../components/Yinliao'
 import Jiadian from '../components/Jiadian'
 import Jiaju from '../components/Jiaju'
-import All from '../components/All'
-import Box from '../components/Box'
-import Details from '../components/Details.vue'
 import Takeout from '../pages/Takeout'
 import Found from '../pages/Found'
 import Order from '../pages/Order'
@@ -59,10 +56,7 @@ const routes = [
   {path:'/Liquan',component:Liquan},
   {path:'/Yinliao',component:Yinliao},
   {path:'/Jiadian',component:Jiadian},
-  {path:'/Jiaju',component:Jiaju},
-  {path:'/All',component:All},
-  {path:'/Box',component:Box},
-  {path:'/Details/:newId',component:Details}
+  {path:'/Jiaju',component:Jiaju}
 ]
 
 // 创建路由实例
