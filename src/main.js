@@ -10,7 +10,6 @@ import App from './App'
 import router from './router'
 // 导入网络资源
 import resource from 'vue-resource'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
 // 导入懒加载模块
 import VueLazyload from 'vue-lazyload'
 
