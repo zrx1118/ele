@@ -16,24 +16,22 @@
         </div>
         <div class="h_hidden"></div>
         <section class="shop">
-            <div class="shop_container"  v-for="items in product.detail" :key="items.id">
-                <router-link :to="{path:'/shdetail/'+item.id}">
-                    <div class="shop_brand">
-                        <img :src="items.image_path | dataFilter" alt="">
-                    </div>
-                    <div class="index_main">
-                        <div class="shopname"><h3><span>{{items.name}}</span></h3><ul><li v-for="item in items.supports" :key="item.id">{{item.icon_name}}</li></ul></div>
-                        <div class="shopnum"><div><p></p><span>{{items.rating}}</span><span>月售{{items.recent_order_num}}单</span></div><p>蜂鸟专送</p></div>
-                        <div class="shopprice"><ul><li>￥{{items.float_minimum_order_amount}}起送</li><li>{{items.piecewise_agent_fee.description}}</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
-                        <div class="index_discount">
-                            <p class="discount" v-for="item in items.activities" :key="item.id"><i>{{item.icon_name}}</i><span>{{item.tips}}</span></p>
-                            <div class="activity">
-                                <span>{{items.activities.length}}个活动</span><i></i>
-                            </div>
+            <router-link class="shop_container"  v-for="items in product.detail" :key="items.id" :to="{path:'/shdetail/'+product.id}">
+                <div class="shop_brand">
+                    <img :src="items.image_path | dataFilter" alt="">
+                </div>
+                <div class="index_main">
+                    <div class="shopname"><h3><span>{{items.name}}</span></h3><ul><li v-for="item in items.supports" :key="item.id">{{item.icon_name}}</li></ul></div>
+                    <div class="shopnum"><div><p></p><span>{{items.rating}}</span><span>月售{{items.recent_order_num}}单</span></div><p>蜂鸟专送</p></div>
+                    <div class="shopprice"><ul><li>￥{{items.float_minimum_order_amount}}起送</li><li>{{items.piecewise_agent_fee.description}}</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
+                    <div class="index_discount">
+                        <p class="discount" v-for="item in items.activities" :key="item.id"><i>{{item.icon_name}}</i><span>{{item.tips}}</span></p>
+                        <div class="activity">
+                            <span>{{items.activities.length}}个活动</span><i></i>
                         </div>
                     </div>
-                </router-link>
-            </div>
+                </div>
+            </router-link>
         </section>
     </div>
 </template>
