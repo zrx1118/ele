@@ -3,7 +3,7 @@
        <div class="shop-container">
             <div class="shop-header" style="background-image:url(https://fuss10.elemecdn.com/3/04/982279cfdaecb5dd794daa87c3a3cpng.png)"></div>
             <div class="delivery">
-                <i></i><span></span>
+                <i @click="backFn"></i><span></span>
             </div>
             <div class="shop_container">
                 <div class="index_main">
@@ -83,6 +83,17 @@ export default {
             list:[]
         }
     },
+<<<<<<< HEAD
+=======
+    methods: {
+        backFn() {
+            // BOM的history 回退上一个
+        //  history.back();
+        // 通过路由回退
+        this.$router.go(-1);
+        }
+    },
+>>>>>>> dev
     created(){
         //用axious实现页面的本地数据ajax请求
         this.axios.get(this.url).then(res => {
