@@ -1,0 +1,1248 @@
+{
+    "description": "",
+    "header_image": "6d5de7613f554b5db1380f266097504bjpeg",
+    "more_url": "eleme://web?url=https%3A%2F%2Fh5.ele.me%2Franking%2F%23type%3Dspecial_food&navType=2",
+    "page_title": "天天特价",
+    "query_list": [
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5.2折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5.2折"
+                        }
+                    ],
+                    "category_id": 515270547,
+                    "discount_activity": "",
+                    "discount_rate": 0.52,
+                    "food_id": 633501176,
+                    "food_rate": "11人好评",
+                    "icon_name": "特",
+                    "id": 633501176,
+                    "image_path": "b3a5386c238a3b7dc1f1a31760479b1cjpeg",
+                    "is_new": false,
+                    "month_sales": 37,
+                    "name": "正忠猪排饭+香橙莓果c",
+                    "original_price": 42,
+                    "packing_fee": 2,
+                    "price": 21.9,
+                    "restaurant_id": 1252368,
+                    "restaurant_name": "台资味（北京崇文门店）",
+                    "satisfy_count": 11,
+                    "satisfy_rate": 100,
+                    "sku_id": "249065203959",
+                    "stock": 9959
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 528381857,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 709253785,
+                    "food_rate": "20人好评",
+                    "icon_name": "折",
+                    "id": 709253785,
+                    "image_path": "172fded89df3b0292589625ec9be0b3djpeg",
+                    "is_new": false,
+                    "month_sales": 94,
+                    "name": "鳗米生花套餐（咖喱鳗鱼炒饭）",
+                    "original_price": 60,
+                    "packing_fee": 4,
+                    "price": 30,
+                    "restaurant_id": 157510996,
+                    "restaurant_name": "鳗鳗的爱（北京王府井APM餐厅）",
+                    "satisfy_count": 20,
+                    "satisfy_rate": 95,
+                    "sku_id": "326635876309",
+                    "stock": 9903
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 514972637,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 713859766,
+                    "food_rate": "3人好评",
+                    "icon_name": "折",
+                    "id": 713859766,
+                    "image_path": "f3cb9e30c11c28346554253982bb5ca6jpeg",
+                    "is_new": false,
+                    "month_sales": 21,
+                    "name": "双人-特惠分享套餐",
+                    "original_price": 89,
+                    "packing_fee": 2,
+                    "price": 44.5,
+                    "restaurant_id": 1020107,
+                    "restaurant_name": "焦耳川式快餐（磁器口店）",
+                    "satisfy_count": 3,
+                    "satisfy_rate": 60,
+                    "sku_id": "331352399931",
+                    "stock": 9994
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8.3折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8.3折"
+                        }
+                    ],
+                    "category_id": 528471402,
+                    "discount_activity": "",
+                    "discount_rate": 0.83,
+                    "food_id": 710227333,
+                    "food_rate": "3人好评",
+                    "icon_name": "特",
+                    "id": 710227333,
+                    "image_path": "70b50ffd26067ba9bb7b3e5ff0165d03jpeg",
+                    "is_new": false,
+                    "month_sales": 13,
+                    "name": "鸡肉黎麦沙拉",
+                    "original_price": 36,
+                    "packing_fee": 2,
+                    "price": 29.9,
+                    "restaurant_id": 157693742,
+                    "restaurant_name": "Salad University沙拉大学（国瑞城店）",
+                    "satisfy_count": 3,
+                    "satisfy_rate": 75,
+                    "sku_id": "327632788856",
+                    "stock": 9987
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8.5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8.5折"
+                        }
+                    ],
+                    "category_id": 516679274,
+                    "discount_activity": "",
+                    "discount_rate": 0.85,
+                    "food_id": 648317183,
+                    "food_rate": "12人好评",
+                    "icon_name": "特",
+                    "id": 648317183,
+                    "image_path": "8736360d269166d4f4e88cdb45970df0jpeg",
+                    "is_new": false,
+                    "month_sales": 36,
+                    "name": "果木鸡胸肉红提核桃沙拉",
+                    "original_price": 35,
+                    "packing_fee": 1.5,
+                    "price": 29.9,
+                    "restaurant_id": 155900863,
+                    "restaurant_name": "HealthyOnly轻食店（磁器口店）",
+                    "satisfy_count": 12,
+                    "satisfy_rate": 100,
+                    "sku_id": "264236794925",
+                    "stock": 9995
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5.4折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5.4折"
+                        }
+                    ],
+                    "category_id": 528460863,
+                    "discount_activity": "",
+                    "discount_rate": 0.54,
+                    "food_id": 1240776242,
+                    "food_rate": "0人好评",
+                    "icon_name": "特",
+                    "id": 1240776242,
+                    "image_path": "0e67a292b3b4fb423081c771a2459091jpeg",
+                    "is_new": false,
+                    "month_sales": 4,
+                    "name": "老北京炙子烤羊肉香菇饭",
+                    "original_price": 48,
+                    "packing_fee": 2,
+                    "price": 25.9,
+                    "restaurant_id": 156937051,
+                    "restaurant_name": "老北京炙子烤肉拌饭",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "200000041754872417",
+                    "stock": 9984
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 528346645,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 708791472,
+                    "food_rate": "2人好评",
+                    "icon_name": "折",
+                    "id": 708791472,
+                    "image_path": "fcbe149c79990f06ba6ed9a1932b266cjpeg",
+                    "is_new": false,
+                    "month_sales": 6,
+                    "name": "一品风味炒馕",
+                    "original_price": 45,
+                    "packing_fee": 1,
+                    "price": 22.5,
+                    "restaurant_id": 157328647,
+                    "restaurant_name": "塔哈尔新疆盛宴（瑞城购物中心店）",
+                    "satisfy_count": 2,
+                    "satisfy_rate": 100,
+                    "sku_id": "326162467123",
+                    "stock": 9986
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 513412165,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 695425862,
+                    "food_rate": "1人好评",
+                    "icon_name": "折",
+                    "id": 695425862,
+                    "image_path": "e5ce0a1a59bd038e422195155608bfcfjpeg",
+                    "is_new": false,
+                    "month_sales": 15,
+                    "name": "花样年华双人套餐",
+                    "original_price": 92,
+                    "packing_fee": 2,
+                    "price": 46,
+                    "restaurant_id": 152176301,
+                    "restaurant_name": "港岛记（北京崇文门店）",
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "sku_id": "312476082354",
+                    "stock": 9976
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "7折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "7折"
+                        }
+                    ],
+                    "category_id": 516435203,
+                    "discount_activity": "",
+                    "discount_rate": 0.7,
+                    "food_id": 645181566,
+                    "food_rate": "1人好评",
+                    "icon_name": "特",
+                    "id": 645181566,
+                    "image_path": "47f59a5628e5bd8e3330b7edc0313ba2jpeg",
+                    "is_new": false,
+                    "month_sales": 7,
+                    "name": "酸汤肥牛单人套餐",
+                    "original_price": 39,
+                    "packing_fee": 2,
+                    "price": 27.3,
+                    "restaurant_id": 2247494,
+                    "restaurant_name": "热辣壹号(搜秀店)",
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "sku_id": "261025923756",
+                    "stock": 9981
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8折"
+                        }
+                    ],
+                    "category_id": 1231754515,
+                    "discount_activity": "",
+                    "discount_rate": 0.8,
+                    "food_id": 1286420693,
+                    "food_rate": "0人好评",
+                    "icon_name": "特",
+                    "id": 1286420693,
+                    "image_path": "b7cc579fe9e5a2f44f58e267b74f193fjpeg",
+                    "is_new": false,
+                    "month_sales": 0,
+                    "name": "当红小鲜肉（麻辣）",
+                    "original_price": 32,
+                    "packing_fee": 2,
+                    "price": 25.6,
+                    "restaurant_id": 157942962,
+                    "restaurant_name": "渝和鱼",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "200000088494789937",
+                    "stock": 1000
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8折"
+                        }
+                    ],
+                    "category_id": 1231754515,
+                    "discount_activity": "",
+                    "discount_rate": 0.8,
+                    "food_id": 1286425312,
+                    "food_rate": "0人好评",
+                    "icon_name": "特",
+                    "id": 1286425312,
+                    "image_path": "c5a5dfaf798078fda17868878be7bf21jpeg",
+                    "is_new": false,
+                    "month_sales": 0,
+                    "name": "无荤不欢（骨汤）",
+                    "original_price": 32,
+                    "packing_fee": 2,
+                    "price": 25.6,
+                    "restaurant_id": 157942962,
+                    "restaurant_name": "渝和鱼",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "200000088499519793",
+                    "stock": 1000
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 528477545,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 710355415,
+                    "food_rate": "0人好评",
+                    "icon_name": "特",
+                    "id": 710355415,
+                    "image_path": "1185f3b74c26c59c7c92fb36e42da385jpeg",
+                    "is_new": false,
+                    "month_sales": 1,
+                    "name": "羊蝎子一人餐",
+                    "original_price": 59.8,
+                    "packing_fee": 2,
+                    "price": 29.9,
+                    "restaurant_id": 156937051,
+                    "restaurant_name": "老北京炙子烤肉拌饭",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "327763945057",
+                    "stock": 9999
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "6.1折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "6.1折"
+                        }
+                    ],
+                    "category_id": 526604065,
+                    "discount_activity": "",
+                    "discount_rate": 0.61,
+                    "food_id": 690531409,
+                    "food_rate": "4人好评",
+                    "icon_name": "特",
+                    "id": 690531409,
+                    "image_path": "c5cb9b6d558047ec19982d6a8f8a8b7bjpeg",
+                    "is_new": false,
+                    "month_sales": 24,
+                    "name": "烤肉炒饭套餐【尝新价】",
+                    "original_price": 49,
+                    "packing_fee": 1,
+                    "price": 29.9,
+                    "restaurant_id": 567510,
+                    "restaurant_name": "阿达西新疆风味（白桥店）",
+                    "satisfy_count": 4,
+                    "satisfy_rate": 100,
+                    "sku_id": "307464163230",
+                    "stock": 9970
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "6折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "6折"
+                        }
+                    ],
+                    "category_id": 528346645,
+                    "discount_activity": "",
+                    "discount_rate": 0.6,
+                    "food_id": 708782954,
+                    "food_rate": "15人好评",
+                    "icon_name": "折",
+                    "id": 708782954,
+                    "image_path": "4be9cc7e241f7945ca287460c7a3ee89jpeg",
+                    "is_new": false,
+                    "month_sales": 58,
+                    "name": "沙湾大盘鸡（送面）",
+                    "original_price": 72,
+                    "packing_fee": 1,
+                    "price": 43.2,
+                    "restaurant_id": 157328647,
+                    "restaurant_name": "塔哈尔新疆盛宴（瑞城购物中心店）",
+                    "satisfy_count": 15,
+                    "satisfy_rate": 83,
+                    "sku_id": "326153744691",
+                    "stock": 9861
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "6折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "6折"
+                        }
+                    ],
+                    "category_id": 9420416,
+                    "discount_activity": "",
+                    "discount_rate": 0.6,
+                    "food_id": 1285630949,
+                    "food_rate": "1人好评",
+                    "icon_name": "特",
+                    "id": 1285630949,
+                    "image_path": "68ecf5da489603ec8ded531c4c2097a9jpeg",
+                    "is_new": false,
+                    "month_sales": 2,
+                    "name": "橄榄油鱼香肉丝",
+                    "original_price": 42.9,
+                    "packing_fee": 2,
+                    "price": 25.74,
+                    "restaurant_id": 905992,
+                    "restaurant_name": "新盒记（崇文门店）",
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "sku_id": "200000087686091860",
+                    "stock": 0
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8.3折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8.3折"
+                        }
+                    ],
+                    "category_id": 528471400,
+                    "discount_activity": "",
+                    "discount_rate": 0.83,
+                    "food_id": 710227324,
+                    "food_rate": "2人好评",
+                    "icon_name": "特",
+                    "id": 710227324,
+                    "image_path": "c553cffe7754ba8196dda97671b41750jpeg",
+                    "is_new": false,
+                    "month_sales": 10,
+                    "name": "牛肉藜麦饭",
+                    "original_price": 48,
+                    "packing_fee": 2,
+                    "price": 39.9,
+                    "restaurant_id": 157693742,
+                    "restaurant_name": "Salad University沙拉大学（国瑞城店）",
+                    "satisfy_count": 2,
+                    "satisfy_rate": 66,
+                    "sku_id": "327632779640",
+                    "stock": 9986
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 527352394,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 696922910,
+                    "food_rate": "0人好评",
+                    "icon_name": "折",
+                    "id": 696922910,
+                    "image_path": "6e9127996d9ea4076e1d50577ba3025cjpeg",
+                    "is_new": false,
+                    "month_sales": 1,
+                    "name": "匈牙利烩牛肉",
+                    "original_price": 78,
+                    "packing_fee": 2,
+                    "price": 39,
+                    "restaurant_id": 155919330,
+                    "restaurant_name": "Blue Note Beijing",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "314009060320",
+                    "stock": 986
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 527352394,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 696939748,
+                    "food_rate": "1人好评",
+                    "icon_name": "折",
+                    "id": 696939748,
+                    "image_path": "7415848f3d6e781897a781a8bf30e86cjpeg",
+                    "is_new": false,
+                    "month_sales": 5,
+                    "name": "香煎鲈鱼",
+                    "original_price": 78,
+                    "packing_fee": 2,
+                    "price": 39,
+                    "restaurant_id": 155919330,
+                    "restaurant_name": "Blue Note Beijing",
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "sku_id": "314026302432",
+                    "stock": 979
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 528945805,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 1290346757,
+                    "food_rate": "0人好评",
+                    "icon_name": "特",
+                    "id": 1290346757,
+                    "image_path": "bcad3a8a62a14a77ad5e5d57a1dbf77ejpeg",
+                    "is_new": false,
+                    "month_sales": 0,
+                    "name": "精品商务双人套餐",
+                    "original_price": 76,
+                    "packing_fee": 2,
+                    "price": 38,
+                    "restaurant_id": 150163238,
+                    "restaurant_name": "京川婆婆量贩麻辣烫（崇文门店）",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "200000092515079733",
+                    "stock": 10000
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8.5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8.5折"
+                        }
+                    ],
+                    "category_id": 525775046,
+                    "discount_activity": "",
+                    "discount_rate": 0.85,
+                    "food_id": 681435055,
+                    "food_rate": "4人好评",
+                    "icon_name": "折",
+                    "id": 681435055,
+                    "image_path": "af6f25dea43156c48f94c6b855f2c668jpeg",
+                    "is_new": false,
+                    "month_sales": 28,
+                    "name": "东坡扣肉",
+                    "original_price": 28,
+                    "packing_fee": 1,
+                    "price": 23.8,
+                    "restaurant_id": 180597,
+                    "restaurant_name": "眉州小吃（崇文门店）",
+                    "satisfy_count": 4,
+                    "satisfy_rate": 100,
+                    "sku_id": "298149496458",
+                    "stock": 9987
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8.6折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8.6折"
+                        }
+                    ],
+                    "category_id": 514732579,
+                    "discount_activity": "",
+                    "discount_rate": 0.86,
+                    "food_id": 616251399,
+                    "food_rate": "17人好评",
+                    "icon_name": "特",
+                    "id": 616251399,
+                    "image_path": "300751981dca2fe97479876b611700e6jpeg",
+                    "is_new": false,
+                    "month_sales": 50,
+                    "name": "阿达西大盘鸡（小）",
+                    "original_price": 42,
+                    "packing_fee": 2,
+                    "price": 36,
+                    "restaurant_id": 567510,
+                    "restaurant_name": "阿达西新疆风味（白桥店）",
+                    "satisfy_count": 17,
+                    "satisfy_rate": 100,
+                    "sku_id": "231401432990",
+                    "stock": 9714
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5.8折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5.8折"
+                        }
+                    ],
+                    "category_id": 513004901,
+                    "discount_activity": "",
+                    "discount_rate": 0.58,
+                    "food_id": 553025297,
+                    "food_rate": "6人好评",
+                    "icon_name": "特",
+                    "id": 553025297,
+                    "image_path": "bff394b87167b2dd1dc9140fb1877e03jpeg",
+                    "is_new": false,
+                    "month_sales": 40,
+                    "name": "双王榴莲果肉比萨(芝心)",
+                    "original_price": 118,
+                    "packing_fee": 0,
+                    "price": 69,
+                    "restaurant_id": 150161821,
+                    "restaurant_name": "比格比萨（搜秀城店）",
+                    "satisfy_count": 6,
+                    "satisfy_rate": 100,
+                    "sku_id": "166657904599",
+                    "stock": 879
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 516435205,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 645190009,
+                    "food_rate": "0人好评",
+                    "icon_name": "特",
+                    "id": 645190009,
+                    "image_path": "9d106368216e100a9a7e9f25832fec5bjpeg",
+                    "is_new": false,
+                    "month_sales": 2,
+                    "name": "鲜椒鸡+毛血旺双人套餐",
+                    "original_price": 92,
+                    "packing_fee": 2,
+                    "price": 46,
+                    "restaurant_id": 2247494,
+                    "restaurant_name": "热辣壹号(搜秀店)",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "261034569388",
+                    "stock": 9998
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 525507851,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 677191551,
+                    "food_rate": "4人好评",
+                    "icon_name": "折",
+                    "id": 677191551,
+                    "image_path": "dc772dca2a6727855a350ffc173c22bbjpeg",
+                    "is_new": false,
+                    "month_sales": 11,
+                    "name": "黔菜双人商务餐",
+                    "original_price": 86,
+                    "packing_fee": 2,
+                    "price": 43,
+                    "restaurant_id": 150033948,
+                    "restaurant_name": "黔菜大师（崇文门店）",
+                    "satisfy_count": 4,
+                    "satisfy_rate": 100,
+                    "sku_id": "293804148089",
+                    "stock": 9950
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "8折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "8折"
+                        }
+                    ],
+                    "category_id": 1231778126,
+                    "discount_activity": "",
+                    "discount_rate": 0.8,
+                    "food_id": 1287440965,
+                    "food_rate": "0人好评",
+                    "icon_name": "特",
+                    "id": 1287440965,
+                    "image_path": "27b6970109063ee8668fc89a586810b9jpeg",
+                    "is_new": false,
+                    "month_sales": 0,
+                    "name": "BBQ鸡肉比萨",
+                    "original_price": 68,
+                    "packing_fee": 0,
+                    "price": 54.4,
+                    "restaurant_id": 157942974,
+                    "restaurant_name": "炉石披萨",
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "sku_id": "200000089539548498",
+                    "stock": 1000
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 525507851,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 677191697,
+                    "food_rate": "1人好评",
+                    "icon_name": "折",
+                    "id": 677191697,
+                    "image_path": "6061abc18c57865c2862b47e0b7a3c0djpeg",
+                    "is_new": false,
+                    "month_sales": 2,
+                    "name": "黔菜三人商务餐",
+                    "original_price": 113,
+                    "packing_fee": 2,
+                    "price": 56.5,
+                    "restaurant_id": 150033948,
+                    "restaurant_name": "黔菜大师（崇文门店）",
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "sku_id": "293804297593",
+                    "stock": 9987
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "6.7折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "6.7折"
+                        }
+                    ],
+                    "category_id": 512056504,
+                    "discount_activity": "",
+                    "discount_rate": 0.67,
+                    "food_id": 553023298,
+                    "food_rate": "4人好评",
+                    "icon_name": "特",
+                    "id": 553023298,
+                    "image_path": "66e7ad66b8d31fef378447efdbf3f6fejpeg",
+                    "is_new": false,
+                    "month_sales": 15,
+                    "name": "麻小龙虾比萨(芝心)",
+                    "original_price": 118,
+                    "packing_fee": 0,
+                    "price": 79,
+                    "restaurant_id": 150161821,
+                    "restaurant_name": "比格比萨（搜秀城店）",
+                    "satisfy_count": 4,
+                    "satisfy_rate": 80,
+                    "sku_id": "166655857623",
+                    "stock": 909
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "5折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "5折"
+                        }
+                    ],
+                    "category_id": 524844604,
+                    "discount_activity": "",
+                    "discount_rate": 0.5,
+                    "food_id": 711098609,
+                    "food_rate": "1人好评",
+                    "icon_name": "特",
+                    "id": 711098609,
+                    "image_path": "55b9c4666d11d404e0295c17a7434f36jpeg",
+                    "is_new": false,
+                    "month_sales": 12,
+                    "name": "哈哈镜花蛤辣买一送一",
+                    "original_price": 50,
+                    "packing_fee": 0,
+                    "price": 25,
+                    "restaurant_id": 156188497,
+                    "restaurant_name": "哈哈镜(知春路店)",
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "sku_id": "328524975827",
+                    "stock": 9988
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "6.6折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "6.6折"
+                        }
+                    ],
+                    "category_id": 15716372,
+                    "discount_activity": "",
+                    "discount_rate": 0.66,
+                    "food_id": 648875598,
+                    "food_rate": "4人好评",
+                    "icon_name": "特",
+                    "id": 648875598,
+                    "image_path": "d193470a1b12edd9261a91b565a0b4acjpeg",
+                    "is_new": false,
+                    "month_sales": 18,
+                    "name": "刺身拼盘A",
+                    "original_price": 45,
+                    "packing_fee": 1,
+                    "price": 29.9,
+                    "restaurant_id": 1772727,
+                    "restaurant_name": "卿味寿司（鼓楼店)",
+                    "satisfy_count": 4,
+                    "satisfy_rate": 100,
+                    "sku_id": "264808612251",
+                    "stock": 9939
+                }
+            ]
+        },
+        {
+            "foods": [
+                {
+                    "activities": [
+                        {
+                            "background": {
+                                "rgb_from": "FF822D",
+                                "rgb_to": "FF2A00"
+                            },
+                            "description": "6折",
+                            "icon_color": "F07373",
+                            "icon_name": "折",
+                            "id": 0,
+                            "name": "立减优惠",
+                            "tips": "6折"
+                        }
+                    ],
+                    "category_id": 512140747,
+                    "discount_activity": "",
+                    "discount_rate": 0.6,
+                    "food_id": 570322130,
+                    "food_rate": "17人好评",
+                    "icon_name": "折",
+                    "id": 570322130,
+                    "image_path": "dd6c46f7a498a820d94d1ffa90584979jpeg",
+                    "is_new": false,
+                    "month_sales": 65,
+                    "name": "酥不腻烤鸭",
+                    "original_price": 199,
+                    "packing_fee": 2.4,
+                    "price": 119.4,
+                    "restaurant_id": 150139723,
+                    "restaurant_name": "小大董（王府井店）",
+                    "satisfy_count": 17,
+                    "satisfy_rate": 100,
+                    "sku_id": "184369860749",
+                    "stock": 9902
+                }
+            ]
+        }
+    ],
+    "rank_id": "93a7c00166f24ce6be1f63b2dd8666d7",
+    "rules": " ",
+    "tabs": [
+        {
+            "name": "全部",
+            "params": {
+                "flavor_type": "1"
+            }
+        },
+        {
+            "name": "大牌特惠",
+            "params": {
+                "flavor_type": "2"
+            }
+        },
+        {
+            "name": "下午茶不贵",
+            "params": {
+                "flavor_type": "3"
+            }
+        },
+        {
+            "name": "商超百货",
+            "params": {
+                "flavor_type": "4"
+            }
+        },
+        {
+            "name": "水果生鲜",
+            "params": {
+                "flavor_type": "5"
+            }
+        },
+        {
+            "name": "鲜花蛋糕",
+            "params": {
+                "flavor_type": "6"
+            }
+        }
+    ]
+}

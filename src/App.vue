@@ -2,17 +2,19 @@
   <div id="app">
     <foot v-show="isShow()"></foot>
     <router-view></router-view>
-    
   </div>
 </template>
 
 <script>
-
 import Foot from './components/Foot'
+
+// import Hello from './components/Hello'
+//导入两个组件
 
 export default {
   name: 'app',
   components: {
+    // order
     Foot
   },
   methods: {
@@ -52,6 +54,6 @@ input{
     display: block;
     height: 0;
     clear: both;
-    visibility: hidden; 
+    visibility: hidden;
 }
 </style>

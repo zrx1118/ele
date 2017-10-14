@@ -22,10 +22,8 @@ Vue.prototype.axios = axios
 // 导入vuex配置模块index.js
 import store from './store'
 
+import Vuex from 'vuex'
 
-Vue.config.productionTip = false
-
-/* eslint-disable no-new */
 new Vue({
   el: '#app',
   template: '<App/>',
