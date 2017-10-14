@@ -9,6 +9,9 @@ import Takeout from '../pages/Takeout'
 import Found from '../pages/Found'
 import Order from '../pages/Order'
 import Mine from '../pages/Mine'
+import LimitSale from '../components/LimitSale'
+import ShopDetail from '../components/ShopDetail'
+import NavList from '../components/NavList'
 import More from '../components/More'
 import ShopDetail from '../components/ShoDetail'
 import MoreList from '../components/MoreList'
@@ -18,10 +21,20 @@ import List from '../components/List'
 // 配置路由规则
 const routes=[
   {path:'',component:Takeout},
+<<<<<<< HEAD
   {path:'/takeout',component:Takeout},
   {path:'/found',component:Found},
   {path:'/order',component:Order},
   {path:'/mine',component:Mine},
+=======
+  {path:'/takeout',component:Takeout },
+  {path:'/found',component:Found },
+  {path:'/order',component:Order },
+  {path:'/mine',component:Mine },
+  {path:'/limitsale',component:LimitSale },
+  {path:'/shopdetail',component:ShopDetail },
+  {path:'/navlist/:id',component:NavList },
+>>>>>>> dev
   {path:'/second.more',component:More ,children:[
     {path:'/', redirect: 'morelist'},
     {path:'morelist',component:MoreList },

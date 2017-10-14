@@ -10,6 +10,10 @@ import App from './App'
 import router from './router'
 // 导入网络资源
 import resource from 'vue-resource'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+// 导入懒加载模块
+import VueLazyload from 'vue-lazyload'
+
 // 全局配置一下资源模块
 Vue.use(resource)
 // 导入axios 来处理网络请求（这不是Vue本身的模块，这是官方推荐使用的第三方模块，作为网络请求）
@@ -18,7 +22,6 @@ import axios from 'axios'
 Vue.prototype.axios = axios
 // 导入vuex配置模块index.js
 import store from './store'
-
 
 
 Vue.config.productionTip = false
