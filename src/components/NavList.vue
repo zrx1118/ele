@@ -14,6 +14,7 @@
                 <span>筛选</span><i></i>
             </a>
         </div>
+        <div class="h_hidden"></div>
         <section class="shop">
             <div class="shop_container"  v-for="items in product.detail" :key="items.id">
                 <div class="shop_brand">
@@ -54,22 +55,13 @@ export default {
     },
     created(){
         this.axios.get(this.url).then(res => {
-                console.log(res);
             this.list = res.data.entries;
         }, err => {
                 console.log(err);
         });
-        // this.$http.get(this.url).then(res => {
-        //     console.log(res);
-        //     // console.log(JSON.parse(res.data))
-        //     // this.list = JSON.parse(res.data).data;
-        // }, err => {
-        //     console.log(err);
-        // });
     },
     computed:{
         product(){
-            console.log(this.$route.params.id);
             for (var item of this.list) {
                 if (this.$route.params.id == item.id) {
                     return item;
@@ -102,7 +94,6 @@ export default {
     content: "";
     float: left;
     margin: .17rem 0 0 .1rem;
-    display: inline-block;
     border: .02rem solid #fff;
     border-width: .02rem 0 0 .02rem;
     width: .12rem;
@@ -119,6 +110,7 @@ export default {
     height:.3334rem;
     line-height:.3334rem;
     font-size: .12rem;
+    background-color: #fff;
     color:#777;
     border-bottom: 1px solid #eee;
 }

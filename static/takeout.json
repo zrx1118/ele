@@ -25,7 +25,7 @@
                 "title": "天天特价",
                 "content": "低至1折",
                 "imghash": "506ddb537220b8c56d4ef6ae22718984png",
-                "url": "/ranking/#type=special_food&from=h5",
+                "url": "/ranking/#type=special_food&from=h5&geohash=wx4g0bmjetr7",
                 "class": "special"
             },
             {
@@ -151,7 +151,7 @@
         "float_delivery_fee": 9,
         "float_minimum_order_amount": 0,
         "id": 152176301,
-        "image_path": "32652cd5064853c7e09b7c864af9a77fjpeg",
+        "image_path": "304982279cfdaecb5dd794daa87c3a3cpng",
         "is_new": false,
         "is_premium": true,
         "is_stock_empty": 0,
@@ -188,9 +188,12 @@
             "tips": "配送费约¥5"
         },
         "promotion_info": "",
+        "qualification":{
+            "link": "https://h5.ele.me/shop/certification/#/?restaurant_id=3381784142464601&realId=152176301"
+        },
         "rating": 4.7,
-        "rating_count": 0,
-        "recent_order_num": 2300,
+        "rating_count": 1536,
+        "recent_order_num": 3031,
         "recommend": {
             "is_ad": false,
             "reason": ""
