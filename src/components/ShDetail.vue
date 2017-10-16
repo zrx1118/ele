@@ -83,8 +83,6 @@ export default {
             list:[]
         }
     },
-<<<<<<< HEAD
-=======
     methods: {
         backFn() {
             // BOM的history 回退上一个
@@ -93,7 +91,6 @@ export default {
         this.$router.go(-1);
         }
     },
->>>>>>> dev
     created(){
         //用axious实现页面的本地数据ajax请求
         this.axios.get(this.url).then(res => {
