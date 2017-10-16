@@ -25,7 +25,7 @@
                     <div class="shopnum"><div><p></p><span>{{items.rating}}</span><span>月售{{items.recent_order_num}}单</span></div><p>蜂鸟专送</p></div>
                     <div class="shopprice"><ul><li>￥{{items.float_minimum_order_amount}}起送</li><li>{{items.piecewise_agent_fee.description}}</li></ul><ul><li>1.06km</li><li>27分钟</li></ul></div>
                     <div class="index_discount">
-                        <p class="discount" v-for="item in items.activities" :key="item.id"><i>{{item.icon_name}}</i><span>{{item.tips}}</span></p>
+                        <p class="discount" v-for="item in items.activities" :key="item.id"><i :style="{'background-color':'#'+item.icon_color}">{{item.icon_name}}</i><span>{{item.tips}}</span></p>
                         <div class="activity">
                             <span>{{items.activities.length}}个活动</span><i></i>
                         </div>

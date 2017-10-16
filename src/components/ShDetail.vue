@@ -1,9 +1,9 @@
 <template>
     <div class="shop_detail" v-if="product">
        <div class="shop-container">
-            <div class="shop-header" style="background-image:url(https://fuss10.elemecdn.com/3/04/982279cfdaecb5dd794daa87c3a3cpng.png)"></div>
+            <div class="shop-header" :style="{'background-image':'url'+product.image_path | dataFilter}"></div>
             <div class="delivery">
-                <i @click="backFn"></i><span></span>
+                <i></i><span></span>
             </div>
             <div class="shop_container">
                 <div class="index_main">
@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="index_discount">
-                    <p class="discount"><i>{{product.activities[0].icon_name}}</i><span>{{product.activities[0].description}}</span></p>
+                    <p class="discount"><i :style="{'background-color':'#'+product.activities[0].icon_color}">{{product.activities[0].icon_name}}</i><span>{{product.activities[0].description}}</span></p>
                     <div class="activity">
                         <span>{{product.activities.length}}个活动</span><i></i>
                     </div>
@@ -282,24 +282,9 @@ p{
     font-style: normal;
     text-align: center;
     padding:.01rem;
+    color:#fff;
     margin-right: .06rem;
     border-radius: .02rem;
-}
-.discount i{
-    background-color: rgb(240, 115, 115);
-    color: rgb(255, 255, 255);
-}
-.first i{
-    background-color: rgb(112, 188, 70);
-    color: rgb(255, 255, 255);
-}
-.special i{
-    background-color: rgb(241, 136, 79);
-    color: rgb(255, 255, 255);
-}
-.gift i{
-    background-color: rgb(60, 199, 145);
-    color: rgb(255, 255, 255);
 }
 .activity{
     position: absolute;

@@ -30,7 +30,7 @@
                     </ul>
                 </div>
                 <div class="index_discount">
-                    <p v-for="(item,idx) in items.activities" :key="item.id"><i>{{item.icon_name}}</i><span>{{item.description}}</span></p>
+                    <p v-for="(item,idx) in items.activities" :key="item.id"><i :style="{'background-color':'#'+item.icon_color}">{{item.icon_name}}</i><span>{{item.description}}</span></p>
                     <div class="activity">
                         <span>{{items.activities.length}}个活动</span><i></i>
                     </div>
@@ -55,11 +55,6 @@ export default {
             var url="https://fuss10.elemecdn.com/";
             url+=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
             return url;
-        }
-    },
-    methods:{
-        checkdetail(){
-            this.$router.push('/shopdetail');
         }
     },
     created() {
@@ -195,6 +190,7 @@ export default {
     white-space: nowrap;
 }
 .index_discount i{
+    color:#fff;
     font-style: normal;
     text-align: center;
     padding:.01rem;
