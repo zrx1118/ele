@@ -55,8 +55,6 @@ export default {
   created(){
 	  this.axios.get("../../static/found-data"+this.$route.params.id+".json").then(res => {
 				  this.list=res.data;
-		  		  console.log(this.list);
-				 
 	  },err => {
           console.log(err);
       })
@@ -70,7 +68,6 @@ export default {
 		// console.log('beforeRouteUpdate');
 		 this.axios.get("../../static/found-data"+this.$route.params.id+".json").then(res => {
 				  this.list=res.data;
-		  		  console.log(this.list);
 				 
 	  },err => {
           console.log(err);
