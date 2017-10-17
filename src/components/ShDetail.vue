@@ -1,7 +1,7 @@
 <template>
     <div class="shop_detail" v-if="product">
        <div class="shop-container">
-            <div class="shop-header" :style="{'background-image':'url'+product.image_path | dataFilter}"></div>
+            <div class="shop-header"></div>
             <div class="delivery">
                 <i></i><span></span>
             </div>
@@ -35,9 +35,11 @@
         </div>
         <main>
             <ul class="shopnav">
-                <li :class="{active:index==0}" 
+                <li 
                 v-for="(item, index) in product.detail" 
-                :key="item.id"><i v-show="index==0?true:false">
+                @click="changelitype(item.id)" 
+                :class="{active:item.id==litype}" 
+                :key="item.id"><i v-show="index==0">
                 </i>{{ item.name }}</li>
             </ul>
             <div class="shoplist">
@@ -66,10 +68,10 @@
         <footer>
             <label><i></i></label>
             <div>
-                <span>¥40</span>
-                <p>配送费¥4</p>
+                <span>¥{{product.piecewise_agent_fee.rules.fee|0}}</span>
+                <p>{{product.piecewise_agent_fee.tips}}</p>
             </div>
-            <button class="btn">还差¥4结算</button>
+            <button class="btn">{{product.float_minimum_order_amount}}元起送</button>
         </footer>
    </div>
 </template>
@@ -80,7 +82,8 @@ export default {
     data () {
         return {
             url:'../static/takeout.json',
-            list:[]
+            list:[],
+            litype:''
         }
     },
     methods: {
@@ -89,12 +92,21 @@ export default {
         //  history.back();
         // 通过路由回退
         this.$router.go(-1);
+        },
+        changelitype(type){
+            this.litype=type;
+        },
+        //按添加按钮进行点餐
+        up(item){
+            this.$store.dispath("up", item)
+        },
+        down(item){
+            this.$store.dispatch("down", item)
         }
     },
     created(){
         //用axious实现页面的本地数据ajax请求
         this.axios.get(this.url).then(res => {
-            console.log(res.data.restaurants);
             this.list = res.data.restaurants;
         }, err => {
             console.log(err);
@@ -107,15 +119,6 @@ export default {
             res4=dateNum.substr(dateNum.lastIndexOf("jpeg")!=-1?dateNum.length-4:dateNum.length-3);
             url+=dateNum.substr(0,1)+"/"+dateNum.substr(1,2)+"/"+dateNum.substr(3)+"."+res4;
             return url;
-        }
-    },
-    methods:{
-        //按添加按钮进行点餐
-        up(item){
-            this.$store.dispath("up", item)
-        },
-        down(item){
-            this.$store.dispatch("down", item)
         }
     },
     computed:{
@@ -176,7 +179,6 @@ if($(".count").text()>0){
     position: relative;
     left: 0;
     top: 0;
-    z-index: 2;
     background-color: rgba(119,103,137,.43);
 }
 .shop-header{
@@ -189,15 +191,13 @@ if($(".count").text()>0){
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-repeat: no-repeat;
+    background-position: center; */
     -webkit-filter: blur(.5rem);
     -moz-filter: blur(.5rem);
     -ms-filter: blur(.5rem);
     -o-filter: blur(.5rem);
     filter: blur(.5rem);
-    -webkit-transform: scale(.5);
-    transform: scale(.5);
 }
 .delivery{
     height: .303rem;
@@ -355,6 +355,8 @@ main{
 }
 .shopnav .active{
      background-color: #fff;
+     border-right-color: #fff;
+     font-weight: bolder;
 }
 .shoplist{
     width:77%;

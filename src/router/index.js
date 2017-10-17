@@ -48,7 +48,6 @@ const routes = [
     {path:'/second.more/morelist',component:MoreList },
     {path:'/second.more/secondlist/:id',component:SecondList}
   ]},
-  {path:'/shdetail',component:ShDetail },
   {path:'/Integ',component:Integ},
   {path:'/New',component:New},
   {path:'/Money',component:Money},

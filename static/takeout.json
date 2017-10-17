@@ -148,8 +148,8 @@
         "description": "",
         "distance": 1852,
         "favored": false,
-        "float_delivery_fee": 9,
-        "float_minimum_order_amount": 0,
+        "float_delivery_fee": 5,
+        "float_minimum_order_amount": 20,
         "id": 152176301,
         "image_path": "304982279cfdaecb5dd794daa87c3a3cpng",
         "is_new": false,
@@ -173,16 +173,8 @@
             "is_extra": false,
             "rules": [
                 {
-                    "fee": 9,
-                    "price": 0
-                },
-                {
                     "fee": 5,
                     "price": 20
-                },
-                {
-                    "fee": 0,
-                    "price": 100
                 }
             ],
             "tips": "配送费约¥5"
