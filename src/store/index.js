@@ -1,12 +1,16 @@
 import Vue from "vue"
 import Vuex from "vuex"
 
+// 全局安装Vuex
 Vue.use(Vuex)
 
 //Vuex中的数据变量
 const state={
     //购物车商品列表
-    cartProductList:[]
+    cartProductList:[],
+    activeli:"",
+    activefirst:1,
+    showlist:""
 }
 
 //同步处理
@@ -23,7 +27,16 @@ const mutations={
                 temp.count++
                 //break的原因是找到即结束循环，减少系统不必要的循环操作
                 break;
-            }
+            };
+        }
+        for(let temps of state.showlist){
+            //判断是否是当前的对象增加showlist的count，并改变隐藏与显示属性
+                for(let its of temps.foods){
+                    if(its==it){
+                        its.specfoods[0].packing_fee++;
+                        its.is_essential=true;
+                    }
+                }
         }
 
         //如果不存在，则是新添加的商品
@@ -40,14 +53,38 @@ const mutations={
     },
     //点击减少按钮的逻辑
     DOWN(state, it){
-        for(let item of state.cartProductList){
-            if(item.id==it.item_id){
-                if(item.count>0){
-                    it.count--
+        for(let item in state.cartProductList){
+            if(state.cartProductList[item].id==it.item_id){
+                if(state.cartProductList[item].count>0){
+                    state.cartProductList[item].count--
+                }if(state.cartProductList[item].count==0){
+                    state.cartProductList.splice(item,1) 
                 }
                 break;
-            }
+            };
         }
+        for(let temps of state.showlist){
+            //判断是否是当前的对象增加showlist的count，并改变隐藏与显示属性
+                for(let its of temps.foods){
+                    if(its==it){
+                        its.specfoods[0].packing_fee--;
+                        if(its.specfoods[0].packing_fee==0){
+                            its.is_essential=false;
+                        }
+                    }
+                }
+        }
+    },
+    ACTIVE(state, it){
+        state.activeli=it;
+        state.activefirst=0;
+    },
+    ACTS(state){
+        state.activefirst=1;
+        state.activeli="";
+    },
+    DATA(state,list){
+        state.showlist=list;
     }
 }
 
@@ -58,6 +95,15 @@ const actions={
     },
     down({ commit }, item){
         commit('DOWN', item)
+    },
+    active({ commit }, item){
+        commit('ACTIVE', item)
+    },
+    acts({ commit }, item){
+        commit('ACTS', item)
+    },
+    data({ commit }, list){
+        commit("DATA", list)
     }
 }
 
@@ -69,6 +115,7 @@ const getters={
         for(let item of state.cartProductList){
             resultcount+=item.count
         }
+        return resultcount;
     },
     //获取商品总价格
     totalprice(state){
@@ -76,6 +123,7 @@ const getters={
         for(let item of state.cartProductList){
             resultprice+=item.count * item.price
         }
+        return resultprice;
     }
 
 }

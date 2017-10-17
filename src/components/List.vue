@@ -1,6 +1,6 @@
 <template>
     <div class="cost-list">
-        <div class="header">确认订单<span id="iconS"></span></div>
+        <div class="header">确认订单<span id="iconS" @click="goprev()"></span></div>
         <div class="hidden"></div>
         <section class="address">
             <div>请添加一个收货地址</div>
@@ -26,16 +26,16 @@
         <div class="h-line"></div>
         <section class="shop">
             <img src="https://fuss10.elemecdn.com/2/81/c3b380dd521e6235b1d4a8911f1e6png.png?imageMogr/format/webp/thumbnail/38x/" alt="">
-            <span>热辣一号（搜秀店）</span>
+            <span>荷花泰菜（王府井店</span>
         </section>
-        <section class="list">
-            <span>辣子鱼（无刺龙利鱼）单人套餐</span>
-            <span class="math">x 1</span>
-            <label class="price">￥40</label>
+        <section class="list" v-for="item in list" :key="item.id">
+            <span>{{ item.name }}</span>
+            <span class="math">x {{ item.count }}</span>
+            <label class="price">￥{{ item.count*item.price }}</label>
         </section>
         <section class="cost">
             <p><span class="text">配送费</span><label class="pri">￥5</label></p>
-            <p><span class="text">餐盒</span><label class="pri">￥2</label></p>
+            <p><span class="text">餐盒</span><label class="pri">￥{{ 2*counts }}</label></p>
             <div class="clear"></div>
         </section>
         <div class="h-line"></div>
@@ -51,7 +51,7 @@
         </section>
         <div class="h-line"></div>
         <footer>
-            <span>待支付 ¥40</span>
+            <span>待支付 ¥{{ prices+2*counts+5 }}</span>
             <button class="btn">确认下单</button>
         </footer>
     </div>
@@ -59,22 +59,39 @@
 
 <script>
 export default {
-    name:'found'
+    name:'found',
+    computed:{
+        list(){
+            return this.$store.state.cartProductList
+        },
+        counts(){
+          return this.$store.getters.totalcount
+        },
+        prices(){
+          return this.$store.getters.totalprice
+       }
+    },
+    methods:{
+        goprev(){
+            this.$router.push('/second.shopdetail')
+        }
+    }
+
 }
 </script>
 <style scoped>
-    .header{
-        width:100%;
-        height:0.38rem;
-        line-height:0.38rem;
-        text-align:center;
-        color:#fff;
-        background-image: linear-gradient(90deg,#0af,#0085ff);
-        font-size:0.16rem;
-        font-weight:bold;
-        position:fixed;
-        left: 0;
-        top:0;
+        .header{
+            width:100%;
+            height:0.38rem;
+            line-height:0.38rem;
+            text-align:center;
+            color:#fff;
+            background-image: linear-gradient(90deg,#0af,#0085ff);
+            font-size:0.16rem;
+            font-weight:bold;
+            position:fixed;
+            left: 0;
+            top:0;
         }
         .hidden{
             height:0.38rem;

@@ -18,11 +18,13 @@ import Found from '../pages/Found'
 import Order from '../pages/Order'
 import Mine from '../pages/Mine'
 import LimitSale from '../components/LimitSale'
+import More from '../components/More'
+import ShopDetail from '../components/ShoDetail'
 import ShDetail from '../components/ShDetail'
 import NavList from '../components/NavList'
-import More from '../components/More'
 import MoreList from '../components/MoreList'
 import SecondList from '../components/SecondList'
+import List from '../components/List'
 
 
 Vue.config.productionTip = false
@@ -44,10 +46,13 @@ const routes = [
   {path:'/shdetail/:id',component:ShDetail },
   {path:'/navlist/:id',component:NavList },
   {path:'/second.more',component:More ,children:[
-    {path:'/', redirect: '/second.more/morelist'},
-    {path:'/second.more/morelist',component:MoreList },
-    {path:'/second.more/secondlist/:id',component:SecondList}
+    {path:'/', redirect: 'morelist'},
+    {path:'morelist',component:MoreList },
+    // 路由传参
+    {path:'secondlist/:id',component:SecondList}
   ]},
+  {path:'/second.list',component:List},
+  {path:'/second.shdetail',component:ShDetail },
   {path:'/Integ',component:Integ},
   {path:'/New',component:New},
   {path:'/Money',component:Money},
