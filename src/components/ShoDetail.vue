@@ -122,7 +122,7 @@ export default {
           this.$store.dispatch("down", item);
       },
       golist(){
-          this.$router.push('/second.list')
+          this.$router.push('/list')
       },
       active(item){
           for(let n of this.list){

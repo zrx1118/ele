@@ -19,7 +19,7 @@ import Order from '../pages/Order'
 import Mine from '../pages/Mine'
 import LimitSale from '../components/LimitSale'
 import More from '../components/More'
-import ShopDetail from '../components/ShoDetail'
+import ShoDetail from '../components/ShoDetail'
 import ShDetail from '../components/ShDetail'
 import NavList from '../components/NavList'
 import MoreList from '../components/MoreList'
@@ -37,7 +37,7 @@ Vue.prototype.axios = axios
 
 //配置路由规则
 const routes = [
-  {path:'',component:Takeout},
+  {path:'/',component:Takeout},
   {path:'/takeout',component:Takeout },
   {path:'/found',component:Found },
   {path:'/order',component:Order },
@@ -49,10 +49,10 @@ const routes = [
     {path:'/', redirect: 'morelist'},
     {path:'morelist',component:MoreList },
     // 路由传参
-    {path:'secondlist/:id',component:SecondList}
+    {path:'secondlist/:id',component:SecondList},
+    {path:'/second.shodetail',component:ShoDetail },
   ]},
-  {path:'/second.list',component:List},
-  {path:'/second.shdetail',component:ShDetail },
+  {path:'/list',component:List},
   {path:'/Integ',component:Integ},
   {path:'/New',component:New},
   {path:'/Money',component:Money},

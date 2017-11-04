@@ -3,7 +3,7 @@
         <div class="header">发现<span id="icon"></span></div>
         <div class="hidden"></div>
         <div class="select">
-            <a  v-for="item in list" :href="item.content_url" :key="item.id">
+            <a  v-for="item in list" :href="item.content_url" :key="item.id" to>
                 <div>
                     <p class="title">{{ item.title }}</p>
                     <p class="tips">{{ item.subtitle }}</p>

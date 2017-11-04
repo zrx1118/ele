@@ -73,7 +73,8 @@ export default {
     },
     methods:{
         goprev(){
-            this.$router.push('/second.shopdetail')
+            // 通过路由回退
+            this.$router.go(-1);
         }
     }
 

@@ -48,7 +48,7 @@ export default {
   },
   methods:{
       fn1(){
-          this.$router.push("/second.shopdetail");
+          this.$router.push("/second.shodetail");
       }
   }
 }

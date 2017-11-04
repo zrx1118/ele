@@ -1,9 +1,9 @@
 <template>
     <div class="shop_detail" v-if="product">
        <div class="shop-container">
-            <div class="shop-header"></div>
+            <div class="shop-header"><img :src="product.image_path | dataFilter" alt=""></div>
             <div class="delivery">
-                <i></i><span></span>
+                <i @click="backFn()"></i><span></span>
             </div>
             <div class="shop_container">
                 <div class="index_main">
@@ -37,41 +37,51 @@
             <ul class="shopnav">
                 <li 
                 v-for="(item, index) in product.detail" 
-                @click="changelitype(item.id)" 
-                :class="{active:item.id==litype}" 
-                :key="item.id"><i v-show="index==0">
-                </i>{{ item.name }}</li>
+                :class="{'active':category==index}" 
+                @click="changeCategory(index)"
+                :key="item.id">
+                <a :href="'#'+index">
+                <i v-show="item.icon_url"><img :src="item.icon_url|dataFilter" alt=""></i>{{ item.name }}
+                </a>
+                </li>
             </ul>
-            <div class="shoplist">
-                <div v-for="(item, index) in product.detail" :key="item.id">
+            <div class="shoplist" v-if="showlist">
+                <div v-for="(item, index) in showlist" 
+                    :key="item.id"
+                    class="box"
+                    :id="index">
+                    <div class="hidden-nav" v-show="index>=1?true:false"></div>
                     <div class="text">
                         <b>{{ item.name }}</b>
                         <span>{{ item.description }}</span>
                         <span class="right">...</span>
                     </div>
                     <ul>
-                        <li v-for="it in item.foods" :key="it.id">
-                            <img :src="it.image_path | dataFilter">
-                            <h3>{{ it.name }}</h3>
-                            <p><span>{{ it.tips }}</span><span>好评率100%</span></p>
-                            <span class="doll">￥</span><b>{{ it.specfoods[0].price }}</b>
+                        <li v-for="its in item.foods" :key="its.id">
+                            <img :src="its.image_path | dataFilter">
+                            <h3>{{ its.name }}</h3>
+                            <p><span>{{ its.tips }}</span><span>好评率100%</span></p>
+                            <span class="doll">￥</span><b>{{ its.specfoods[0].price }}</b>
                             <div>
-                                <span class="minus" @click="down(it)"></span>
-                                <i class="count">1</i>
-                                <span class="add" @click="up(it)"></span>
+                                <span class="minus" @click="down(its)" v-show="its.is_essential"></span>
+                                <i class="count" v-show="its.is_essential">{{ its.specfoods[0].checkout_mode }}</i>
+                                <span class="add" @click="up(its)"></span>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </main>
+        <div class="hidden-nav"></div>
         <footer>
-            <label><i></i></label>
+            <label :class="{act:counts}"><i class="price_box" v-show="counts">{{ counts }}</i></label>
             <div>
-                <span>¥{{product.piecewise_agent_fee.rules.fee|0}}</span>
+                <span>¥{{  prices }}</span>
                 <p>{{product.piecewise_agent_fee.tips}}</p>
             </div>
-            <button class="btn">{{product.float_minimum_order_amount}}元起送</button>
+            <button class="btn" v-show="20-prices==0">{{product.float_minimum_order_amount}}元起送</button>
+            <button class="btn" v-show="20-prices>0">还差¥{{ 20-prices }}结算</button>
+            <button class="btn_active" v-show="prices-20>0" @click="golist()">去结算</button>
         </footer>
    </div>
 </template>
@@ -83,22 +93,25 @@ export default {
         return {
             url:'../static/takeout.json',
             list:[],
-            litype:''
+            category:0
         }
     },
     methods: {
         backFn() {
             // BOM的history 回退上一个
-        //  history.back();
-        // 通过路由回退
-        this.$router.go(-1);
+            //  history.back();
+            // 通过路由回退
+            this.$router.go(-1);
         },
-        changelitype(type){
-            this.litype=type;
+        changeCategory(type){
+            this.category=type;
+        },
+        golist(){
+          this.$router.push('/list')
         },
         //按添加按钮进行点餐
         up(item){
-            this.$store.dispath("up", item)
+            this.$store.dispatch("up", item)
         },
         down(item){
             this.$store.dispatch("down", item)
@@ -114,10 +127,9 @@ export default {
     },
     filters: {
         //图片转换格式过滤器
-        dataFilter: function (dateNum) {
-            var url="https://fuss10.elemecdn.com/",
-            res4=dateNum.substr(dateNum.lastIndexOf("jpeg")!=-1?dateNum.length-4:dateNum.length-3);
-            url+=dateNum.substr(0,1)+"/"+dateNum.substr(1,2)+"/"+dateNum.substr(3)+"."+res4;
+        dataFilter: function (a) {
+            var url="https://fuss10.elemecdn.com/";
+            url+=a.substr(0,1)+"/"+a.substr(1,2)+"/"+a.substr(3)+"."+a.substr(a.lastIndexOf("png")!=-1?-3:-4);
             return url;
         }
     },
@@ -125,6 +137,9 @@ export default {
         product(){
             for (var item of this.list) {
                 if (this.$route.params.id == item.id) {
+                    if(this.$store.state.showlist==''){
+                       this.$store.dispatch("data",item.detail);
+                    }
                     return item;
                 }
             }
@@ -132,8 +147,11 @@ export default {
         counts(){
             return this.$store.getters.totalcount
         },
-        price(){
+        prices(){
             return this.$store.getters.totalprice
+        },
+        showlist(){
+            return this.$store.state.showlist
         }
     }
 }
@@ -162,16 +180,13 @@ $(window).on("scroll",function(){
         });
     }
 });
-//控制页面减少按钮的出现与隐藏
-if($(".count").text()>0){
-    $(".minus").show();
-}else{
-    $(".minus").hide();
-}
     
 </script>
     
 <style lang="css" scoped>
+.active-li{
+    border-left:2px solid #3190e8;
+}
 .shop-container{
     width: 100%;
     height: 100%;
@@ -179,6 +194,7 @@ if($(".count").text()>0){
     position: relative;
     left: 0;
     top: 0;
+    z-index: 2;
     background-color: rgba(119,103,137,.43);
 }
 .shop-header{
@@ -191,13 +207,12 @@ if($(".count").text()>0){
     width: 100%;
     height: 100%;
     background-size: cover;
-    /* background-repeat: no-repeat;
-    background-position: center; */
-    -webkit-filter: blur(.5rem);
-    -moz-filter: blur(.5rem);
-    -ms-filter: blur(.5rem);
-    -o-filter: blur(.5rem);
-    filter: blur(.5rem);
+    background-position: center;
+    -webkit-filter: blur(.6rem);
+    -moz-filter: blur(.6rem);
+    -ms-filter: blur(.6rem);
+    -o-filter: blur(.6rem);
+    filter: blur(.6rem);
 }
 .delivery{
     height: .303rem;
@@ -219,6 +234,7 @@ if($(".count").text()>0){
     -webkit-box-sizing: border-box;
     -webkit-transform-origin: 33.3% 33.3%;
     -webkit-transform: rotate(-45deg);
+    z-index: 4;
 }
 .shop_container{
     width: 100%;
@@ -282,7 +298,6 @@ p{
     font-style: normal;
     text-align: center;
     padding:.01rem;
-    color:#fff;
     margin-right: .06rem;
     border-radius: .02rem;
 }
@@ -314,6 +329,9 @@ p{
     z-index:4;
     background-color:#fff;
 }
+.hidden-nav{
+    height:.3334rem;
+}
 .classfy a{
     width:33%;
     float: left;
@@ -335,12 +353,10 @@ main{
     width:23%;
     top:1.58rem;
 }
-.shopnav i{
-    background:url(https://fuss10.elemecdn.com/5/da/3872d782f707b4c82ce4607c73d1ajpeg.jpeg?imageMogr/format/webp/thumbnail/18x/) no-repeat;
+.shopnav img{
     display:inline-block;
     width:.08rem;
     height:.08rem;
-    background-size:cover;
     margin-right:5px;
 }
 .shopnav li{
@@ -348,15 +364,13 @@ main{
     height:.43rem;
     line-height:.43rem;
     text-indent:10px;
-    background-color:;
     color:#666;
     border-bottom: 1px solid #ededed;
     background-color: #f8f8f8;
 }
 .shopnav .active{
      background-color: #fff;
-     border-right-color: #fff;
-     font-weight: bolder;
+     border-left:2px solid #3190e8;
 }
 .shoplist{
     width:77%;
@@ -435,6 +449,16 @@ footer{
     background-color: #535356;
 }
 .btn_active{
+    width:0.9rem;
+    font-size:0.14rem;
+    height: 0.48rem;
+    outline:none;
+    border:none;
+    color:#fff;
+    text-align:center;
+    position:absolute;
+    right: 0;
+    bottom:0;
     background-color: #00d762;
 }
 footer label{
@@ -453,6 +477,9 @@ footer label{
 footer i{
     width:13px;
     height:13px;
+    font-size:12px;
+    text-align:center;
+    font-style:normal;
     display:inline-block;
     border-radius:50%;
     background-color: #ff461d;
@@ -460,7 +487,6 @@ footer i{
     left:.27rem;
     top:-.05rem;
     color:#fff;
-    display:none;
 }
 footer div{
     color:#fff;
@@ -494,7 +520,6 @@ footer .act{
     font-style:normal;
     display:inline-block;
     vertical-align:middle;
-    display:none;
 }
 .shoplist .minus{
     display:inline-block;
@@ -503,7 +528,6 @@ footer .act{
     background:url(../assets/minus.png) no-repeat center center;
     background-size:cover;
     vertical-align:middle;
-    display:none;
 }
 .shoplist .add{
     display:inline-block;

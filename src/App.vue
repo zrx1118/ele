@@ -10,12 +10,18 @@ import Foot from './components/Foot'
 
 export default {
   name: 'app',
+  data(){
+    return{
+      arr:["/takeout","/found","/order","/mine","/"]
+    }
+  },
   components: {
-    Foot
+    Foot,
   },
   methods: {
     isShow() {
-      return this.$route.path.indexOf('shdetail') == -1 ? true : false;
+      var path=this.$route.path;
+      return this.arr.indexOf(path) == -1 ? false : true;
     }
   }
 }

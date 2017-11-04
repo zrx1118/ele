@@ -29,11 +29,11 @@ const mutations={
                 break;
             };
         }
-        for(let temps of state.showlist){
+        for(let temp of state.showlist){
             //判断是否是当前的对象增加showlist的count，并改变隐藏与显示属性
-                for(let its of temps.foods){
+                for(let its of temp.foods){
                     if(its==it){
-                        its.specfoods[0].packing_fee++;
+                        its.specfoods[0].checkout_mode++;
                         its.is_essential=true;
                     }
                 }
@@ -53,24 +53,25 @@ const mutations={
     },
     //点击减少按钮的逻辑
     DOWN(state, it){
-        for(let item in state.cartProductList){
-            if(state.cartProductList[item].id==it.item_id){
-                if(state.cartProductList[item].count>0){
-                    state.cartProductList[item].count--
-                }if(state.cartProductList[item].count==0){
-                    state.cartProductList.splice(item,1) 
+        for(let index in state.cartProductList){
+            if(state.cartProductList[index].id==it.item_id){
+                if(state.cartProductList[index].count>0){
+                    state.cartProductList[index].count--
+                }
+                if(state.cartProductList[index].count==0){
+                    state.cartProductList.splice(index,1)
                 }
                 break;
             };
         }
-        for(let temps of state.showlist){
+        for(let temp of state.showlist){
             //判断是否是当前的对象增加showlist的count，并改变隐藏与显示属性
-                for(let its of temps.foods){
+                for(let its of temp.foods){
                     if(its==it){
-                        its.specfoods[0].packing_fee--;
-                        if(its.specfoods[0].packing_fee==0){
-                            its.is_essential=false;
-                        }
+                        its.specfoods[0].checkout_mode--;
+                    }
+                    if(its.specfoods[0].checkout_mode==0){
+                        its.is_essential=false;
                     }
                 }
         }

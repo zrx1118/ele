@@ -1,42 +1,49 @@
 <template>
     <div class="shop">
-       <router-link class="shop_container" v-for="(items,index) in shoplist" :key="items.id" :to="{path:'/shdetail/'+items.id}">
+       <div class="shop_container" v-for="(items,index) in shoplist" :key="items.id">
             <div class="shop_brand">
                 <img :src="items.image_path | dataFilter" :alt="items.name">
             </div>
             <div class="index_main">
-                <div class="shopname">
-                    <h3><span>{{items.name }} </span></h3>
-                    <ul>
-                        <li v-for="icon in items.supports" :key="icon.id">{{icon.icon_name}}</li>
-                    </ul>
-                </div>
-                <div class="shopnum">
-                    <div>
-                        <p></p>
-                        <span>{{items.rating}}</span>
-                        <span>月售{{items.recent_order_num}}单</span>
+                <router-link  :to="{path:'/shdetail/'+items.id}">
+                    <div class="shopname">
+                        <h3><span>{{items.name }} </span></h3>
+                        <ul>
+                            <li v-for="icon in items.supports" :key="icon.id">{{icon.icon_name}}</li>
+                        </ul>
                     </div>
-                    <p>蜂鸟专送</p>
-                </div>
-                <div class="shopprice">
-                    <ul>
-                        <li>￥{{items.piecewise_agent_fee.extra_fee}}元起送</li>
-                        <li>{{items.piecewise_agent_fee.tips}}</li>
-                    </ul>
-                    <ul>
-                        <li>1.06km</li>
-                        <li>27分钟</li>
-                    </ul>
-                </div>
+                    <div class="shopnum">
+                        <div>
+                            <p>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1" height="3.8">
+                                    <polygon points="2,0.2 0.8,3.6 3.8,1.4 0.2,1.4 3.2,3.6" style="fill:red;stroke:blue;stroke-width:3;" />
+                                </svg> -->
+                            </p>
+                            <span>{{items.rating}}</span>
+                            <span>月售{{items.recent_order_num}}单</span>
+                        </div>
+                        <p>蜂鸟专送</p>
+                    </div>
+                    <div class="shopprice">
+                        <ul>
+                            <li>￥{{items.piecewise_agent_fee.extra_fee}}元起送</li>
+                            <li>{{items.piecewise_agent_fee.tips}}</li>
+                        </ul>
+                        <ul>
+                            <li>1.06km</li>
+                            <li>27分钟</li>
+                        </ul>
+                    </div>
+                </router-link>
                 <div class="index_discount">
-                    <p v-for="(item,idx) in items.activities" :key="item.id"><i :style="{'background-color':'#'+item.icon_color}">{{item.icon_name}}</i><span>{{item.description}}</span></p>
-                    <div class="activity">
+                    <p v-for="(item,idx) in items.activities" 
+                    :key="item.id"><i :style="{'background-color':'#'+item.icon_color}">{{item.icon_name}}</i><span>{{item.description}}</span></p>
+                    <div class="activity" @click="changeNum()">
                         <span>{{items.activities.length}}个活动</span><i></i>
                     </div>
                 </div>
             </div>
-        </router-link>
+        </div>
     </div>
 </template>
     
@@ -46,7 +53,8 @@ export default {
     name: "shop",
     data () {
         return {
-            shoplist:[]
+            shoplist:[],
+            flag:true
         };
     },
     props: ['url', 'category'],
@@ -63,6 +71,12 @@ export default {
         }, err => {
             console.log(err);
         });
+    },
+    methods:{
+        changeNum(){
+            this.flag=!this.flag;
+            return this.flag;
+        }
     }
 }
 </script>
