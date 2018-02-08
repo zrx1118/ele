@@ -1,23 +1,26 @@
 <template>
   <div class="more-list">
-      <div class="shop-list" v-for="(item, index) in list" :key="item.id">
-            <div class="outer">
-                <section>
-                    <img :src="item.restaurant.image_path | dataFilter" alt="">
-                    <h3>{{ item.restaurant.name }}</h3>
-                    <span>¥20起送 / 配送费¥5</span>
-                    <div class="clear"></div>
-                </section>
-                <a href="javascript:void(0)" v-for="(it, index) in item.foods" :key="it.id">
-                    <img :src="it.image_hash | dataFilter" alt="">
-                    <div>
-                        <p>{{ it.name }}</p>
-                        <span>{{ "￥"+it.price }}</span>
-                        <label class="look" @click="fn1">去看看</label>
-                    </div>
-                </a>
+    <div class="shop-list" v-for="(item, index) in list" :key="item.id">
+      <div class="outer">
+        <section>
+          <h3>
+            <img :src="item.restaurant.image_path | dataFilter" alt="">
+            <span>{{ item.restaurant.name }}</span>
+          </h3>
+          <span>¥20起送 / 配送费¥5</span>
+        </section>
+        <div class="shop-list-item">
+          <a href="javascript:void(0)" v-for="(it, index) in item.foods" :key="it.id">
+            <img :src="it.image_hash | dataFilter" alt=""/>
+            <div>
+              <p>{{ it.name }}</p>
+              <span>{{ "￥"+it.price }}</span>
+              <label class="look" @click="fn1">去看看</label>
             </div>
+          </a>
         </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -54,81 +57,97 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .shop-list{
-            padding:7px 5px 0 5px;
-            background-color:#f5f5f5;
-        }
-       .shop-list .outer{
-            width:100%;
-            height: 2.18rem;
-            background-color:#fff;
-            border-radius:3px;
-            font-size:0;
-            padding:0 5px;
-       }
-       .shop-list section{
-           width:100%;
-           height:.36rem;
-           line-height:.36rem;
-           font-size:0;
-       }
-       .shop-list section img{
-            width:.18rem;
-            height:.18rem;
-            margin:.09rem .1rem 0 .05rem;
-            float:left;
-       }
-       .shop-list section h3{
-           width:1.5rem;
-           color:#333;
-           float:left;
-           font-size:.14rem;
-           overflow:hidden;
-           white-space:nowrap;
-           text-overflow: ellipsis;
-       }
-       .shop-list section span{
-           float:right;
-           height:.36rem;
-           line-height:.36rem;
-           color:#999;
-       }
-       .shop-list a{
-            width:33.3%;
-            padding-right:.08rem;
-            display: inline-block;
-            text-decoration:none;
-        }
-        .shop-list img{
-            width:.91rem;
-            height:.91rem;
-            margin-bottom:10px;
-        }
-        .shop-list p{
-            font-size:0.12rem;
-            color:#333;
-            margin-bottom:2px;
-            overflow:hidden;
-            white-space:nowrap;
-            text-overflow: ellipsis;
-        }
-        .shop-list span{
-            font-size:0.1rem;
-            color: #ff5339;
-            line-height:0.24rem;
-        }
-       .shop-list .look{
-        width: .85rem;
-        height: .24rem;
-        border: 1px solid #ff5339;
-        border-radius: .04rem;
-        color: #ff5339;
-        text-align: center;
-        font-size: .12rem;
-        line-height: .2rem;
-        display:block;
-        margin-top: 3px;
-        }
+.more-list{
+  margin-top:0.41rem;
+}
+.shop-list{
+  padding:7px 5px 0 5px;
+  background-color:#f5f5f5;
+}
+.shop-list .outer{
+  width:100%;
+  height: 2.18rem;
+  background-color:#fff;
+  border-radius:3px;
+  font-size:0;
+  padding:0 5px;
+}
+.shop-list .outer .shop-list-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shop-list .outer .shop-list-item a{
+  width:33.3%;
+  text-align: center;
+  display: block;
+  text-decoration:none;
+}
+.shop-list .outer .shop-list-item a img{
+  width:.91rem;
+  height:.91rem;
+  margin-bottom:10px;
+}
+.shop-list .outer .shop-list-item a p{
+  font-size:0.12rem;
+  color:#333;
+  margin-bottom:2px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+.shop-list .outer .shop-list-item a span{
+  font-size:0.1rem;
+  color: #ff5339;
+  line-height:0.24rem;
+}
+.shop-list .outer .shop-list-item a .look{
+  width: .85rem;
+  height: .24rem;
+  border: 1px solid #ff5339;
+  border-radius: .04rem;
+  color: #ff5339;
+  margin: 0 auto;
+  font-size: .12rem;
+  line-height: .24rem;
+  display:block;
+}
+.shop-list section{
+  width:100%;
+  font-size:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shop-list section h3{
+  max-width:70%;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.shop-list section h3 span{
+  color:#333;
+  width: 100%;
+  display: block;
+  font-size:.14rem;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+.shop-list section h3 img{
+  display: block;
+  width:.18rem;
+  height:.18rem;
+  margin:.09rem .1rem 0 .05rem;
+}
+.shop-list section span{
+  display: block;
+  max-width:30%;
+  height:.36rem;
+  line-height:.36rem;
+  font-size:.12rem;
+  color:#999;
+}
 </style>
